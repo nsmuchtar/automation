@@ -1,0 +1,51 @@
+{
+  "keywordFileContentHash": "55F27F104F290789F5ECCB46A2F94EE7",
+  "keywordClasses": [
+    {
+      "name": "pasarind_smallscreen.control",
+      "keywordMethods": [
+        {
+          "name": "logoutPasarind",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "inputPIN",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "inputKasDiterima",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "closePopUp",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "scrollDownTnC",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "pilihBatalValidasiUpgradeAccount",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "pilihOKValidasiUpgradeAccount",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "startSelling",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>pasarind</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description>REGISTRASI</description>
+      <initValue>'REGISTRASI'</initValue>
+      <name>REGISTRASI</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Tested'</initValue>
+      <name>username</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'082388991275'</initValue>
+      <name>inputnohp</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'test51@gmail.com'</initValue>
+      <name>inputemail</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'123123'</initValue>
+      <name>PIN</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Merchant Dummy'</initValue>
+      <name>storename</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Jakarta Selatan'</initValue>
+      <name>storeaddress</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'082388117437'</initValue>
+      <name>nohpstore</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'DKI Jakarta'</initValue>
+      <name>inputprovinsi</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Jakarta Selatan'</initValue>
+      <name>inputkota</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Pasar Minggu'</initValue>
+      <name>inputkecamatan</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'12520'</initValue>
+      <name>inputzipcode</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'181818'</initValue>
+      <name>otpbypass</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>LOGIN</description>
+      <initValue>'LOGIN'</initValue>
+      <name>LOGIN</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'novermensm@gmail.com'</initValue>
+      <name>loginemail</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'novermensm01@gmail.com'</initValue>
+      <name>loginnonfnb</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'082388113845'</initValue>
+      <name>logintelephone</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'novermensm10@gmail.com'</initValue>
+      <name>loginmerchant1outlet</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'130027'</initValue>
+      <name>PINLogin</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>REKAP KAS</description>
+      <initValue>'REKAP KAS'</initValue>
+      <name>REKAP</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'1000'</initValue>
+      <name>kasawal</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'20000'</initValue>
+      <name>tunaiditerima</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>FORGOT PIN</description>
+      <initValue>'FORGOT PIN'</initValue>
+      <name>FORGOT</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'130027'</initValue>
+      <name>inputPINForgot</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>MANAGE TABLE</description>
+      <initValue>'MANAGE TABLE'</initValue>
+      <name>TABLE</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Mejaku'</initValue>
+      <name>namatable</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>EMPLOYEE</description>
+      <initValue>'EMPLOYEE'</initValue>
+      <name>EMPLOYEE</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Supervisor Test'</initValue>
+      <name>employeesupervisor</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Cashier Test'</initValue>
+      <name>employeecashier</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Kitchen Test'</initValue>
+      <name>employeekitchen</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'082300998877'</initValue>
+      <name>akunemployee1</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'employee002@gmail.com'</initValue>
+      <name>akunemployee2</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'employee003@gmail.com'</initValue>
+      <name>akunemployee3</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'123123'</initValue>
+      <name>pinemployee</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>OUTLET</description>
+      <initValue>'OUTLET'</initValue>
+      <name>OUTLET</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Outlet Cabang Jaksel'</initValue>
+      <name>outletname</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Jakarta Barat'</initValue>
+      <name>outletaddress</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'DKI Jakarta'</initValue>
+      <name>outletprovinsi</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Jakarta Barat'</initValue>
+      <name>outletkota</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Kebon Jeruk'</initValue>
+      <name>outletKecamatan</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'082388112020'</initValue>
+      <name>outletnomorHP</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Outlet Cabangku01'</initValue>
+      <name>editoutletname</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Jakarta Selatan'</initValue>
+      <name>editoutletaddress</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'DKI Jakarta'</initValue>
+      <name>editoutletprovinsi</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Jakarta Selatan'</initValue>
+      <name>editoutletkota</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Pasar Minggu'</initValue>
+      <name>editoutletkecamatan</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'082319951992'</initValue>
+      <name>editnomorhp</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

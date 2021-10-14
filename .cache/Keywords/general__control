@@ -1,0 +1,21 @@
+{
+  "keywordFileContentHash": "DBD385272DD1D9060286D709C3400B12",
+  "keywordClasses": [
+    {
+      "name": "general.control",
+      "keywordMethods": [
+        {
+          "name": "swipeUp",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "swipeDown",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

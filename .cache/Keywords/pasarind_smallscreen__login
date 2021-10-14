@@ -1,0 +1,21 @@
+{
+  "keywordFileContentHash": "BD90B1AFC4EDB6BFC5B478D7B0AEA6A1",
+  "keywordClasses": [
+    {
+      "name": "pasarind_smallscreen.login",
+      "keywordMethods": [
+        {
+          "name": "loginOutletPusat",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "loginOutletCabang",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

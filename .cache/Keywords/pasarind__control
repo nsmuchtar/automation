@@ -1,0 +1,41 @@
+{
+  "keywordFileContentHash": "7AE386001FC5AD8B8D09EE389DB82CA7",
+  "keywordClasses": [
+    {
+      "name": "pasarind.control",
+      "keywordMethods": [
+        {
+          "name": "popUpLogout",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "logoutPasarind",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "inputPIN",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "inputKasDiterima",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "closeRespondError",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "scrollDownTnC",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}
