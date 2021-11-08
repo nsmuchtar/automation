@@ -1,0 +1,46 @@
+{
+  "keywordFileContentHash": "993E7BF58A706AC58FE3EBC557084C08",
+  "keywordClasses": [
+    {
+      "name": "pasarind_smallscreen.menu_pasarind",
+      "keywordMethods": [
+        {
+          "name": "tableManagement",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "outletManagement",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "employeeManagement",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "customerManagement",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "productManagement",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "Tax",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "storeSchedule",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}
