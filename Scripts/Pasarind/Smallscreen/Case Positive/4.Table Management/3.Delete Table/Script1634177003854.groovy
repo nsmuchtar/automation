@@ -22,4 +22,6 @@ Mobile.startExistingApplication('sprintasia.tech.pasarind', FailureHandling.STOP
 CustomKeywords.'general.control.swipeDown'()
 
 Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Table Management/btnHapus'), 0)
-Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Table Management/kotakDialogYa'), 0)	
+
+Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Table Management/kotakDialogYa'), 0)
+

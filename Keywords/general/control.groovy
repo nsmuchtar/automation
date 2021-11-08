@@ -49,6 +49,5 @@ public class control {
 	def swipeDown(){
 		Mobile.swipe(startXvertical, endYvertical, endXvertical, startYvertical)
 	}
-
-	/*swipe general*/
+	/*swipe general*/	
 }

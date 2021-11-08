@@ -60,4 +60,3 @@ Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Outlet Managem
 Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Outlet Management/btnSimpan'), 0)
 CustomKeywords.'pasarind_smallscreen.control.closePopUp'()
 Mobile.pressBack()
-

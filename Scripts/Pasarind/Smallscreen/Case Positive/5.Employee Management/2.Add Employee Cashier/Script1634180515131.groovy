@@ -19,11 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('sprintasia.tech.pasarind', FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Pasarind/Smallscreen/Homepage/btnBurger'), 0)
-
-Mobile.tap(findTestObject('Pasarind/Smallscreen/Menu Burger/employee'), 0)
-
-Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Table Management/btnAddEmployee'), 0)
+Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Employee Management/btnAddEmployee'), 0)
 
 Mobile.setText(findTestObject('Pasarind/Smallscreen/Employee Management/inputNamaEmployee'), GlobalVariable.employeecashier, 0)
 

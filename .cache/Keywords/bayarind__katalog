@@ -1,0 +1,51 @@
+{
+  "keywordFileContentHash": "423473F7023435BF1F16D5ABB86C750C",
+  "keywordClasses": [
+    {
+      "name": "bayarind.katalog",
+      "keywordMethods": [
+        {
+          "name": "productBatagor",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "produtMieAcehGoreng",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "productMieAcehRebus",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "productMieAcehTongseng",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "productGurameBakar",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "productNasiGorengMurah",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "productPaketAyamGeprekPaketA",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "productPaketAyamGeprekPaketB",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

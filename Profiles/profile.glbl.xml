@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>pasarind</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description>REGISTRASI</description>
+      <initValue>'REGISTRASI'</initValue>
+      <name>REGISTRASI</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Tested'</initValue>
+      <name>username</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'082388991275'</initValue>
+      <name>inputnohp</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'test00270027@gmail.com'</initValue>
+      <name>inputemail</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'123123'</initValue>
+      <name>PIN</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Merchant Dummy'</initValue>
+      <name>storename</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Jakarta Selatan'</initValue>
+      <name>storeaddress</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'082388117437'</initValue>
+      <name>nohpstore</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'DKI Jakarta'</initValue>
+      <name>inputprovinsi</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Jakarta Selatan'</initValue>
+      <name>inputkota</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Pasar Minggu'</initValue>
+      <name>inputkecamatan</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'12520'</initValue>
+      <name>inputzipcode</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'181818'</initValue>
+      <name>otpbypass</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>LOGIN</description>
+      <initValue>'LOGIN'</initValue>
+      <name>LOGIN</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'novermensm@gmail.com'</initValue>
+      <name>loginemail</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'novermensm01@gmail.com'</initValue>
+      <name>loginnonfnb</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'082388113845'</initValue>
+      <name>logintelephone</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'novermensm10@gmail.com'</initValue>
+      <name>loginmerchant1outlet</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'130027'</initValue>
+      <name>PINLogin</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>REKAP KAS</description>
+      <initValue>'REKAP KAS'</initValue>
+      <name>REKAP</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'1000'</initValue>
+      <name>kasawal</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'20000'</initValue>
+      <name>tunaiditerima</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>FORGOT PIN</description>
+      <initValue>'FORGOT PIN'</initValue>
+      <name>FORGOT</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'130027'</initValue>
+      <name>inputPINForgot</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>MANAGE TABLE</description>
+      <initValue>'MANAGE TABLE'</initValue>
+      <name>TABLE</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Mejaku'</initValue>
+      <name>namatable</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>EMPLOYEE</description>
+      <initValue>'EMPLOYEE'</initValue>
+      <name>EMPLOYEE</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Supervisor Test'</initValue>
+      <name>employeesupervisor</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Cashier Test'</initValue>
+      <name>employeecashier</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Kitchen Test'</initValue>
+      <name>employeekitchen</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'082300998877'</initValue>
+      <name>akunemployee1</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'employee002@gmail.com'</initValue>
+      <name>akunemployee2</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'employee003@gmail.com'</initValue>
+      <name>akunemployee3</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'123123'</initValue>
+      <name>pinemployee</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>OUTLET</description>
+      <initValue>'OUTLET'</initValue>
+      <name>OUTLET</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Outlet Cabang Jaksel'</initValue>
+      <name>outletname</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Jakarta Barat'</initValue>
+      <name>outletaddress</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'DKI Jakarta'</initValue>
+      <name>outletprovinsi</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Jakarta Barat'</initValue>
+      <name>outletkota</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Kebon Jeruk'</initValue>
+      <name>outletKecamatan</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'082388112020'</initValue>
+      <name>outletnomorHP</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Outlet Cabangku01'</initValue>
+      <name>editoutletname</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Jakarta Selatan'</initValue>
+      <name>editoutletaddress</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'DKI Jakarta'</initValue>
+      <name>editoutletprovinsi</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Jakarta Selatan'</initValue>
+      <name>editoutletkota</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Pasar Minggu'</initValue>
+      <name>editoutletkecamatan</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'082319951992'</initValue>
+      <name>editnomorhp</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>CUSTOMER</description>
+      <initValue>'CUSTOMER'</initValue>
+      <name>CUSTOMER</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Customer Tester'</initValue>
+      <name>namacustomer</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'customertester@gmail.com'</initValue>
+      <name>emailcustomer</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'082308230099'</initValue>
+      <name>nohpcustomer</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Customer Tester 01'</initValue>
+      <name>editnamacustomer</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'customertester01@gmail.com'</initValue>
+      <name>editemailcustomer</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'082190234510'</initValue>
+      <name>editnohpcustomer</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>SETTINGS</description>
+      <initValue>'SETTINGS'</initValue>
+      <name>SETTINGS</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'45'</initValue>
+      <name>defaultstock</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>PAJAK</description>
+      <initValue>'PAJAK'</initValue>
+      <name>PAJAK</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Pajak 01'</initValue>
+      <name>taxname1</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Pajak 02'</initValue>
+      <name>taxname2</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'10'</initValue>
+      <name>nilaitax1</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'15'</initValue>
+      <name>nilaitax2</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Pajak Satu'</initValue>
+      <name>edittaxname1</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Pajak Dua'</initValue>
+      <name>edittaxname2</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'5'</initValue>
+      <name>editnilaitax1</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'13'</initValue>
+      <name>editnilaitax2</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>KOMISI</description>
+      <initValue>'KOMISI'</initValue>
+      <name>KOMISI</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'10'</initValue>
+      <name>persenkasir</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'15'</initValue>
+      <name>persenspv</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'5'</initValue>
+      <name>persenkitchen</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'1000'</initValue>
+      <name>amountkasir</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'1500'</initValue>
+      <name>amountspv</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'1250'</initValue>
+      <name>amountkitchen</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>CATEGORY</description>
+      <initValue>'CATEGORY'</initValue>
+      <name>CATEGORY</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Makanan'</initValue>
+      <name>kategorimakanan</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Minuman'</initValue>
+      <name>kategoriminuman</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'TEST'</initValue>
+      <name>kategoritest</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'pajak'</initValue>
+      <name>tax</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>STORE SCHEDULE</description>
+      <initValue>'STORE SCHEDULE'</initValue>
+      <name>STORE_SCHEDULE</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>input nilai ini dengan range 0 - 23</description>
+      <initValue>''</initValue>
+      <name>pilihJamBukaAnalog1</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>input dengan nilai 0 - 55, dengan kelipatan 5</description>
+      <initValue>''</initValue>
+      <name>pilihMenitBukaAnalog1</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+     <GlobalVariableEntity>
+      <description>input nilai ini dengan range 0 - 23</description>
+      <initValue>''</initValue>
+      <name>pilihJamBukaAnalog2</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>input dengan nilai 0 - 55, dengan kelipatan 5</description>
+      <initValue>''</initValue>
+      <name>pilihMenitBukaAnalog2</name>
+   </GlobalVariableEntity>
+     <GlobalVariableEntity>
+      <description>input nilai ini dengan range 0 - 23</description>
+      <initValue>''</initValue>
+      <name>pilihJamBukaAnalog3</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>input dengan nilai 0 - 55, dengan kelipatan 5</description>
+      <initValue>''</initValue>
+      <name>pilihMenitBukaAnalog3</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>input hari senin - minggu</description>
+      <initValue>'senin'</initValue>
+      <name>inputHari1</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>input hari senin - minggu</description>
+      <initValue>'rabu'</initValue>
+      <name>inputHari2</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'minggu'</initValue>
+      <name>inputHari3</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

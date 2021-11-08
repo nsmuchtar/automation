@@ -19,11 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('sprintasia.tech.pasarind', FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Pasarind/Smallscreen/Homepage/btnBurger'), 0)
-
-Mobile.tap(findTestObject('Pasarind/Smallscreen/Menu Burger/outlet'), 0)
-
-Mobile.tap(findTestObject('Pasarind/Smallscreen/Menu Burger/tableManagement'), 0)
+CustomKeywords.'pasarind_smallscreen.menu_pasarind.tableManagement'()
 
 Mobile.tap(findTestObject('Pasarind/Smallscreen/Table Management/btnAddTable'), 0)
 

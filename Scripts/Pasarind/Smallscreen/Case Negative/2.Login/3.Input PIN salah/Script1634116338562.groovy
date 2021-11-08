@@ -24,4 +24,4 @@ Mobile.setText(findTestObject('Object Repository/Pasarind/Smallscreen/Login Page
 
 Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Login Page/btnLogin'), 0)
 
-CustomKeywords.'pasarind_smallscreen.control.closeRespondError'()
+CustomKeywords.'pasarind_smallscreen.control.closePopUp'()

@@ -17,3 +17,14 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+Mobile.startExistingApplication('sprintasia.tech.pasarind')
+
+CustomKeywords.'pasarind_smallscreen.menu_pasarind.employeeManagement'()
+
+Mobile.waitForElementPresent(findTestObject('Object Repository/Pasarind/Smallscreen/Employee Management/btnAddEmployee (1)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Employee Management/btnAddEmployee (1)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Employee Management/btnSimpan'), 0)
+
+CustomKeywords.'pasarind_smallscreen.control.closePopUp'()

@@ -23,7 +23,7 @@ Mobile.setText(findTestObject('Pasarind/Smallscreen/Login Page/kolomPIN'), Globa
 
 Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Login Page/btnLogin'), 0)
 
-CustomKeywords.'pasarind_smallscreen.control.closeRespondError'()
+CustomKeywords.'pasarind_smallscreen.control.closePopUp'()
 
 Mobile.setText(findTestObject('Pasarind/Smallscreen/Login Page/kolomUsername'), GlobalVariable.loginemail, 0)
 
@@ -31,7 +31,7 @@ Mobile.clearText(findTestObject('Pasarind/Smallscreen/Login Page/kolomPIN'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Login Page/btnLogin'), 0)
 
-CustomKeywords.'pasarind_smallscreen.control.closeRespondError'()
+CustomKeywords.'pasarind_smallscreen.control.closePopUp'()
 
 
 

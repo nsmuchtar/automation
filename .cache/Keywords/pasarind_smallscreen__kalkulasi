@@ -1,0 +1,21 @@
+{
+  "keywordFileContentHash": "E5E8E2DCDAF8CC8B24F8C05726D64498",
+  "keywordClasses": [
+    {
+      "name": "pasarind_smallscreen.kalkulasi",
+      "keywordMethods": [
+        {
+          "name": "getValueHomepageBeforeTrx",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "getValueHomepageAfterTrx",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

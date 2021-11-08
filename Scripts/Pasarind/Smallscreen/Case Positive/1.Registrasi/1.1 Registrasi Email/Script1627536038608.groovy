@@ -26,6 +26,7 @@ Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Login Page/btn
 Mobile.setText(findTestObject('Object Repository/Pasarind/Smallscreen/Registrasi/kolomUsername'), GlobalVariable.username, 
     0)
 
+
 Mobile.setText(findTestObject('Pasarind/Smallscreen/Registrasi/kolomPIN'), GlobalVariable.PIN, 0)
 
 Mobile.setText(findTestObject('Object Repository/Pasarind/Smallscreen/Registrasi/kolomInputEmailHP'), GlobalVariable.inputemail, 
@@ -130,6 +131,8 @@ CustomKeywords.'general.control.swipeDown'()
 Mobile.tap(findTestObject('Pasarind/Smallscreen/Registrasi/btnAcceptTnC (2)'), 0)
 
 Mobile.delay(30)
+
+Mobile.setText(findTestObject(null), '', 0)
 
 Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Registrasi/btnVerify'), 0)
 

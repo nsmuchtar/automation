@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "55F27F104F290789F5ECCB46A2F94EE7",
+  "keywordFileContentHash": "72F73DB2515ED21564D2A2606CB375C8",
   "keywordClasses": [
     {
       "name": "pasarind_smallscreen.control",
@@ -41,6 +41,11 @@
         },
         {
           "name": "startSelling",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "cekKategoriProduct",
           "parameters": [],
           "javadoc": ""
         }

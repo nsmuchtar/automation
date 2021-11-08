@@ -23,7 +23,7 @@ Mobile.tap(findTestObject('Pasarind/Smallscreen/Homepage/btnBurger'), 0)
 
 Mobile.tap(findTestObject('Pasarind/Smallscreen/Menu Burger/employee'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Table Management/btnAddEmployee'), 0)
+Mobile.tap(findTestObject('Pasarind/Smallscreen/Employee Management/btnAddEmployee'), 0)
 
 Mobile.setText(findTestObject('Pasarind/Smallscreen/Employee Management/inputNamaEmployee'), GlobalVariable.employeekitchen, 0)
 

@@ -52,9 +52,17 @@ public class control {
 
 	@Keyword
 	def closePopUp() {
-		Mobile.delay(2)
-		Mobile.waitForElementPresent(findTestObject('Object Repository/Pasarind/Smallscreen/Registrasi/respondError'), 0)
-		Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Registrasi/btnDone'), 0)
+		if(Mobile.waitForElementPresent(findTestObject('Object Repository/Pasarind/Smallscreen/Registrasi/btnDone'), 3) == true) {
+			Mobile.delay(2)
+			Mobile.waitForElementPresent(findTestObject('Object Repository/Pasarind/Smallscreen/Registrasi/respondError'), 3)
+			Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Registrasi/btnDone'), 3)
+		}else if (Mobile.waitForElementPresent(findTestObject('Object Repository/Pasarind/Smallscreen/Settings/Tax/btnOK'), 3) == true) {
+			Mobile.delay(2)
+			Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Settings/Tax/btnOK'), 3)
+		}else if (Mobile.waitForElementPresent(findTestObject('Object Repository/Pasarind/Smallscreen/Settings/Tax/btnSelesai'), 3) == true) {
+			Mobile.delay(2)
+			Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Settings/Tax/btnSelesai'), 3)
+		}
 	}
 
 	@Keyword
@@ -90,6 +98,18 @@ public class control {
 			Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Rekap Kas/btnSimpan (1)'), 0)
 		}else {
 			Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Homepage/btnStartSelling'), 0)
+		}
+	}
+
+	@Keyword
+	def cekKategoriProduct() {
+		if (Mobile.waitForElementPresent(findTestObject('Object Repository/Pasarind/Smallscreen/Product Management/popUpCategoryKosong'), 3) == true) {
+			Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Product Management/btnOK'), 0)
+			Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Category Management/btnAddCategory'), 0)
+			Mobile.setText(findTestObject('Object Repository/Pasarind/Smallscreen/Category Management/kolomKategori'), GlobalVariable.kategorimakanan, 0)
+			Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Category Management/btnSimpan'), 0)
+			Mobile.pressBack()
+		}else {
 		}
 	}
 }

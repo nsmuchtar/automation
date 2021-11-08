@@ -21,7 +21,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'test51@gmail.com'</initValue>
+      <initValue>'test00270027@gmail.com'</initValue>
       <name>inputemail</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -238,5 +238,206 @@
       <description></description>
       <initValue>'082319951992'</initValue>
       <name>editnomorhp</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>CUSTOMER</description>
+      <initValue>'CUSTOMER'</initValue>
+      <name>CUSTOMER</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Customer Tester'</initValue>
+      <name>namacustomer</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'customertester@gmail.com'</initValue>
+      <name>emailcustomer</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'082308230099'</initValue>
+      <name>nohpcustomer</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Customer Tester 01'</initValue>
+      <name>editnamacustomer</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'customertester01@gmail.com'</initValue>
+      <name>editemailcustomer</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'082190234510'</initValue>
+      <name>editnohpcustomer</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>SETTINGS</description>
+      <initValue>'SETTINGS'</initValue>
+      <name>SETTINGS</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'45'</initValue>
+      <name>defaultstock</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>PAJAK</description>
+      <initValue>'PAJAK'</initValue>
+      <name>PAJAK</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Pajak 01'</initValue>
+      <name>taxname1</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Pajak 02'</initValue>
+      <name>taxname2</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'10'</initValue>
+      <name>nilaitax1</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'15'</initValue>
+      <name>nilaitax2</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Pajak Satu'</initValue>
+      <name>edittaxname1</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Pajak Dua'</initValue>
+      <name>edittaxname2</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'5'</initValue>
+      <name>editnilaitax1</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'13'</initValue>
+      <name>editnilaitax2</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>KOMISI</description>
+      <initValue>'KOMISI'</initValue>
+      <name>KOMISI</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'10'</initValue>
+      <name>persenkasir</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'15'</initValue>
+      <name>persenspv</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'5'</initValue>
+      <name>persenkitchen</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'1000'</initValue>
+      <name>amountkasir</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'1500'</initValue>
+      <name>amountspv</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'1250'</initValue>
+      <name>amountkitchen</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>CATEGORY</description>
+      <initValue>'CATEGORY'</initValue>
+      <name>CATEGORY</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Makanan'</initValue>
+      <name>kategorimakanan</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Minuman'</initValue>
+      <name>kategoriminuman</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'TEST'</initValue>
+      <name>kategoritest</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'pajak'</initValue>
+      <name>tax</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>STORE SCHEDULE</description>
+      <initValue>'STORE SCHEDULE'</initValue>
+      <name>STORE_SCHEDULE</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>input nilai ini dengan range 0 - 23</description>
+      <initValue>''</initValue>
+      <name>pilihJamBukaAnalog1</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>input dengan nilai 0 - 55, dengan kelipatan 5</description>
+      <initValue>''</initValue>
+      <name>pilihMenitBukaAnalog1</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+     <GlobalVariableEntity>
+      <description>input nilai ini dengan range 0 - 23</description>
+      <initValue>''</initValue>
+      <name>pilihJamBukaAnalog2</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>input dengan nilai 0 - 55, dengan kelipatan 5</description>
+      <initValue>''</initValue>
+      <name>pilihMenitBukaAnalog2</name>
+   </GlobalVariableEntity>
+     <GlobalVariableEntity>
+      <description>input nilai ini dengan range 0 - 23</description>
+      <initValue>''</initValue>
+      <name>pilihJamBukaAnalog3</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>input dengan nilai 0 - 55, dengan kelipatan 5</description>
+      <initValue>''</initValue>
+      <name>pilihMenitBukaAnalog3</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>input hari senin - minggu</description>
+      <initValue>'senin'</initValue>
+      <name>inputHari1</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>input hari senin - minggu</description>
+      <initValue>'rabu'</initValue>
+      <name>inputHari2</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'minggu'</initValue>
+      <name>inputHari3</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

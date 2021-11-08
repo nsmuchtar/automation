@@ -26,3 +26,5 @@ Mobile.setText(findTestObject('Object Repository/Pasarind/Smallscreen/Table Mana
 Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Table Management/btnSimpan'), 0)
 
 CustomKeywords.'pasarind_smallscreen.control.closePopUp'()
+
+Mobile.pressBack()

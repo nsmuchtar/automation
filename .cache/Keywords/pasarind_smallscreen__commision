@@ -1,0 +1,91 @@
+{
+  "keywordFileContentHash": "53EE3225B0E350A39B24A38821EC3DC7",
+  "keywordClasses": [
+    {
+      "name": "pasarind_smallscreen.commision",
+      "keywordMethods": [
+        {
+          "name": "komisiKasirPersen",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "komisiKasirAmount",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "komisiSPVPersen",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "komisiSPVAmount",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "komisiKitchenPersen",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "komisiKitchenAmount",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "komisiKasir0",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "komisiSPV0",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "komisiKitchen0",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "komisiKasir20Persen",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "komisiSPV30Persen",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "komisiKitchen50Persen",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "komisiKasir2000",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "komisiSPV5000",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "komisiKitchen4000",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "KomisiSPV3500",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

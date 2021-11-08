@@ -1,0 +1,31 @@
+{
+  "keywordFileContentHash": "260C845CA1C51990E6386833EA880FF7",
+  "keywordClasses": [
+    {
+      "name": "bayarind.control",
+      "keywordMethods": [
+        {
+          "name": "inputPINBayarind",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "scanQRTable",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "inputOTP",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "closeBanner",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}
