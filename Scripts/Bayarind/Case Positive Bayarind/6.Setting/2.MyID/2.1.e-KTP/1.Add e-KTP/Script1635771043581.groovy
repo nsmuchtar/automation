@@ -22,7 +22,6 @@ long first14 = (long) (Math.random() * 100000000000000L);
 long generate = 5200000000000000L + first14;
 
 String noktp = String.valueOf(generate)
-//*(max-min+1)+min)
 
 Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Homepage/btnAccount'), 0)
 

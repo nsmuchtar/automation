@@ -17,6 +17,26 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Setting/MyID/imagePassport') , 0)
+
+Mobile.hideKeyboard()
+
+Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Setting/MyID/btnChangeCard'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Setting/MyID/e-KTP/btnTakePicture') ,0)
+
+Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Camera/btnCapture'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Camera/btnDone'), 0)
+
+Mobile.delay(1)
+
+CustomKeywords.'general.control.swipeUp'()
+
+Mobile.waitForElementPresent(findTestObject('Object Repository/Bayarind/Android/Setting/MyID/e-KTP/gambareKTP'), 0)
+
+Mobile.hideKeyboard()
+
 int first4 = (int) (Math.random() * 1000);
 
 long generate1 = 50000 + first4;
@@ -24,20 +44,6 @@ long generate2 = 5422135632 + first4;
 
 String nopassport = String.valueOf(generate1)
 String noreg = String.valueOf(generate2)
-
-Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Homepage/btnAccount'), 0)
-
-Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Setting/btnMyID'), 0)
-
-Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Setting/MyID/btnAddPaspor') ,0)
-
-Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Camera/btnCapture'), 0)
-
-Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Camera/btnDone'), 0)
-
-Mobile.waitForElementPresent(findTestObject('Object Repository/Bayarind/Android/Setting/MyID/e-KTP/gambareKTP'), 0)
-
-Mobile.hideKeyboard()
 
 Mobile.setText(findTestObject('Object Repository/Bayarind/Android/Setting/MyID/Passport/kolomNomorPassport'), nopassport, 0)
 
@@ -49,13 +55,13 @@ Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Setting/MyID/Passp
 
 Mobile.hideKeyboard()
 
-Mobile.setText(findTestObject('Object Repository/Bayarind/Android/Setting/MyID/Passport/kolomJenis'), GlobalVariable.bayarindjenispassport, 0)
+Mobile.setText(findTestObject('Object Repository/Bayarind/Android/Setting/MyID/Passport/kolomJenis'), 'Palsu', 0)
 
 Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Setting/MyID/Passport/kolomGender') ,0)
 
 Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Setting/MyID/Passport/gender' + GlobalVariable.bayarindgender), 0)
 
-Mobile.setText(findTestObject('Object Repository/Bayarind/Android/Setting/MyID/Passport/kolomNamaLengkap'), GlobalVariable.bayarindnamalengkappassport, 0)
+Mobile.setText(findTestObject('Object Repository/Bayarind/Android/Setting/MyID/Passport/kolomNamaLengkap'), 'Muhammad Amrullah', 0)
 
 Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Setting/MyID/Passport/kolomKewarganegaraan') , 0)
 
@@ -83,7 +89,7 @@ Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Setting/MyID/e-KTP
 
 Mobile.setText(findTestObject('Object Repository/Bayarind/Android/Setting/MyID/Passport/kolomRegNo'), noreg, 0)
 
-Mobile.setText(findTestObject('Object Repository/Bayarind/Android/Setting/MyID/Passport/kolomKantorPenerbit'), GlobalVariable.bayarindkantorpenerbitpassport, 0)
+Mobile.setText(findTestObject('Object Repository/Bayarind/Android/Setting/MyID/Passport/kolomKantorPenerbit'), 'Erlangga', 0)
 
 Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Setting/MyID/Passport/btnSave') ,0)
 

@@ -16,13 +16,11 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import java.util.Random
 
-long first6 = (long) (Math.random() * 100000L);
-long first14 = (long) (Math.random() * 100000000000000L);
+Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Setting/MyID/btnDelete'), 0)
 
-long generate1 = 7123425341243L + first6;
-long generate2 = 5200000000000000L + first14;
+Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Setting/MyID/e-KTP/kotakDialogYa') ,0)
 
-println(generate1)
-println(generate2)
+Mobile.verifyElementExist(findTestObject('Object Repository/Bayarind/Android/Setting/MyID/e-KTP/wordingSuksesDelete'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Setting/MyID/e-KTP/btnDoneAddCard'), 0)
