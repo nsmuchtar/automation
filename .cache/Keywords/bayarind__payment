@@ -1,9 +1,25 @@
 {
-  "keywordFileContentHash": "864EA5C919D9AFF7E3AFEF4F87EBCB59",
+  "keywordFileContentHash": "6D6A403E9842267A3C13CD7DBA7B4F73",
   "keywordClasses": [
     {
       "name": "bayarind.payment",
-      "keywordMethods": []
+      "keywordMethods": [
+        {
+          "name": "kasBayarind",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "creditCard",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "oneKlik",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
     }
   ],
   "javadocParsed": true

@@ -6,14 +6,16 @@
       "keywordMethods": [
         {
           "name": "ppobPulsa",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "transaksiPulsa",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         }
       ]
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }

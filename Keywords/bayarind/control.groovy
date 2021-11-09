@@ -47,7 +47,7 @@ public class control {
 	def inputOTP() {
 		Mobile.waitForElementPresent(findTestObject('Object Repository/Bayarind/Android/OTP/halamanOTP'), 0)
 		Mobile.setText(findTestObject('Object Repository/Bayarind/Android/OTP/kolomOTP'), GlobalVariable.bayarindotp, 0)
-		
+
 		if(Mobile.waitForElementPresent(findTestObject('Object Repository/Bayarind/Android/OTP/errorMessageOTP'), 3) == true) {
 			Mobile.setText(findTestObject('Object Repository/Bayarind/Android/OTP/kolomOTP'), GlobalVariable.bayarindotp2, 0)
 		}
@@ -58,6 +58,19 @@ public class control {
 		if (Mobile.waitForElementPresent(findTestObject('Object Repository/Bayarind/Android/Homepage/btnOKBanner'), 3)  == true) {
 			Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Homepage/btnOKBanner'), 0)
 		}else {
+		}
+	}
+	
+	@Keyword
+	def doneTransactionPPOB() {
+		Mobile.verifyElementExist(findTestObject('Object Repository/Bayarind/Android/Done Transaction/wordingStatusTransactionPPOB'), 0)
+		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Done Transaction/btnSeeDetailTransaction') ,0)
+		Mobile.delay(3)
+		Mobile.pressBack()
+		if (Mobile.waitForElementPresent(findTestObject('Object Repository/Bayarind/Android/Done Transaction/btnAddFavorite'), 3) == true ) {
+			Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Done Transaction/btnAddFavorite'), 0)
+		}else {
+			Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Done Transaction/btnDoneTransactionPPOB'), 0)
 		}
 	}
 }

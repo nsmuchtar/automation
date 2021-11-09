@@ -22,4 +22,20 @@ import internal.GlobalVariable
 
 public class payment {
 	
+	@Keyword
+	def kasBayarind() {
+		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Payment Method/btnPay') ,0)
+	}
+	
+	@Keyword
+	def creditCard() {
+		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Payment Method/creditCard') ,0)
+		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Payment Method/btnPay') ,0)
+	}
+	
+	@Keyword
+	def oneKlik() {
+		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Payment Method/oneKlik') ,0)
+		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Payment Method/btnPay') ,0)
+	}
 }

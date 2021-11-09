@@ -17,6 +17,30 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+String kasAwalBayarind = Mobile.getText(findTestObject('Object Repository/Bayarind/Android/Homepage/saldoKasBayarind'), 0).replace('.', '')
+
+int intKasAwalBayarind = Integer.parseInt(kasAwalBayarind)
+ 
 CustomKeywords.'bayarind.ppob.ppobPulsa'()
 
 CustomKeywords.'bayarind.ppob.transaksiPulsa'()
+
+String totalPayment = Mobile.getText(findTestObject('Object Repository/Bayarind/Android/Payment Method/totalPayment'), 0).replace('Rp', '').replace('.', '')
+
+int intTotalPayment = Integer.parseInt(totalPayment)
+
+String expectKasBayarind = (intKasAwalBayarind - intTotalPayment)
+
+CustomKeywords.'bayarind.payment.kasBayarind'()
+
+CustomKeywords.'bayarind.control.inputPINBayarind'()
+
+CustomKeywords.'bayarind.control.doneTransactionPPOB'()
+
+String actualKasBayarind = Mobile.getText(findTestObject('Object Repository/Bayarind/Android/Homepage/saldoKasBayarind'), 0).replace('.', '')
+
+println('Kas awal bayarind = '+kasAwalBayarind+ '\n'+
+	'total payment = ' +totalPayment+ '\n'+
+	'kas akhir bayarind = ' +actualKasBayarind+ '\n')
+
+Mobile.verifyMatch(actualKasBayarind, expectKasBayarind, true)
