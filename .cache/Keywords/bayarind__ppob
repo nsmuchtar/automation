@@ -1,0 +1,19 @@
+{
+  "keywordFileContentHash": "2FB78CE9A48E44B2F8B82664CE3790CF",
+  "keywordClasses": [
+    {
+      "name": "bayarind.ppob",
+      "keywordMethods": [
+        {
+          "name": "ppobPulsa",
+          "parameters": []
+        },
+        {
+          "name": "transaksiPulsa",
+          "parameters": []
+        }
+      ]
+    }
+  ],
+  "javadocParsed": false
+}

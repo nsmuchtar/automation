@@ -671,27 +671,27 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'3'</initValue>
+      <initValue>'1'</initValue>
       <name>pin2</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'0'</initValue>
+      <initValue>'5'</initValue>
       <name>pin3</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'0'</initValue>
+      <initValue>'5'</initValue>
       <name>pin4</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'2'</initValue>
+      <initValue>'9'</initValue>
       <name>pin5</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'7'</initValue>
+      <initValue>'9'</initValue>
       <name>pin6</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -1098,5 +1098,20 @@
       <description></description>
       <initValue>'Kost'</initValue>
       <name>bayarindlabelalamat</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>PPOB</description>
+      <initValue>'PPOB'</initValue>
+      <name>PPOB</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>PULSA</description>
+      <initValue>'PULSA'</initValue>
+      <name>PULSA</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'081327404356'</initValue>
+      <name>bayarindnohpPPOB</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
