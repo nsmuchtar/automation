@@ -1039,4 +1039,64 @@
       <initValue>'NSMuchtar'</initValue>
       <name>bayarindnamalengkapOTHER</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>BANK ACCOUNT</description>
+      <initValue>'BANK ACCOUNT'</initValue>
+      <name>BANK_ACCOUNT</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'7124543196'</initValue>
+      <name>bayarindaccountnumber</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>CHANGE PASSWORD</description>
+      <initValue>'CHANGE PASSWORD'</initValue>
+      <name>CHANGE_PASSWORD</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Rahasia321'</initValue>
+      <name>bayarindnewpassword</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>CHANGE PIN</description>
+      <initValue>'CHANGE PIN'</initValue>
+      <name>CHANGE_PIN</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'321321'</initValue>
+      <name>bayarindnewpin</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>ADDRESS</description>
+      <initValue>'ADDRESS'</initValue>
+      <name>ADDRESS</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Kebagusan City'</initValue>
+      <name>bayarindsearchlocation</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Titip Security, Kamar 21'</initValue>
+      <name>bayarinddetailalamat</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Susanto'</initValue>
+      <name>bayarindnamapenerima</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'25161'</initValue>
+      <name>bayarindkodepos</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Kost'</initValue>
+      <name>bayarindlabelalamat</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

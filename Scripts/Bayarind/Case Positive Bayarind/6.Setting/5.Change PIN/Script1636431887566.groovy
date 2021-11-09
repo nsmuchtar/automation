@@ -17,12 +17,18 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Setting/MyID/btnDelete'), 0)
+Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Setting/Setting/btnChangePIN') ,0)
 
-Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Setting/MyID/e-KTP/kotakDialogYa') ,0)
+Mobile.setText(findTestObject('Object Repository/Bayarind/Android/Setting/Setting/Change PIN/kolomOldPIN'), GlobalVariable.bayarindpin, 0)
 
-Mobile.verifyElementExist(findTestObject('Object Repository/Bayarind/Android/Setting/MyID/e-KTP/wordingSuksesDelete'), 0)
+Mobile.setText(findTestObject('Object Repository/Bayarind/Android/Setting/Setting/Change PIN/kolomNewPIN'), GlobalVariable.bayarindnewpin, 0)
 
-Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Setting/MyID/e-KTP/btnDoneAddCard'), 0)
+Mobile.setText(findTestObject('Object Repository/Bayarind/Android/Setting/Setting/Change PIN/kolomConfirmNewPIN'), GlobalVariable.bayarindnewpin, 0)
 
-Mobile.pressBack()
+Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Setting/Setting/Change PIN/btnSavePIN'), 0)
+
+CustomKeywords.'bayarind.control.inputOTP'()
+
+Mobile.verifyElementExist(findTestObject('Object Repository/Bayarind/Android/Setting/Setting/Change PIN/wordingSuksesUpdatePIN'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Setting/Setting/Change PIN/btnClose') ,0)

@@ -24,3 +24,5 @@ Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Setting/MyID/e-KTP
 Mobile.verifyElementExist(findTestObject('Object Repository/Bayarind/Android/Setting/MyID/e-KTP/wordingSuksesDelete'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Setting/MyID/e-KTP/btnDoneAddCard'), 0)
+
+Mobile.pressBack()

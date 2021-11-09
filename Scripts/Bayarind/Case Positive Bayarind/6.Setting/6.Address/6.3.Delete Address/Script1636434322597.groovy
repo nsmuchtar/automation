@@ -17,12 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Setting/MyID/btnDelete'), 0)
+if(Mobile.waitForElementPresent(findTestObject('Object Repository/Bayarind/Android/Setting/Setting/Address/btnDeleteAddress'), 3, FailureHandling.CONTINUE_ON_FAILURE) == false) {
+	Mobile.pressBack()
+	Mobile.callTestCase(findTestCase('Test Cases/Bayarind/Case Positive Bayarind/6.Setting/6.Address/6.1.Add Address'), null)
+}
 
-Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Setting/MyID/e-KTP/kotakDialogYa') ,0)
+Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Setting/Setting/Address/btnDeleteAddress'), 0)
 
-Mobile.verifyElementExist(findTestObject('Object Repository/Bayarind/Android/Setting/MyID/e-KTP/wordingSuksesDelete'), 0)
+Mobile.verifyElementExist(findTestObject('Object Repository/Bayarind/Android/Setting/Setting/Address/wordingDeleteAddress'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Setting/MyID/e-KTP/btnDoneAddCard'), 0)
-
-Mobile.pressBack()
+Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Setting/Setting/Address/btnYesDeleteAddress') ,0)

@@ -25,3 +25,4 @@ Mobile.verifyElementExist(findTestObject('Object Repository/Bayarind/Android/Set
 
 Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Setting/MyID/e-KTP/btnDoneAddCard'), 0)
 
+Mobile.pressBack()

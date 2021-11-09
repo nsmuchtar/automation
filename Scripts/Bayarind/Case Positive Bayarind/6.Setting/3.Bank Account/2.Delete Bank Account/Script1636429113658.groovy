@@ -17,12 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Setting/MyID/btnDelete'), 0)
+Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Setting/Bank Account/btnDeleteCard') ,0)
 
-Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Setting/MyID/e-KTP/kotakDialogYa') ,0)
+Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Setting/Bank Account/kotakDialogYes') ,0)
 
-Mobile.verifyElementExist(findTestObject('Object Repository/Bayarind/Android/Setting/MyID/e-KTP/wordingSuksesDelete'), 0)
-
-Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Setting/MyID/e-KTP/btnDoneAddCard'), 0)
-
-Mobile.pressBack()
+CustomKeywords.'bayarind.control.inputPINBayarind'()
