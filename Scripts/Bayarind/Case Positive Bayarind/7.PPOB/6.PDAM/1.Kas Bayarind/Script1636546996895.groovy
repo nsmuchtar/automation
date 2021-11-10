@@ -21,13 +21,13 @@ String kasAwalBayarind = Mobile.getText(findTestObject('Object Repository/Bayari
 
 int intKasAwalBayarind = Integer.parseInt(kasAwalBayarind)
 
-CustomKeywords.'bayarind.ppob.ppobTelkom'()
+CustomKeywords.'bayarind.ppob.ppobPDAM'()
 
-CustomKeywords.'bayarind.ppob.transaksiTelephone'()
+CustomKeywords.'bayarind.ppob.transaksiPDAM'()
 
-String amount = Mobile.getText(findTestObject('Object Repository/Bayarind/Android/PPOB/Telkom/btnIndihome/amountPelanggan'), 0).replace('Rp', '').replace('.', '')
-String transactionFee = Mobile.getText(findTestObject('Object Repository/Bayarind/Android/PPOB/Telkom/btnIndihome/transactionFeePelanggan'), 0).replace('Rp', '').replace('.', '')
-String actualTotalBill = Mobile.getText(findTestObject('Object Repository/Bayarind/Android/PPOB/Telkom/btnIndihome/totalBillPelanggan'), 0).replace('Rp', '').replace('.', '')
+String amount = Mobile.getText(findTestObject('Object Repository/Bayarind/Android/PPOB/PDAM/amountPelanggan'), 0).replace('Rp', '').replace('.', '')
+String transactionFee = Mobile.getText(findTestObject('Object Repository/Bayarind/Android/PPOB/PDAM/transactionFeePelanggan'), 0).replace('Rp', '').replace('.', '')
+String actualTotalBill = Mobile.getText(findTestObject('Object Repository/Bayarind/Android/PPOB/PDAM/totalBillPelanggan'), 0).replace('Rp', '').replace('.', '')
 
 int intAmount = Integer.parseInt(amount)
 int intTransactionFee = Integer.parseInt(transactionFee)
@@ -36,9 +36,7 @@ String expectTotalBill = intAmount + intTransactionFee
 
 Mobile.verifyMatch(actualTotalBill, expectTotalBill, false)
 
-Mobile.waitForElementPresent(findTestObject('Object Repository/Bayarind/Android/PPOB/Telkom/detailTelkom'), 0)
-
-Mobile.tap(findTestObject('Object Repository/Bayarind/Android/PPOB/Telkom/btnIndihome/btnNext') ,0)
+Mobile.tap(findTestObject('Object Repository/Bayarind/Android/PPOB/PDAM/btnNext') ,0)
 
 String totalPayment = Mobile.getText(findTestObject('Object Repository/Bayarind/Android/Payment Method/totalPayment'), 0).replace('Rp', '').replace('.', '')
 Mobile.verifyMatch(actualTotalBill, totalPayment, false)

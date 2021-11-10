@@ -1169,4 +1169,19 @@
       <initValue>'02188393209'</initValue>
       <name>bayarindtelephone</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>PDAM</description>
+      <initValue>'PDAM'</initValue>
+      <name>PDAM</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'20040428'</initValue>
+      <name>bayarindIDPDAM</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'PDAM AETRA JAKARTA'</initValue>
+      <name>bayarindWilayah</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

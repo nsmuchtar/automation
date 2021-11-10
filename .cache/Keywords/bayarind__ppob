@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "F463DF244D7B3CBB22467093B7CB8289",
+  "keywordFileContentHash": "F745D6710991FD855BC1AE3F7E265549",
   "keywordClasses": [
     {
       "name": "bayarind.ppob",
@@ -54,6 +54,14 @@
         },
         {
           "name": "transaksiTelephone",
+          "parameters": []
+        },
+        {
+          "name": "ppobPDAM",
+          "parameters": []
+        },
+        {
+          "name": "transaksiPDAM",
           "parameters": []
         }
       ]

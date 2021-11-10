@@ -60,7 +60,7 @@ public class control {
 		}else {
 		}
 	}
-	
+
 	@Keyword
 	def doneTransactionPPOB() {
 		Mobile.verifyElementExist(findTestObject('Object Repository/Bayarind/Android/Done Transaction/wordingStatusTransactionPPOB'), 0)
