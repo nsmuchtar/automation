@@ -17,12 +17,3 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-CustomKeywords.'bayarind.ppob.ppobBPJS'()
-
-CustomKeywords.'bayarind.ppob.transaksiBPJS'()
-
-Mobile.tap(findTestObject('Object Repository/Bayarind/Android/PPOB/BPJS/btnNext'), 0)
-
-CustomKeywords.'bayarind.payment.oneKlik'()
-
-CustomKeywords.'bayarind.control.doneTransactionPPOB'()

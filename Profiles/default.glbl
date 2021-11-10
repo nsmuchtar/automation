@@ -1105,6 +1105,11 @@
       <name>PPOB</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
+      <description>PULSA PAKET DATA</description>
+      <initValue>'PULSA PAKET DATA'</initValue>
+      <name>PULSA_PAKET_DATA</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
       <description></description>
       <initValue>'081327404356'</initValue>
       <name>bayarindnohpPPOBpulsa</name>
@@ -1113,6 +1118,11 @@
       <description></description>
       <initValue>'085251464054'</initValue>
       <name>bayarindnohpPPOBpulsapascabayar</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>PLN</description>
+      <initValue>'PLN'</initValue>
+      <name>PLN</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
@@ -1130,6 +1140,11 @@
       <name>bayarindIDPLNPascabayar</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
+      <description>BPJS</description>
+      <initValue>'BPJS'</initValue>
+      <name>BPJS</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
       <description></description>
       <initValue>'1451202399246501'</initValue>
       <name>bayarindIDBPJS</name>
@@ -1138,5 +1153,20 @@
       <description></description>
       <initValue>'1'</initValue>
       <name>bayarindperiodBPJS</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>TELKOM</description>
+      <initValue>'TELKOM'</initValue>
+      <name>TELKOM</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'0162406900527'</initValue>
+      <name>bayarindindihome</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'02188393209'</initValue>
+      <name>bayarindtelephone</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

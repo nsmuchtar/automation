@@ -102,12 +102,32 @@ public class ppob {
 	def ppobBPJS() {
 		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Homepage/btnSeeAllPPOB'), 0)
 		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/PPOB/ppobBPJS'), 0)
-			}
+	}
 
 	@Keyword
 	def transaksiBPJS() {
 		Mobile.setText(findTestObject('Object Repository/Bayarind/Android/PPOB/BPJS/kolomCustomerID'), GlobalVariable.bayarindIDBPJS, 0)
 		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/PPOB/BPJS/kolomPaymentPeriod') ,0)
 		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/PPOB/BPJS/period' + GlobalVariable.bayarindperiodBPJS), 0)
+	}
+	
+	@Keyword
+	def ppobTelkom() {
+		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Homepage/btnSeeAllPPOB'), 0)
+		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/PPOB/ppobTelkom'), 0)
+	}
+	
+	@Keyword
+	def transaksiIndihome() {
+		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/PPOB/Telkom/kolomProduct') ,0)
+		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/PPOB/Telkom/indihome'), 0)
+		Mobile.setText(findTestObject('Object Repository/Bayarind/Android/PPOB/Telkom/kolomCustomerID'), GlobalVariable.bayarindindihome, 0)
+	}
+	
+	@Keyword
+	def transaksiTelephone() {
+		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/PPOB/Telkom/kolomProduct') ,0)
+		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/PPOB/Telkom/telephone'), 0)
+		Mobile.setText(findTestObject('Object Repository/Bayarind/Android/PPOB/Telkom/kolomCustomerID'), GlobalVariable.bayarindtelephone, 0)
 	}
 }
