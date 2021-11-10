@@ -26,3 +26,5 @@ Mobile.tap(findTestObject('Object Repository/Bayarind/Android/PPOB/PDAM/btnNext'
 CustomKeywords.'bayarind.payment.oneKlik'()
 
 CustomKeywords.'bayarind.control.doneTransactionPPOB'()
+
+KMZWA8AWAA
