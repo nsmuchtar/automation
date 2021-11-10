@@ -30,6 +30,9 @@ class Bayarind {
 	@BeforeTestCase
 	def sampleBeforeTestCase(TestCaseContext testCaseContext) {
 		Mobile.startExistingApplication('net.sprintasia.ewallet')
+		while (Mobile.waitForElementPresent(findTestObject('Object Repository/Bayarind/Android/Homepage/logoBayarind'), 3) == false) {
+			Mobile.pressBack()
+		}
 		
 	}
 

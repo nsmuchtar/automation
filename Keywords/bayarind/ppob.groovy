@@ -17,7 +17,6 @@ import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
-
 import internal.GlobalVariable
 
 public class ppob {
@@ -30,7 +29,7 @@ public class ppob {
 
 	@Keyword
 	def transaksiPulsa() {
-		Mobile.setText(findTestObject('Object Repository/Bayarind/Android/PPOB/Pulsa dan Paket Data/kolomPhoneNumber'), GlobalVariable.bayarindnohpPPOB, 0)
+		Mobile.setText(findTestObject('Object Repository/Bayarind/Android/PPOB/Pulsa dan Paket Data/kolomPhoneNumber'), GlobalVariable.bayarindnohpPPOBpulsa, 0)
 		String nohp = Mobile.getText(findTestObject('Object Repository/Bayarind/Android/PPOB/Pulsa dan Paket Data/kolomPhoneNumber'), 0)
 
 		switch(nohp) {
@@ -54,8 +53,61 @@ public class ppob {
 				Mobile.scrollToText('ISAT IM3 / MENTARI REGULER 100RB')
 				Mobile.tap(findTestObject('Object Repository/Bayarind/Android/PPOB/Pulsa dan Paket Data/Nominal Pulsa/pulsa100rbSukses2'), 0)
 				break
-				default :
+			default :
 				Mobile.tap(findTestObject('Object Repository/Bayarind/Android/PPOB/Pulsa dan Paket Data/Nominal Pulsa/chooseRandomPulsa'), 0)
 		}
+	}
+
+	@Keyword
+	def ppobPulsaPascaBayar() {
+		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Homepage/btnSeeAllPPOB'), 0)
+		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/PPOB/ppobPulsaPascaBayar') ,0)
+	}
+
+	@Keyword
+	def transaksiPulsaPascaBayar() {
+		Mobile.setText(findTestObject('Object Repository/Bayarind/Android/PPOB/Pulsa Pascabayar/kolomPhoneNumber'), GlobalVariable.bayarindnohpPPOBpulsapascabayar, 0)
+		Mobile.verifyElementExist(findTestObject('Object Repository/Bayarind/Android/PPOB/Pulsa Pascabayar/detailPascaBayar'), 0)
+	}
+
+	@Keyword
+	def ppobPLNPrabayar() {
+		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Homepage/btnSeeAllPPOB'), 0)
+		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/PPOB/ppobPLN') ,0)
+		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/PPOB/PLN Prabayar/tabPrabayar') ,0)
+	}
+
+	@Keyword
+	def transaksiPLNPrabayar() {
+		Mobile.setText(findTestObject('Object Repository/Bayarind/Android/PPOB/PLN Prabayar/kolomCustomerID'), GlobalVariable.bayarindIDPLNPrabayar, 0)
+		if (Mobile.waitForElementPresent(findTestObject('Object Repository/Bayarind/Android/PPOB/PLN Prabayar/voucher' + GlobalVariable.bayarindnominalPLNPrabayar) ,3) == true) {
+		}else {
+			Mobile.tap(findTestObject('Object Repository/Bayarind/Android/PPOB/PLN Prabayar/voucher' + GlobalVariable.bayarindnominalPLNPrabayar + 'token') ,0)
+		}
+	}
+
+	@Keyword
+	def ppobPLNPascabayar() {
+		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Homepage/btnSeeAllPPOB'), 0)
+		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/PPOB/ppobPLN') ,0)
+		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/PPOB/PLN Pascabayar/tabPascaBayar') ,0)
+	}
+
+	@Keyword
+	def transaksiPLNPascaBayar() {
+		Mobile.setText(findTestObject('Object Repository/Bayarind/Android/PPOB/PLN Prabayar/kolomCustomerID'), GlobalVariable.bayarindIDPLNPascabayar, 0)
+	}
+
+	@Keyword
+	def ppobBPJS() {
+		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Homepage/btnSeeAllPPOB'), 0)
+		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/PPOB/ppobBPJS'), 0)
+			}
+
+	@Keyword
+	def transaksiBPJS() {
+		Mobile.setText(findTestObject('Object Repository/Bayarind/Android/PPOB/BPJS/kolomCustomerID'), GlobalVariable.bayarindIDBPJS, 0)
+		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/PPOB/BPJS/kolomPaymentPeriod') ,0)
+		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/PPOB/BPJS/period' + GlobalVariable.bayarindperiodBPJS), 0)
 	}
 }

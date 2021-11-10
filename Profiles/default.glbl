@@ -1105,13 +1105,38 @@
       <name>PPOB</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description>PULSA</description>
-      <initValue>'PULSA'</initValue>
-      <name>PULSA</name>
+      <description></description>
+      <initValue>'081327404356'</initValue>
+      <name>bayarindnohpPPOBpulsa</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'081327404356'</initValue>
-      <name>bayarindnohpPPOB</name>
+      <initValue>'085251464054'</initValue>
+      <name>bayarindnohpPPOBpulsapascabayar</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'213301053103'</initValue>
+      <name>bayarindIDPLNPrabayar</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'50000'</initValue>
+      <name>bayarindnominalPLNPrabayar</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'523520409670'</initValue>
+      <name>bayarindIDPLNPascabayar</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'1451202399246501'</initValue>
+      <name>bayarindIDBPJS</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'1'</initValue>
+      <name>bayarindperiodBPJS</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

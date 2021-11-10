@@ -37,10 +37,20 @@ CustomKeywords.'bayarind.control.inputPINBayarind'()
 
 CustomKeywords.'bayarind.control.doneTransactionPPOB'()
 
+Mobile.delay(2)
+
 String actualKasBayarind = Mobile.getText(findTestObject('Object Repository/Bayarind/Android/Homepage/saldoKasBayarind'), 0).replace('.', '')
 
-println('Kas awal bayarind = '+kasAwalBayarind+ '\n'+
+println('============================================ \n'+
+	'Kas awal bayarind = '+kasAwalBayarind+ '\n'+
 	'total payment = ' +totalPayment+ '\n'+
-	'kas akhir bayarind = ' +actualKasBayarind+ '\n')
+	'kas akhir bayarind = ' +actualKasBayarind+ '\n'+
+	'============================================ \n')
 
-Mobile.verifyMatch(actualKasBayarind, expectKasBayarind, true)
+if (Mobile.verifyMatch(actualKasBayarind, expectKasBayarind, true) == true) {
+	println('============================================\n' +
+		'SALDO SESUAI! \n' +
+		'============================================')
+} else {
+	println('ERROOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOR')
+}

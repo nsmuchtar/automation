@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "2FB78CE9A48E44B2F8B82664CE3790CF",
+  "keywordFileContentHash": "E861DE2BA3B6B57BFEAC9ACBC79AE682",
   "keywordClasses": [
     {
       "name": "bayarind.ppob",
@@ -11,6 +11,46 @@
         },
         {
           "name": "transaksiPulsa",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "ppobPulsaPascaBayar",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "transaksiPulsaPascaBayar",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "ppobPLNPrabayar",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "transaksiPLNPrabayar",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "ppobPLNPascabayar",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "transaksiPLNPascaBayar",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "ppobBPJS",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "transaksiBPJS",
           "parameters": [],
           "javadoc": ""
         }

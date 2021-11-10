@@ -21,21 +21,24 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable
 
 public class payment {
-	
+
 	@Keyword
 	def kasBayarind() {
 		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Payment Method/btnPay') ,0)
 	}
-	
+
 	@Keyword
 	def creditCard() {
 		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Payment Method/creditCard') ,0)
 		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Payment Method/btnPay') ,0)
 	}
-	
+
 	@Keyword
 	def oneKlik() {
 		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Payment Method/oneKlik') ,0)
 		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Payment Method/btnPay') ,0)
+		CustomKeywords.'bayarind.control.inputPINBayarind'()
+		Mobile.verifyElementExist(findTestObject('Object Repository/Bayarind/Android/Done Transaction PPOB Oneklik/wordingSuksesPaymentPPOBOneKlik'), 0)
+		Mobile.verifyElementExist(findTestObject('Object Repository/Bayarind/Android/Done Transaction PPOB Oneklik/btnOK'), 0)
 	}
 }
