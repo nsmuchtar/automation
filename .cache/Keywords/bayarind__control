@@ -1,36 +1,31 @@
 {
-  "keywordFileContentHash": "73A01C7BB6CBAD76C7E99365F0C4C0CA",
+  "keywordFileContentHash": "982014D73C56A3EC04EE2B23B7EE2E30",
   "keywordClasses": [
     {
       "name": "bayarind.control",
       "keywordMethods": [
         {
           "name": "inputPINBayarind",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "scanQRTable",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "inputOTP",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "closeBanner",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "doneTransactionPPOB",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         }
       ]
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }

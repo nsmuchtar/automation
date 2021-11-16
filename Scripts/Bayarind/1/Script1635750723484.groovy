@@ -18,6 +18,3 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import java.util.Random
 
-String kasBayarind = Mobile.getText(findTestObject('Object Repository/Bayarind/Android/Payment Method/totalPayment'), 0).replace('Rp', '').replace('.', '')
-
-println(kasBayarind)

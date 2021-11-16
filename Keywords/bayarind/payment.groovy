@@ -39,6 +39,6 @@ public class payment {
 		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Payment Method/btnPay') ,0)
 		CustomKeywords.'bayarind.control.inputPINBayarind'()
 		Mobile.verifyElementExist(findTestObject('Object Repository/Bayarind/Android/Done Transaction PPOB Oneklik/wordingSuksesPaymentPPOBOneKlik'), 0)
-		Mobile.verifyElementExist(findTestObject('Object Repository/Bayarind/Android/Done Transaction PPOB Oneklik/btnOK'), 0)
+		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Done Transaction PPOB Oneklik/btnOK'), 0)
 	}
 }

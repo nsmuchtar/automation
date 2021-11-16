@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "F745D6710991FD855BC1AE3F7E265549",
+  "keywordFileContentHash": "A55D25AA845C52AFB97173C366044E86",
   "keywordClasses": [
     {
       "name": "bayarind.ppob",
@@ -62,6 +62,38 @@
         },
         {
           "name": "transaksiPDAM",
+          "parameters": []
+        },
+        {
+          "name": "ppobTVCable",
+          "parameters": []
+        },
+        {
+          "name": "transaksiTVCable",
+          "parameters": []
+        },
+        {
+          "name": "ppobPBB",
+          "parameters": []
+        },
+        {
+          "name": "TransaksiPBB",
+          "parameters": []
+        },
+        {
+          "name": "ppobGames",
+          "parameters": []
+        },
+        {
+          "name": "transaksiGames",
+          "parameters": []
+        },
+        {
+          "name": "ppobMercedes",
+          "parameters": []
+        },
+        {
+          "name": "transaksiMercedes",
           "parameters": []
         }
       ]

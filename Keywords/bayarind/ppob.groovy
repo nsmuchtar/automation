@@ -130,13 +130,13 @@ public class ppob {
 		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/PPOB/Telkom/telephone'), 0)
 		Mobile.setText(findTestObject('Object Repository/Bayarind/Android/PPOB/Telkom/kolomCustomerID'), GlobalVariable.bayarindtelephone, 0)
 	}
-	
+
 	@Keyword
 	def ppobPDAM() {
 		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Homepage/btnSeeAllPPOB'), 0)
 		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/PPOB/ppobPDAM'), 0)
 	}
-	
+
 	@Keyword
 	def transaksiPDAM() {
 		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/PPOB/PDAM/kolomWilayah'), 0)
@@ -144,5 +144,63 @@ public class ppob {
 		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/PPOB/PDAM/chooseWilayah'), 0)
 		Mobile.setText(findTestObject('Object Repository/Bayarind/Android/PPOB/PDAM/kolomCustomerID'), GlobalVariable.bayarindIDPDAM, 0)
 		Mobile.waitForElementPresent(findTestObject('Object Repository/Bayarind/Android/PPOB/PDAM/detailPDAM'), 0)
+		CustomKeywords.'general.control.swipeDown'()
+	}
+
+	@Keyword
+	def ppobTVCable() {
+		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Homepage/btnSeeAllPPOB'), 0)
+		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/PPOB/ppobTVCable'), 0)
+	}
+
+	@Keyword
+	def transaksiTVCable() {
+		long first6 = (long) (Math.random() * 100000L);
+		long generate = 342000000 + first6;
+		String customerID = String.valueOf(generate)
+
+		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/PPOB/TV Cable/kolomChooseTVCable'), 0)
+		Mobile.scrollToText(GlobalVariable.bayarindproviderTVCable)
+		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/PPOB/TV Cable/Provider/' + GlobalVariable.bayarindproviderTVCable) , 0)
+		Mobile.setText(findTestObject('Object Repository/Bayarind/Android/PPOB/TV Cable/kolomCustomerID'), customerID, 0)
+	}
+
+	@Keyword
+	def ppobPBB() {
+		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Homepage/btnSeeAllPPOB'), 0)
+		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/PPOB/ppobPBB'), 0)
+	}
+
+	@Keyword
+	def TransaksiPBB() {
+		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/PPOB/PBB/kolomDistrict') ,0)
+		Mobile.setText(findTestObject('Object Repository/Bayarind/Android/PPOB/PBB/kolomSearchDistrict'), GlobalVariable.bayarindwilayahPBB, 0)
+		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/PPOB/PBB/chooseDistrict'), 0)
+		Mobile.setText(findTestObject('Object Repository/Bayarind/Android/PPOB/PBB/kolomTaxNumber'), GlobalVariable.bayarindtaxnumberPBB, 0)
+		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/PPOB/PBB/btnCheckBills') ,0)
+	}
+
+	@Keyword
+	def ppobGames() {
+		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Homepage/btnSeeAllPPOB'), 0)
+		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/PPOB/ppobGames'), 0)
+	}
+
+	@Keyword
+	def transaksiGames() {
+		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/PPOB/Games/Game/' + GlobalVariable.bayarindjenisvouchergame), 0)
+		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/PPOB/Games/Nominal Voucher/500') ,0)
+		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/PPOB/Games/btnNext') ,0)
+	}
+	
+	@Keyword
+	def ppobMercedes() {
+		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Homepage/btnMembership') ,0)
+		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Membership/membershipMercedes'), 0)
+	}
+	
+	@Keyword
+	def transaksiMercedes() {
+		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Membership/Mercedes/btnRenewMembership'), 0)
 	}
 }

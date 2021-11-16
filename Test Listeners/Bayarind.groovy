@@ -33,6 +33,7 @@ class Bayarind {
 		while (Mobile.waitForElementPresent(findTestObject('Object Repository/Bayarind/Android/Homepage/logoBayarind'), 3) == false) {
 			Mobile.pressBack()
 		}
+		CustomKeywords.'general.control.swipeUp'()
 		
 	}
 

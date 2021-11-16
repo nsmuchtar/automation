@@ -1,10 +1,10 @@
 {
-  "keywordFileContentHash": "EFB06C48819968D9C38F1559E5F82EEA",
+  "keywordFileContentHash": "D47F8A9D54FDAAA7D36EC898131FA7DC",
   "keywordClasses": [
     {
       "name": "Bayarind",
       "keywordMethods": []
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }

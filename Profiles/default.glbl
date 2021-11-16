@@ -1184,4 +1184,44 @@
       <initValue>'PDAM AETRA JAKARTA'</initValue>
       <name>bayarindWilayah</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>TV CABLE</description>
+      <initValue>'TV CABLE'</initValue>
+      <name>TV</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Indovision'</initValue>
+      <name>bayarindproviderTVCable</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>PBB</description>
+      <initValue>'PBB'</initValue>
+      <name>PBB</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'PBB JAKARTA'</initValue>
+      <name>bayarindwilayahPBB</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'357800000003101001'</initValue>
+      <name>bayarindtaxnumberPBB</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>GAMES</description>
+      <initValue>'GAMES\r\n'</initValue>
+      <name>GAMES</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Mobile Legends'</initValue>
+      <name>bayarindjenisvouchergame</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>input dengan nilai 10, 20, 50, 100, 300, 500</description>
+      <initValue>'50'</initValue>
+      <name>bayarindnominalvouchergame</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
