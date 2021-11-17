@@ -27,6 +27,8 @@ Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Wallet/Credit Card
 
 Mobile.setText(findTestObject('Object Repository/Bayarind/Android/Wallet/Credit Card/kolomCardNumber'), GlobalVariable.bayarindccnumber, 0)
 
+Mobile.hideKeyboard()
+
 Mobile.setText(findTestObject('Object Repository/Bayarind/Android/Wallet/Credit Card/kolomCardHolderName'), GlobalVariable.bayarindcardholdername, 0)
 
 Mobile.setText(findTestObject('Object Repository/Bayarind/Android/Wallet/Credit Card/monthExpire'), GlobalVariable.bayarindmonthexpire, 0)

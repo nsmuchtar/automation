@@ -696,7 +696,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'123123'</initValue>
+      <initValue>'115599'</initValue>
       <name>bayarindpin</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -1211,7 +1211,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>GAMES</description>
-      <initValue>'GAMES\r\n'</initValue>
+      <initValue>'GAMES'</initValue>
       <name>GAMES</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -1223,5 +1223,60 @@
       <description>input dengan nilai 10, 20, 50, 100, 300, 500</description>
       <initValue>'50'</initValue>
       <name>bayarindnominalvouchergame</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>SUMMARY ORDER</description>
+      <initValue>'SUMMARY ORDER'</initValue>
+      <name>SUMMARY_ORDER</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'2'</initValue>
+      <name>bayarindquantityitem1</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'1'</initValue>
+      <name>bayarindquantityitem2</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'3'</initValue>
+      <name>bayarindquantityitem3</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'1'</initValue>
+      <name>bayarindquantityitem4</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'1'</initValue>
+      <name>bayarindquantityitem5</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'ini note untuk item 1'</initValue>
+      <name>bayarindnoteitem1</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'ini note untuk item 2'</initValue>
+      <name>bayarindnoteitem2</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'ini note untuk item 3'</initValue>
+      <name>bayarindnoteitem3</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'ini note untuk item 4'</initValue>
+      <name>bayarindnoteitem4</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'ini note untuk item 5'</initValue>
+      <name>bayarindnoteitem5</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

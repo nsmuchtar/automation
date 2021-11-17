@@ -22,6 +22,17 @@ import internal.GlobalVariable
 
 public class katalog {
 
+	int device_Height = Mobile.getDeviceHeight()
+	int device_Width = Mobile.getDeviceWidth()
+
+	//vertical
+	int startXvertical = device_Width / 2
+	int endXvertical = startXvertical
+	int startYvertical = device_Height * 0.30
+	int endYvertical = device_Height * 0.70
+	//vertical
+
+
 	@Keyword
 	def productBatagor() {
 		Mobile.scrollToText('Batagor', FailureHandling.STOP_ON_FAILURE)
@@ -48,11 +59,8 @@ public class katalog {
 
 	@Keyword
 	def productGurameBakar() {
-		while (Mobile.waitForElementPresent(findTestObject('Object Repository/Bayarind/Android/Katalog/btnAddGurameBakar'), 3) == false) {
-			Mobile.delay(2)
-			CustomKeywords.'general.control.swipeDown'()
-			Mobile.scrollToText('Gurame Bakar')
-		}
+		Mobile.swipe(startXvertical, endYvertical, endXvertical, startYvertical)
+		Mobile.scrollToText('Gurame Bakar')
 		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Katalog/btnAddGurameBakar'),0)
 	}
 
@@ -60,7 +68,7 @@ public class katalog {
 	def productNasiGorengMurah() {
 		while (Mobile.waitForElementPresent(findTestObject('Object Repository/Bayarind/Android/Katalog/wordingNasiGorengMurah'), 3) == false) {
 			Mobile.delay(2)
-			CustomKeywords.'general.control.swipeDown'()
+			Mobile.swipe(startXvertical, endYvertical, endXvertical, startYvertical)
 		}
 
 		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Katalog/btnAddNasiGorengMurah'), 0)
@@ -70,7 +78,7 @@ public class katalog {
 	def productPaketAyamGeprekPaketA() {
 		while (Mobile.waitForElementPresent(findTestObject('Object Repository/Bayarind/Android/Katalog/wordingPaketAyamGrepekPaketA'), 3) == false) {
 			Mobile.delay(2)
-			CustomKeywords.'general.control.swipeDown'()
+			Mobile.swipe(startXvertical, endYvertical, endXvertical, startYvertical)
 		}
 
 		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Katalog/btnAddPaketAyamGeprekPaketA'), 0)
@@ -80,12 +88,52 @@ public class katalog {
 	def productPaketAyamGeprekPaketB() {
 		while (Mobile.waitForElementPresent(findTestObject('Object Repository/Bayarind/Android/Katalog/wordingPaketAyamGeprekPaketB'), 3) == false) {
 			Mobile.delay(2)
-			CustomKeywords.'general.control.swipeDown'()
+			Mobile.swipe(startXvertical, endYvertical, endXvertical, startYvertical)
 		}
 
 		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Katalog/btnAddPaketAyamGeprekPaketB'), 0)
 	}
-	
+
 	@Keyword
-	def setQuantityItetm
+	def setQuantityItem() {
+		if(Mobile.waitForElementPresent(findTestObject('Object Repository/Bayarind/Android/Summary Order/inputQuantityProduct1'), 3) == true) {
+			Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Summary Order/inputQuantityProduct1') ,0)
+			Mobile.setText(findTestObject('Object Repository/Bayarind/Android/Summary Order/kolomInputQuantity'), GlobalVariable.bayarindquantityitem1, endYvertical)
+			Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Summary Order/btnDoneQuantity'), 0)
+			Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Summary Order/noteProduct1') ,0)
+			Mobile.setText(findTestObject('Object Repository/Bayarind/Android/Summary Order/kolomInputNote'), GlobalVariable.bayarindnoteitem1, endYvertical)
+			Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Summary Order/btnDoneNote'), 0)
+		} else {
+
+		}
+
+		if(Mobile.waitForElementPresent(findTestObject('Object Repository/Bayarind/Android/Summary Order/inputQuantityProduct2'), 3) == true) {
+			Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Summary Order/inputQuantityProduct2') ,0)
+			Mobile.setText(findTestObject('Object Repository/Bayarind/Android/Summary Order/kolomInputQuantity'), GlobalVariable.bayarindquantityitem2, endYvertical)
+			Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Summary Order/btnDoneQuantity'), 0)
+			Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Summary Order/noteProduct2') ,0)
+			Mobile.setText(findTestObject('Object Repository/Bayarind/Android/Summary Order/kolomInputNote'), GlobalVariable.bayarindnoteitem2, endYvertical)
+			Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Summary Order/btnDoneNote'), 0)
+		} else {
+
+		}
+
+		if(Mobile.waitForElementPresent(findTestObject('Object Repository/Bayarind/Android/Summary Order/inputQuantityProduct3'), 3) == true) {
+			Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Summary Order/inputQuantityProduct3') ,0)
+			Mobile.setText(findTestObject('Object Repository/Bayarind/Android/Summary Order/kolomInputQuantity'), GlobalVariable.bayarindquantityitem3, endYvertical)
+			Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Summary Order/btnDoneQuantity'), 0)
+			Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Summary Order/noteProduct3') ,0)
+			Mobile.setText(findTestObject('Object Repository/Bayarind/Android/Summary Order/kolomInputNote'), GlobalVariable.bayarindnoteitem3, endYvertical)
+			Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Summary Order/btnDoneNote'), 0)
+		} else {
+
+		}
+	}
+
+	@Keyword
+	def submitOrder() {
+		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Summary Order/btnSubmitOrder'), 0)
+		Mobile.verifyElementExist(findTestObject('Object Repository/Bayarind/Android/Summary Order/wordingSuksesSubmitOrder'), 0)
+		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Summary Order/btnOK') ,0)
+	}
 }

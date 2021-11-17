@@ -50,6 +50,8 @@ Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Setting/MyID/BPJS 
 
 Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Setting/MyID/e-KTP/btnDoneTanggal') ,0)
 
+Mobile.delay(2)
+
 CustomKeywords.'general.control.swipeDown'()
 
 Mobile.setText(findTestObject('Object Repository/Bayarind/Android/Setting/MyID/BPJS Kesehatan/kolomFaskesTingkat1'), GlobalVariable.bayarindfaskestingkat1BPJSKesehatan, 0)

@@ -37,8 +37,13 @@ public class payment {
 	def oneKlik() {
 		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Payment Method/oneKlik') ,0)
 		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Payment Method/btnPay') ,0)
-		CustomKeywords.'bayarind.control.inputPINBayarind'()
-		Mobile.verifyElementExist(findTestObject('Object Repository/Bayarind/Android/Done Transaction PPOB Oneklik/wordingSuksesPaymentPPOBOneKlik'), 0)
-		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Done Transaction PPOB Oneklik/btnOK'), 0)
+		Mobile.delay(2)
+		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Input PIN/pin' + GlobalVariable.pin1), 0)
+		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Input PIN/pin' + GlobalVariable.pin2), 0)
+		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Input PIN/pin' + GlobalVariable.pin3), 0)
+		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Input PIN/pin' + GlobalVariable.pin4), 0)
+		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Input PIN/pin' + GlobalVariable.pin5), 0)
+		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Input PIN/pin' + GlobalVariable.pin6), 0)
+		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Done Transaction PPOB Oneklik/btnOK (1)'), 0)
 	}
 }

@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "982014D73C56A3EC04EE2B23B7EE2E30",
+  "keywordFileContentHash": "A523EE645EA729DA8063B6FC04FFCE28",
   "keywordClasses": [
     {
       "name": "bayarind.control",
@@ -22,6 +22,18 @@
         },
         {
           "name": "doneTransactionPPOB",
+          "parameters": []
+        },
+        {
+          "name": "doneTransactionPasarind",
+          "parameters": []
+        },
+        {
+          "name": "promoNoMultiple",
+          "parameters": []
+        },
+        {
+          "name": "promoMultiple",
           "parameters": []
         }
       ]

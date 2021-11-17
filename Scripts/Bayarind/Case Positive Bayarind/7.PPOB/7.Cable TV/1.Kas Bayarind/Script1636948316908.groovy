@@ -27,6 +27,10 @@ CustomKeywords.'bayarind.ppob.transaksiTVCable'()
 
 String amount = Mobile.getText(findTestObject('Object Repository/Bayarind/Android/PPOB/TV Cable/amountPelanggan'), 0).replace('Rp', '').replace('.', '')
 String transactionFee = Mobile.getText(findTestObject('Object Repository/Bayarind/Android/PPOB/TV Cable/transactionFeePelanggan'), 0).replace('Rp', '').replace('.', '')
+
+Mobile.delay(1)
+CustomKeywords.'general.control.swipeDownDetail'()
+
 String actualTotalBill = Mobile.getText(findTestObject('Object Repository/Bayarind/Android/PPOB/TV Cable/totalBillPelanggan'), 0).replace('Rp', '').replace('.', '')
 
 int intAmount = Integer.parseInt(amount)

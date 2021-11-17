@@ -55,6 +55,8 @@ Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Setting/MyID/e-KTP
 
 Mobile.setText(findTestObject('Object Repository/Bayarind/Android/Setting/MyID/e-KTP/kolomGolonganDarah'), GlobalVariable.bayarindgolongandarahKTP, 0)
 
+Mobile.delay(2)
+
 CustomKeywords.'general.control.swipeDown'()
 
 CustomKeywords.'general.control.swipeDown'()

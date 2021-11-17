@@ -31,6 +31,8 @@ Mobile.setText(findTestObject('Object Repository/Bayarind/Android/Setting/Profil
 
 Mobile.setText(findTestObject('Object Repository/Bayarind/Android/Setting/Profile/kolomProvince'), GlobalVariable.bayarinduserprovince, 0)
 
+CustomKeywords.'general.control.swipeDown'()
+
 Mobile.setText(findTestObject('Object Repository/Bayarind/Android/Setting/Profile/kolomCity'), GlobalVariable.bayarindusercity, 0)
 
 Mobile.setText(findTestObject('Object Repository/Bayarind/Android/Setting/Profile/kolomZipCode'), GlobalVariable.bayarinduserzipcode, 0)

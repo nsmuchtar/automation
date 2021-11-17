@@ -10,6 +10,7 @@ import com.kms.katalon.core.annotation.Keyword
 import com.kms.katalon.core.checkpoint.Checkpoint
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+import com.kms.katalon.core.mobile.keyword.internal.MobileAbstractKeyword
 import com.kms.katalon.core.model.FailureHandling
 import com.kms.katalon.core.testcase.TestCase
 import com.kms.katalon.core.testdata.TestData
@@ -31,18 +32,9 @@ public class control {
 	int endYvertical = device_Height * 0.70
 	//vertical
 
-	/*
-	 int browser_height = WebUI.getPageHeight()
-	 int browser_width = WebUI.getPageWidth()
-	 int startXverticalBrowser = browser_width /2
-	 int endXverticalBrowser = startXverticalBrowser
-	 int startYverticalBrowser = browser_height * 0.30
-	 int endYverticalBrowser = browser_height * 0.70
-	 */
-
 	/*swipe general*/
 	@Keyword
-	def swipeUp(){
+	def swipeUp(){		
 		Mobile.swipe(startXvertical, startYvertical, endXvertical, endYvertical)
 	}
 	@Keyword
@@ -50,4 +42,32 @@ public class control {
 		Mobile.swipe(startXvertical, endYvertical, endXvertical, startYvertical)
 	}
 	/*swipe general*/	
+
+	/*swipe detail*/
+		@Keyword
+		def swipeUpDetail(){
+			int heightDetail = Mobile.getElementHeight(findTestObject('Object Repository/Bayarind/Android/PPOB/viewDetail'), 1)
+			int widthDetail = Mobile.getElementWidth(findTestObject('Object Repository/Bayarind/Android/PPOB/viewDetail'), 1)
+		
+			int startXverticalDetail = heightDetail / 2
+			int endXverticalDetail = startXvertical
+			int startYverticalDetail = heightDetail * 0.30
+			int endYverticalDetail = heightDetail * 0.70
+			
+			
+			Mobile.swipe(startXverticalDetail, startYverticalDetail, endXverticalDetail, endYverticalDetail)
+		}
+		@Keyword
+		def swipeDownDetail(){
+			int heightDetail = Mobile.getElementHeight(findTestObject('Object Repository/Bayarind/Android/PPOB/viewDetail'), 1)
+			int widthDetail = Mobile.getElementWidth(findTestObject('Object Repository/Bayarind/Android/PPOB/viewDetail'), 1)
+		
+			int startXverticalDetail = heightDetail / 2
+			int endXverticalDetail = startXvertical
+			int startYverticalDetail = heightDetail * 0.30
+			int endYverticalDetail = heightDetail * 0.70
+			
+			Mobile.swipe(startXverticalDetail, endYverticalDetail, endXverticalDetail, startYverticalDetail)
+		}
+	/*swipe detail*/
 }

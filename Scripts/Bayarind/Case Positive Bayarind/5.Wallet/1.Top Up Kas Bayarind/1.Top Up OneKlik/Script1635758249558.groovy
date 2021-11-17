@@ -23,11 +23,9 @@ Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Wallet/Kas Bayarin
 
 Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Top Up/topUp20rb'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Top Up/btnNext') ,0)
+Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Top Up/btnNext (1)') ,0)
 
-Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Top Up/chooseOneKlik1') ,0)
-
-Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Top Up/btnTopUpNow') , 0)
+Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Top Up/btnTopUpNow (1)') , 0)
 
 CustomKeywords.'bayarind.control.inputPINBayarind'()
 

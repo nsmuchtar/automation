@@ -192,13 +192,13 @@ public class ppob {
 		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/PPOB/Games/Nominal Voucher/500') ,0)
 		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/PPOB/Games/btnNext') ,0)
 	}
-	
+
 	@Keyword
 	def ppobMercedes() {
 		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Homepage/btnMembership') ,0)
 		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Membership/membershipMercedes'), 0)
 	}
-	
+
 	@Keyword
 	def transaksiMercedes() {
 		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Membership/Mercedes/btnRenewMembership'), 0)

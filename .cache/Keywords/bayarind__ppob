@@ -1,103 +1,126 @@
 {
-  "keywordFileContentHash": "A55D25AA845C52AFB97173C366044E86",
+  "keywordFileContentHash": "0B46401E592D06175A83C29C78CAFD26",
   "keywordClasses": [
     {
       "name": "bayarind.ppob",
       "keywordMethods": [
         {
           "name": "ppobPulsa",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "transaksiPulsa",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "ppobPulsaPascaBayar",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "transaksiPulsaPascaBayar",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "ppobPLNPrabayar",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "transaksiPLNPrabayar",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "ppobPLNPascabayar",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "transaksiPLNPascaBayar",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "ppobBPJS",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "transaksiBPJS",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "ppobTelkom",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "transaksiIndihome",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "transaksiTelephone",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "ppobPDAM",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "transaksiPDAM",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "ppobTVCable",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "transaksiTVCable",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "ppobPBB",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "TransaksiPBB",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "ppobGames",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "transaksiGames",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "ppobMercedes",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "transaksiMercedes",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         }
       ]
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }

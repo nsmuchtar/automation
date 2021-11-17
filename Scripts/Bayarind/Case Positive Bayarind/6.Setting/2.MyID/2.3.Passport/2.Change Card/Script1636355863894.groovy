@@ -71,6 +71,8 @@ Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Setting/MyID/Passp
 
 Mobile.hideKeyboard()
 
+Mobile.delay(2)
+
 CustomKeywords.'general.control.swipeDown'()
 
 Mobile.setText(findTestObject('Object Repository/Bayarind/Android/Setting/MyID/Passport/kolomTempatLahir'), GlobalVariable.bayarindtempatlahirpassport, 0)

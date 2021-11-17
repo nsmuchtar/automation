@@ -27,6 +27,10 @@ CustomKeywords.'bayarind.ppob.transaksiBPJS'()
 
 String amount = Mobile.getText(findTestObject('Object Repository/Bayarind/Android/PPOB/BPJS/amountPelanggan'), 0).replace('Rp', '').replace('.', '')
 String transactionFee = Mobile.getText(findTestObject('Object Repository/Bayarind/Android/PPOB/BPJS/transactionFeePelanggan (1)'), 0).replace('Rp', '').replace('.', '')
+
+Mobile.delay(1)
+CustomKeywords.'general.control.swipeDownDetail'()
+
 String actualTotalBill = Mobile.getText(findTestObject('Object Repository/Bayarind/Android/PPOB/BPJS/totalBIllPelanggan'), 0).replace('Rp', '').replace('.', '')
 
 int intAmount = Integer.parseInt(amount)

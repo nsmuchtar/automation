@@ -38,7 +38,10 @@ public class control {
 	def scanQRTable() {
 		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Homepage/btnScanQR'), 0)
 		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Scan QR/btnChooseImage'),0)
-		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Scan QR/QRMeja'), 0)
+		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/File Manager/btnBurgerFileManager'), 0)
+		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/File Manager/btnImages'), 0)
+		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/File Manager/menuDownload'), 0)
+		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/File Manager/QRMeja'), 0)
 		Mobile.delay(3)
 		Mobile.waitForElementPresent(findTestObject('Object Repository/Bayarind/Android/Katalog/merchantName'), 0)
 	}
@@ -46,11 +49,7 @@ public class control {
 	@Keyword
 	def inputOTP() {
 		Mobile.waitForElementPresent(findTestObject('Object Repository/Bayarind/Android/OTP/halamanOTP'), 0)
-		Mobile.setText(findTestObject('Object Repository/Bayarind/Android/OTP/kolomOTP'), GlobalVariable.bayarindotp, 0)
-
-		if(Mobile.waitForElementPresent(findTestObject('Object Repository/Bayarind/Android/OTP/errorMessageOTP'), 3) == true) {
-			Mobile.setText(findTestObject('Object Repository/Bayarind/Android/OTP/kolomOTP'), GlobalVariable.bayarindotp2, 0)
-		}
+		Mobile.setText(findTestObject('Object Repository/Bayarind/Android/OTP/kolomOTP'), GlobalVariable.bayarindotp2, 0)
 	}
 
 	@Keyword
@@ -71,7 +70,7 @@ public class control {
 			}else {
 				Mobile.tap(findTestObject('Object Repository/Bayarind/Android/PPOB/PBB/Payment Status/btnClose'), 0)
 			}
-		} else if (Mobile.waitForElementPresent(findTestObject('Object Repository/Bayarind/Android/Done Transaction/btnDoneEducation'), 0) == true ) {
+		} else if (Mobile.waitForElementPresent(findTestObject('Object Repository/Bayarind/Android/Done Transaction/wordingTransactionSuccessMembership'), 0) == true ) {
 			Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Done Transaction/btnDoneEducation'), 0)
 		} else {
 			Mobile.verifyElementExist(findTestObject('Object Repository/Bayarind/Android/Done Transaction/wordingStatusTransactionPPOB'), 0)
@@ -89,6 +88,35 @@ public class control {
 				Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Done Transaction/btnDoneTransactionPPOB'), 0)
 			}
 		}
-		
+	}
+
+	@Keyword
+	def doneTransactionPasarind() {
+		Mobile.verifyElementExist(findTestObject('Object Repository/Bayarind/Android/Done Transaction/wordingSuksesTransaksiPasarind'), 0)
+		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Done Transaction/btnOKTransaksiPasarind') ,0)
+	}
+
+	@Keyword
+	def promoNoMultiple() {
+		if (Mobile.waitForElementPresent(findTestObject('Object Repository/Bayarind/Android/Transaction Detail/btnPromo'), 3) ==  false) {
+			Mobile.scrollToText('add promo')
+			Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Transaction Detail/btnPromo') ,0)
+		}else {
+			Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Transaction Detail/btnPromo') ,0)
+		}
+		Mobile.checkElement(findTestObject('Object Repository/Bayarind/Android/Promo/promoNoMultiple'), 0)
+		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Promo/btnSavePromo'), 0)
+	}
+
+	@Keyword
+	def promoMultiple() {
+		if (Mobile.waitForElementPresent(findTestObject('Object Repository/Bayarind/Android/Transaction Detail/btnPromo'), 3) ==  false) {
+			Mobile.scrollToText('add promo')
+			Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Transaction Detail/btnPromo') ,0)
+		}else {
+			Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Transaction Detail/btnPromo') ,0)
+		}
+		Mobile.checkElement(findTestObject('Object Repository/Bayarind/Android/Promo/promoMultiple'), 0)
+		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Promo/btnSavePromo'), 0)
 	}
 }

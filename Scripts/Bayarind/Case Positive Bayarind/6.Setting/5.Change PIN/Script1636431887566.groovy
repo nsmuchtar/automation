@@ -32,3 +32,19 @@ CustomKeywords.'bayarind.control.inputOTP'()
 Mobile.verifyElementExist(findTestObject('Object Repository/Bayarind/Android/Setting/Setting/Change PIN/wordingSuksesUpdatePIN'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Setting/Setting/Change PIN/btnClose') ,0)
+
+Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Setting/Setting/btnChangePIN') ,0)
+
+Mobile.setText(findTestObject('Object Repository/Bayarind/Android/Setting/Setting/Change PIN/kolomOldPIN'), GlobalVariable.bayarindnewpin, 0)
+
+Mobile.setText(findTestObject('Object Repository/Bayarind/Android/Setting/Setting/Change PIN/kolomNewPIN'), GlobalVariable.bayarindpin, 0)
+
+Mobile.setText(findTestObject('Object Repository/Bayarind/Android/Setting/Setting/Change PIN/kolomConfirmNewPIN'), GlobalVariable.bayarindpin, 0)
+
+Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Setting/Setting/Change PIN/btnSavePIN'), 0)
+
+CustomKeywords.'bayarind.control.inputOTP'()
+
+Mobile.verifyElementExist(findTestObject('Object Repository/Bayarind/Android/Setting/Setting/Change PIN/wordingSuksesUpdatePIN'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Setting/Setting/Change PIN/btnClose') ,0)

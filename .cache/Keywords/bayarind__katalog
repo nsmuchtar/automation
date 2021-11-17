@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "423473F7023435BF1F16D5ABB86C750C",
+  "keywordFileContentHash": "05F45680D3AA7CB8C297C602B77DF1C4",
   "keywordClasses": [
     {
       "name": "bayarind.katalog",
@@ -41,6 +41,16 @@
         },
         {
           "name": "productPaketAyamGeprekPaketB",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "setQuantityItem",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "submitOrder",
           "parameters": [],
           "javadoc": ""
         }

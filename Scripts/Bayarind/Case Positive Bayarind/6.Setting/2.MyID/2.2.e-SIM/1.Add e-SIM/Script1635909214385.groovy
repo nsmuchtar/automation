@@ -49,6 +49,8 @@ Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Setting/MyID/e-SIM
 
 Mobile.setText(findTestObject('Object Repository/Bayarind/Android/Setting/MyID/e-SIM/kolomTinggiBadan'), GlobalVariable.bayarindTinggiBadanSIM, 0)
 
+Mobile.delay(2)
+
 CustomKeywords.'general.control.swipeDown'()
 
 Mobile.setText(findTestObject('Object Repository/Bayarind/Android/Setting/MyID/e-SIM/kolomPekerjaan'), GlobalVariable.bayarindPekerjaanSIM, 0)

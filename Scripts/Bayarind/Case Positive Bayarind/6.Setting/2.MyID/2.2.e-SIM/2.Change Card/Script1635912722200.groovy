@@ -35,7 +35,7 @@ Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Camera/btnCapture'
 
 Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Camera/btnDone'), 0)
 
-Mobile.delay(1)
+Mobile.delay(2)
 
 CustomKeywords.'general.control.swipeUp'()
 
@@ -54,6 +54,8 @@ Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Setting/MyID/e-SIM
 Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Setting/MyID/e-SIM/btnDoneTanggal'), 0)
 
 Mobile.setText(findTestObject('Object Repository/Bayarind/Android/Setting/MyID/e-SIM/kolomTinggiBadan'), '175', 0)
+
+Mobile.delay(2)
 
 CustomKeywords.'general.control.swipeDown'()
 
