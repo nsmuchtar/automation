@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "A523EE645EA729DA8063B6FC04FFCE28",
+  "keywordFileContentHash": "799DF39606C505ACC5131C5FB9FF4654",
   "keywordClasses": [
     {
       "name": "bayarind.control",
@@ -10,6 +10,22 @@
         },
         {
           "name": "scanQRTable",
+          "parameters": []
+        },
+        {
+          "name": "bayarindShop",
+          "parameters": []
+        },
+        {
+          "name": "outletPusat",
+          "parameters": []
+        },
+        {
+          "name": "outletCabang",
+          "parameters": []
+        },
+        {
+          "name": "pilihDelivery",
           "parameters": []
         },
         {

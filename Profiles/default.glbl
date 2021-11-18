@@ -1279,4 +1279,19 @@
       <initValue>'ini note untuk item 5'</initValue>
       <name>bayarindnoteitem5</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>BAYARIND SHOP</description>
+      <initValue>'BAYARIND SHOP'</initValue>
+      <name>BAYARIND_SHOP</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Warungnya si QA'</initValue>
+      <name>bayarindnamamerchant</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'GoSend Instant Delivery'</initValue>
+      <name>bayarindjenisdelivery</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

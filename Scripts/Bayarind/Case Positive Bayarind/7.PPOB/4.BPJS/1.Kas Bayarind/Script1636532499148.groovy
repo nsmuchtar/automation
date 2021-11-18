@@ -29,7 +29,7 @@ String amount = Mobile.getText(findTestObject('Object Repository/Bayarind/Androi
 String transactionFee = Mobile.getText(findTestObject('Object Repository/Bayarind/Android/PPOB/BPJS/transactionFeePelanggan (1)'), 0).replace('Rp', '').replace('.', '')
 
 Mobile.delay(1)
-CustomKeywords.'general.control.swipeDownDetail'()
+CustomKeywords.'general.control.swipeDown'()
 
 String actualTotalBill = Mobile.getText(findTestObject('Object Repository/Bayarind/Android/PPOB/BPJS/totalBIllPelanggan'), 0).replace('Rp', '').replace('.', '')
 

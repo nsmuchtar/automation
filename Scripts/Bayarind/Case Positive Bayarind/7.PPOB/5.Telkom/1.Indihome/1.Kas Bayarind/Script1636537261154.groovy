@@ -23,13 +23,15 @@ int intKasAwalBayarind = Integer.parseInt(kasAwalBayarind)
 
 CustomKeywords.'bayarind.ppob.ppobTelkom'()
 
-CustomKeywords.'bayarind.ppob.transaksiIndihome'()
+		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/PPOB/Telkom/kolomProduct') ,0)
+		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/PPOB/Telkom/indihome'), 0)
+		Mobile.setText(findTestObject('Object Repository/Bayarind/Android/PPOB/Telkom/kolomCustomerID'), GlobalVariable.bayarindindihome, 0)
 
 String amount = Mobile.getText(findTestObject('Object Repository/Bayarind/Android/PPOB/Telkom/btnIndihome/amountPelanggan'), 0).replace('Rp', '').replace('.', '')
 String transactionFee = Mobile.getText(findTestObject('Object Repository/Bayarind/Android/PPOB/Telkom/btnIndihome/transactionFeePelanggan'), 0).replace('Rp', '').replace('.', '')
 
 Mobile.delay(1)
-CustomKeywords.'general.control.swipeDownDetail'()
+CustomKeywords.'general.control.swipeDown'()
 
 String actualTotalBill = Mobile.getText(findTestObject('Object Repository/Bayarind/Android/PPOB/Telkom/btnIndihome/totalBillPelanggan'), 0).replace('Rp', '').replace('.', '')
 

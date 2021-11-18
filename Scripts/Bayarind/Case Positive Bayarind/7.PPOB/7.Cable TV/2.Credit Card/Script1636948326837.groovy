@@ -21,6 +21,12 @@ CustomKeywords.'bayarind.ppob.ppobTVCable'()
 
 CustomKeywords.'bayarind.ppob.transaksiTVCable'()
 
+Mobile.delay(1)
+
+CustomKeywords.'general.control.swipeDown'()
+
+Mobile.tap(findTestObject('Object Repository/Bayarind/Android/PPOB/TV Cable/btnNext'), 0)
+
 CustomKeywords.'bayarind.payment.creditCard'()
 
 CustomKeywords.'bayarind.control.inputPINBayarind'()

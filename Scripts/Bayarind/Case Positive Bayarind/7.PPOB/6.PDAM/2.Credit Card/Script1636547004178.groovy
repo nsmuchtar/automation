@@ -21,6 +21,10 @@ CustomKeywords.'bayarind.ppob.ppobPDAM'()
 
 CustomKeywords.'bayarind.ppob.transaksiPDAM'()
 
+Mobile.delay(1)
+
+CustomKeywords.'general.control.swipeDown'()
+
 Mobile.tap(findTestObject('Object Repository/Bayarind/Android/PPOB/PDAM/btnNext') ,0)
 
 CustomKeywords.'bayarind.payment.creditCard'()

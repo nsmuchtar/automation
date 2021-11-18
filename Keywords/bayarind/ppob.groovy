@@ -143,8 +143,6 @@ public class ppob {
 		Mobile.setText(findTestObject('Object Repository/Bayarind/Android/PPOB/PDAM/kolomSearchWilayah'), GlobalVariable.bayarindWilayah, 0)
 		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/PPOB/PDAM/chooseWilayah'), 0)
 		Mobile.setText(findTestObject('Object Repository/Bayarind/Android/PPOB/PDAM/kolomCustomerID'), GlobalVariable.bayarindIDPDAM, 0)
-		Mobile.waitForElementPresent(findTestObject('Object Repository/Bayarind/Android/PPOB/PDAM/detailPDAM'), 0)
-		CustomKeywords.'general.control.swipeDown'()
 	}
 
 	@Keyword

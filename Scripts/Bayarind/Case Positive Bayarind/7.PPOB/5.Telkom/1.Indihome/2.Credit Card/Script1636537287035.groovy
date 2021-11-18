@@ -21,7 +21,9 @@ CustomKeywords.'bayarind.ppob.ppobTelkom'()
 
 CustomKeywords.'bayarind.ppob.transaksiIndihome'()
 
-Mobile.waitForElementPresent(findTestObject('Object Repository/Bayarind/Android/PPOB/Telkom/detailTelkom'), 0)
+Mobile.delay(1)
+
+CustomKeywords.'general.control.swipeDown'()
 
 Mobile.tap(findTestObject('Object Repository/Bayarind/Android/PPOB/Telkom/btnIndihome/btnNext') ,0)
 

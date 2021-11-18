@@ -15,11 +15,14 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import internal.GlobalVariable as GlobalVariable
 
-CustomKeywords.'bayarind.control.scanQRTable'()
+CustomKeywords.'bayarind.control.bayarindShop'()
+CustomKeywords.'bayarind.control.outletPusat'()
 CustomKeywords.'bayarind.katalog.productBatagor'()
 Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Katalog/btnCheckOut') ,0)
 CustomKeywords.'bayarind.katalog.setQuantityItem'()
 CustomKeywords.'bayarind.katalog.submitOrder'()
+CustomKeywords.'bayarind.control.pilihDelivery'()
+CustomKeywords.'general.control.swipeDown'()
 Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Transaction Detail/btnNext') ,0)
 CustomKeywords.'bayarind.payment.kasBayarind'()
 CustomKeywords.'bayarind.control.inputPINBayarind'()

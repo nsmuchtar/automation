@@ -34,7 +34,7 @@ public class control {
 
 	/*swipe general*/
 	@Keyword
-	def swipeUp(){		
+	def swipeUp(){
 		Mobile.swipe(startXvertical, startYvertical, endXvertical, endYvertical)
 	}
 	@Keyword
@@ -44,30 +44,30 @@ public class control {
 	/*swipe general*/	
 
 	/*swipe detail*/
-		@Keyword
-		def swipeUpDetail(){
-			int heightDetail = Mobile.getElementHeight(findTestObject('Object Repository/Bayarind/Android/PPOB/viewDetail'), 1)
-			int widthDetail = Mobile.getElementWidth(findTestObject('Object Repository/Bayarind/Android/PPOB/viewDetail'), 1)
-		
-			int startXverticalDetail = heightDetail / 2
-			int endXverticalDetail = startXvertical
-			int startYverticalDetail = heightDetail * 0.30
-			int endYverticalDetail = heightDetail * 0.70
-			
-			
-			Mobile.swipe(startXverticalDetail, startYverticalDetail, endXverticalDetail, endYverticalDetail)
-		}
-		@Keyword
-		def swipeDownDetail(){
-			int heightDetail = Mobile.getElementHeight(findTestObject('Object Repository/Bayarind/Android/PPOB/viewDetail'), 1)
-			int widthDetail = Mobile.getElementWidth(findTestObject('Object Repository/Bayarind/Android/PPOB/viewDetail'), 1)
-		
-			int startXverticalDetail = heightDetail / 2
-			int endXverticalDetail = startXvertical
-			int startYverticalDetail = heightDetail * 0.30
-			int endYverticalDetail = heightDetail * 0.70
-			
-			Mobile.swipe(startXverticalDetail, endYverticalDetail, endXverticalDetail, startYverticalDetail)
-		}
+	@Keyword
+	def swipeUpDetail(){
+		int heightDetail = Mobile.getElementHeight(findTestObject('Object Repository/Bayarind/Android/PPOB/viewDetail'), 1)
+		int widthDetail = Mobile.getElementWidth(findTestObject('Object Repository/Bayarind/Android/PPOB/viewDetail'), 1)
+
+		int startXverticalDetail = heightDetail / 2
+		int endXverticalDetail = startXverticalDetail
+		int startYverticalDetail = heightDetail * 0.30
+		int endYverticalDetail = heightDetail * 0.70
+
+
+		Mobile.swipe(startXverticalDetail, startYverticalDetail, endXverticalDetail, endYverticalDetail)
+	}
+	@Keyword
+	def swipeDownDetail(){
+		int heightDetail = Mobile.getElementHeight(findTestObject('Object Repository/Bayarind/Android/PPOB/viewDetail'), 1)
+		int widthDetail = Mobile.getElementWidth(findTestObject('Object Repository/Bayarind/Android/PPOB/viewDetail'), 1)
+
+		int startXverticalDetail = heightDetail / 2
+		int endXverticalDetail = startXverticalDetail
+		int startYverticalDetail = heightDetail * 0.30
+		int endYverticalDetail = heightDetail * 0.70
+
+		Mobile.swipe(startXverticalDetail, endYverticalDetail, endXverticalDetail, startYverticalDetail)
+	}
 	/*swipe detail*/
 }

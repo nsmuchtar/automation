@@ -25,7 +25,7 @@ CustomKeywords.'bayarind.ppob.ppobPBB'()
 
 CustomKeywords.'bayarind.ppob.TransaksiPBB'()
 
-String amount = Mobile.getText(findTestObject('Object Repository/Bayarind/Android/PPOB/TV Cable/amountPelanggan'), 0).replace('Rp', '').replace('.', '')
+String amount = Mobile.getText(findTestObject('Object Repository/Bayarind/Android/PPOB/PBB/amountPelanggan'), 0).replace('Rp', '').replace('.', '')
 String transactionFee = Mobile.getText(findTestObject('Object Repository/Bayarind/Android/PPOB/PBB/transactionFeePelanggan'), 0).replace('Rp', '').replace('.', '')
 String actualTotalBill = Mobile.getText(findTestObject('Object Repository/Bayarind/Android/PPOB/PBB/totalBillPelanggan'), 0).replace('Rp', '').replace('.', '')
 

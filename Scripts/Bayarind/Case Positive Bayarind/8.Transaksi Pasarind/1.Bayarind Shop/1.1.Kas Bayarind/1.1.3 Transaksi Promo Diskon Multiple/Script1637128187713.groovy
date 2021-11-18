@@ -17,11 +17,14 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-CustomKeywords.'bayarind.control.scanQRTable'()
+CustomKeywords.'bayarind.control.bayarindShop'()
+CustomKeywords.'bayarind.control.outletPusat'()
 CustomKeywords.'bayarind.katalog.productBatagor'()
 Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Katalog/btnCheckOut') ,0)
 CustomKeywords.'bayarind.katalog.setQuantityItem'()
 CustomKeywords.'bayarind.katalog.submitOrder'()
+CustomKeywords.'bayarind.control.pilihDelivery'()
+CustomKeywords.'general.control.swipeDown'()
 CustomKeywords.'bayarind.control.promoMultiple'()
 Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Transaction Detail/btnNext') ,0)
 CustomKeywords.'bayarind.payment.kasBayarind'()

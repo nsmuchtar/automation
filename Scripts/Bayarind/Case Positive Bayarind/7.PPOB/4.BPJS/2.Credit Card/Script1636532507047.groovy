@@ -21,6 +21,10 @@ CustomKeywords.'bayarind.ppob.ppobBPJS'()
 
 CustomKeywords.'bayarind.ppob.transaksiBPJS'()
 
+Mobile.delay(1)
+
+CustomKeywords.'general.control.swipeDown'()
+
 Mobile.tap(findTestObject('Object Repository/Bayarind/Android/PPOB/BPJS/btnNext'), 0)
 
 CustomKeywords.'bayarind.payment.creditCard'()
