@@ -1,0 +1,26 @@
+{
+  "keywordFileContentHash": "E3D982E3774F0853303833EAA3927F93",
+  "keywordClasses": [
+    {
+      "name": "pasarind_smallscreen.promo",
+      "keywordMethods": [
+        {
+          "name": "noPromo",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "promoNoMultiple",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "promoMultiple",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

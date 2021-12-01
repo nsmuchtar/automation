@@ -21,7 +21,7 @@ CustomKeywords.'bayarind.ppob.ppobGames'()
 
 CustomKeywords.'bayarind.ppob.transaksiGames'()
 
-Mobile.tap(findTestObject('Object Repository/Bayarind/Android/PPOB/Games/btnNext') ,0)
+Mobile.tap(findTestObject('Object Repository/Bayarind/Android/PPOB/Games/btnConfirm') ,0)
 
 CustomKeywords.'bayarind.payment.creditCard'()
 

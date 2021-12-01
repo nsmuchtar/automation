@@ -1,10 +1,10 @@
 {
-  "keywordFileContentHash": "BC0F81AA29E211FC0CC3552B74193633",
+  "keywordFileContentHash": "35CA9AE017240A585142C1E61365A0BB",
   "keywordClasses": [
     {
       "name": "Transaksi_Cash",
       "keywordMethods": []
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }

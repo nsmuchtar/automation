@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "72F73DB2515ED21564D2A2606CB375C8",
+  "keywordFileContentHash": "50FC80AFCB0FBB05F3AC1FE076BC3856",
   "keywordClasses": [
     {
       "name": "pasarind_smallscreen.control",
@@ -46,6 +46,16 @@
         },
         {
           "name": "cekKategoriProduct",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "pilihMeja",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "createInvoice",
           "parameters": [],
           "javadoc": ""
         }

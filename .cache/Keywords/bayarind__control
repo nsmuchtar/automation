@@ -1,59 +1,71 @@
 {
-  "keywordFileContentHash": "799DF39606C505ACC5131C5FB9FF4654",
+  "keywordFileContentHash": "0ADEA45DE86A9AD39088BB8942300B7F",
   "keywordClasses": [
     {
       "name": "bayarind.control",
       "keywordMethods": [
         {
           "name": "inputPINBayarind",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "scanQRTable",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "bayarindShop",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "outletPusat",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "outletCabang",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "pilihDelivery",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "inputOTP",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "closeBanner",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "doneTransactionPPOB",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "doneTransactionPasarind",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "promoNoMultiple",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "promoMultiple",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         }
       ]
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }

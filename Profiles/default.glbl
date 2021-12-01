@@ -655,6 +655,31 @@
       <name>stock5</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
+      <description>LIST MEJA</description>
+      <initValue>'LIST MEJA'</initValue>
+      <name>LIST_MEJA</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Takeaway'</initValue>
+      <name>namameja</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>2</initValue>
+      <name>quantityitem1</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>1</initValue>
+      <name>quantityitem2</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>3</initValue>
+      <name>quantityitem3</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
       <description>BAYARIND</description>
       <initValue>'BAYARIND'</initValue>
       <name>BAYARIND</name>
@@ -701,7 +726,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'123123'</initValue>
+      <initValue>'115599'</initValue>
       <name>bayarindconfirmpin</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -1293,5 +1318,15 @@
       <description></description>
       <initValue>'GoSend Instant Delivery'</initValue>
       <name>bayarindjenisdelivery</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'TEST BY QA'</initValue>
+      <name>customername</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'082388113845'</initValue>
+      <name>nohpcustomerbayarind</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

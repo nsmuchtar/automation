@@ -1,0 +1,51 @@
+{
+  "keywordFileContentHash": "3F185D08496B03D634B506312BD1138C",
+  "keywordClasses": [
+    {
+      "name": "pasarind_smallscreen.product",
+      "keywordMethods": [
+        {
+          "name": "productBatagor",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "productGurameBakar",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "productNasiGorengMurah",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "ProductPaketAyamGreprekPaketA",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "ProductPaketAyamGreprekPaketB",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "MieAcehGoreng",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "MieAcehTongseng",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "MieAcehRebus",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

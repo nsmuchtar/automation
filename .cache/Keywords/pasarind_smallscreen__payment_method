@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "5CFB821A7DD914C2FAEC43B6416393DF",
+  "keywordClasses": [
+    {
+      "name": "pasarind_smallscreen.payment_method",
+      "keywordMethods": [
+        {
+          "name": "sendInvoiceBayarind",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

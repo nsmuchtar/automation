@@ -51,6 +51,7 @@ public class control {
 		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Homepage/btnShopNow') ,0)
 		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Bayarind Shop/kolomSearchMerchant'), 0)
 		Mobile.setText(findTestObject('Object Repository/Bayarind/Android/Bayarind Shop/kolomSearchMerchant'), GlobalVariable.bayarindnamamerchant, 0)
+		Mobile.delay(2)
 		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Bayarind Shop/chooseMerchant'), 0)
 		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Bayarind Shop/btnQuickOrder') ,0)
 	}

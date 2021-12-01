@@ -92,7 +92,7 @@ public class control {
 
 	@Keyword
 	def startSelling () {
-		if (Mobile.waitForElementPresent(findTestObject('Object Repository/Pasarind/Smallscreen/Homepage/btnOpenKasir'), 0) == true) {
+		if (Mobile.waitForElementPresent(findTestObject('Object Repository/Pasarind/Smallscreen/Homepage/btnOpenKasir'), 3) == true) {
 			Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Homepage/btnOpenKasir'), 0)
 			Mobile.setText(findTestObject('Object Repository/Pasarind/Smallscreen/Rekap Kas/kolomInputKasAwal'), GlobalVariable.kasawal, 0)
 			Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Rekap Kas/btnSimpan (1)'), 0)
@@ -111,5 +111,16 @@ public class control {
 			Mobile.pressBack()
 		}else {
 		}
+	}
+
+	@Keyword
+	def pilihMeja() {
+		Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/List Merja/' + GlobalVariable.namameja), 0)
+	}
+	@Keyword
+	def createInvoice() {
+		Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Takeaway/btnBayar'), 0)
+		Mobile.setText(findTestObject('Object Repository/Pasarind/Smallscreen/Takeaway/kolomNamaCustomer'), GlobalVariable.customername, 0)
+		Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Takeaway/btnCreateInvoice') ,0)
 	}
 }
