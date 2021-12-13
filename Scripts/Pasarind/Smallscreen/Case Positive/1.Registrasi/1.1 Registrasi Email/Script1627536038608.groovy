@@ -17,78 +17,73 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+long first6 = (long) (Math.random() * 100000);
+
+String randomNumber = String.valueOf(first6)
+
 Mobile.startExistingApplication('sprintasia.tech.pasarind', FailureHandling.STOP_ON_FAILURE)
 
 CustomKeywords.'general.control.swipeDown'()
 
-Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Login Page/btnRegistrasi'), 0)
+Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Login Page/btnRegistrasi'), 0)
 
-Mobile.setText(findTestObject('Object Repository/Pasarind/Smallscreen/Registrasi/kolomUsername'), GlobalVariable.username, 
+Mobile.setText(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Registrasi/kolomUsername'), GlobalVariable.username, 
     0)
 
 
-Mobile.setText(findTestObject('Pasarind/Smallscreen/Registrasi/kolomPIN'), GlobalVariable.PIN, 0)
+Mobile.setText(findTestObject('Pasarind Existing/Smallscreen/Registrasi/kolomPIN'), GlobalVariable.PIN, 0)
 
-Mobile.setText(findTestObject('Object Repository/Pasarind/Smallscreen/Registrasi/kolomInputEmailHP'), GlobalVariable.inputemail, 
+Mobile.setText(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Registrasi/kolomInputEmailHP'), 'testQA' + randomNumber + '@gmail.com', 
     0)
 
-Mobile.tap(findTestObject('Pasarind/Smallscreen/Registrasi/btnNextToStoreInfo (1)'), 0)
+Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Registrasi/btnNextToStoreInfo'), 0)
 
-Mobile.setText(findTestObject('Object Repository/Pasarind/Smallscreen/Registrasi/kolomStoreName'), GlobalVariable.storename, 
+Mobile.setText(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Registrasi/kolomStoreName'), 'StoreQA' + randomNumber, 
     0)
 
-Mobile.tap(findTestObject('Pasarind/Smallscreen/Registrasi/dropDownCategory (1)'), 0)
+Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Registrasi/dropDownCategory'), 0)
 
-Mobile.tap(findTestObject('Pasarind/Smallscreen/Registrasi/categoryFnB (1)'), 0)
+Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Registrasi/categoryFnB'), 0)
 
-Mobile.setText(findTestObject('Object Repository/Pasarind/Smallscreen/Registrasi/kolomNoHP'), GlobalVariable.nohpstore, 
+Mobile.setText(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Registrasi/kolomNoHP'), GlobalVariable.nohpstore, 
     0)
 
-Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Registrasi/pinPoint'), 0)
+Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Registrasi/pinPoint'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Registrasi/tapSearchMap'), 0)
+Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Registrasi/tapSearchMap'), 0)
 
-Mobile.setText(findTestObject('Object Repository/Pasarind/Smallscreen/Registrasi/searchBarMap'), GlobalVariable.storeaddress, 
+Mobile.setText(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Registrasi/searchBarMap'), GlobalVariable.storeaddress, 
     0)
 
-Mobile.tap(findTestObject('Pasarind/Smallscreen/Registrasi/hasilSearch (1)'), 0)
+Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Registrasi/hasilSearch'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Registrasi/btnEnter'), 0)
+Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Registrasi/btnEnter'), 0)
 
 Mobile.delay(3)
 
 CustomKeywords.'general.control.swipeDown'()
 
-Mobile.tap(findTestObject('Pasarind/Smallscreen/Registrasi/dropDownProvinsi (1)'), 0)
+Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Registrasi/dropDownProvinsi'), 0)
 
-Mobile.setText(findTestObject('Object Repository/Pasarind/Smallscreen/Registrasi/searchBarRegistrasi'), GlobalVariable.inputprovinsi, 
-    0)
+Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Registrasi/provinsiDKIJakarta'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Registrasi/hasilSearchDropDown'), 0)
+Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Registrasi/dropDownKota'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Registrasi/dropDownKota (1)'), 0)
-
-Mobile.setText(findTestObject('Object Repository/Pasarind/Smallscreen/Registrasi/searchBarRegistrasi'), GlobalVariable.inputkota, 
-    0)
-
-Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Registrasi/hasilSearchDropDown'), 0)
+Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Registrasi/kotaJakartaSelatan'), 0)
 
 Mobile.delay(2)
 
 CustomKeywords.'general.control.swipeDown'()
 
-Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Registrasi/dropDownKecamatan (1)'), 0)
+Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Registrasi/dropDownKecamatan'), 0)
 
-Mobile.setText(findTestObject('Object Repository/Pasarind/Smallscreen/Registrasi/searchBarRegistrasi'), GlobalVariable.inputkecamatan, 
-    0)
+Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Registrasi/kecamatanPasarMInggu'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Registrasi/hasilSearchDropDown'), 0)
+Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Registrasi/dropDownZipCode'), 0)
 
-Mobile.tap(findTestObject('Pasarind/Smallscreen/Registrasi/dropDownKodePos'), 0)
+Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Registrasi/zipCode12510'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Registrasi/hasilSearchDropDown'), 0)
-
-Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Registrasi/btnNextToTnC (1)'), 0)
+Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Registrasi/btnNextToTnC'), 0)
 
 CustomKeywords.'general.control.swipeDown'()
 
@@ -128,13 +123,11 @@ CustomKeywords.'general.control.swipeDown'()
 
 CustomKeywords.'general.control.swipeDown'()
 
-Mobile.tap(findTestObject('Pasarind/Smallscreen/Registrasi/btnAcceptTnC (2)'), 0)
+Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Registrasi/btnAcceptTnC'), 0)
 
-Mobile.delay(30)
+Mobile.setText(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Registrasi/kolomInputOTP'), GlobalVariable.otpbypass, 0)
 
-Mobile.setText(findTestObject(null), '', 0)
+Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Registrasi/btnVerify'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Registrasi/btnVerify'), 0)
-
-Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Registrasi/btnDoneRegistrasiEmail'), 0)
+Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Registrasi/btnDoneRegistrasiEmail'), 0)
 

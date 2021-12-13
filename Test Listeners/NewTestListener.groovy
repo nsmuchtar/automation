@@ -29,7 +29,7 @@ class NewTestListener {
 	 */
 	@BeforeTestCase
 	def sampleBeforeTestCase(TestCaseContext testCaseContext) {
-		Mobile.startExistingApplication('net.sprintasia.ewallet')
+//		Mobile.startExistingApplication('net.sprintasia.ewallet')
 	}
 
 	/**

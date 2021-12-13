@@ -23,16 +23,16 @@ import internal.GlobalVariable
 public class login {
 	@Keyword
 	def loginOutletPusat() {
-		if (Mobile.verifyElementVisible(findTestObject('Object Repository/Pasarind/Smallscreen/Login Page/iconOutlet'), 3, FailureHandling.OPTIONAL) == true) {
-			Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Login Page/outletPusat'),3, FailureHandling.OPTIONAL)
+		if (Mobile.verifyElementVisible(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Login Page/iconListOutlet'), 3, FailureHandling.OPTIONAL) == true) {
+			Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Login Page/outletPusat'),3, FailureHandling.OPTIONAL)
 		}else {
 		}
 	}
 
 	@Keyword
 	def loginOutletCabang() {
-		if (Mobile.verifyElementVisible(findTestObject('Object Repository/Pasarind/Smallscreen/Login Page/iconOutlet'), 3, FailureHandling.OPTIONAL) == true) {
-			Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Login Page/outletCabang (1)'), 3, FailureHandling.OPTIONAL)
+		if (Mobile.verifyElementVisible(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Login Page/iconListOutlet'), 3, FailureHandling.OPTIONAL) == true) {
+			Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Login Page/outletCabang'), 3, FailureHandling.OPTIONAL)
 		}else {
 		}
 	}

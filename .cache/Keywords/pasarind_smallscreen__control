@@ -1,66 +1,55 @@
 {
-  "keywordFileContentHash": "50FC80AFCB0FBB05F3AC1FE076BC3856",
+  "keywordFileContentHash": "A35D23563831814D4C4C2699A4A83012",
   "keywordClasses": [
     {
       "name": "pasarind_smallscreen.control",
       "keywordMethods": [
         {
           "name": "logoutPasarind",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "inputPIN",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "inputKasDiterima",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "closePopUp",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "scrollDownTnC",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "pilihBatalValidasiUpgradeAccount",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "pilihOKValidasiUpgradeAccount",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "startSelling",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "cekKategoriProduct",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "pilihMeja",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "createInvoice",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         }
       ]
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }

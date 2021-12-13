@@ -23,59 +23,59 @@ import internal.GlobalVariable
 public class control {
 	@Keyword
 	def logoutPasarind() {
-		Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Homepage/btnBurger'), 0)
-		Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Menu Burger/logout'), 0)
-		if (Mobile.verifyElementExist(findTestObject('Object Repository/Pasarind/Smallscreen/Homepage/popUpKasirTutup'), 3, FailureHandling.OPTIONAL) == true) {
-			Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Homepage/btnOkKasir'), 0)
-			Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Rekap Kas/btnTutupKasir'), 0)
+		Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Homepage/btnBurger'), 0)
+		Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Menu Burger/logout'), 0)
+		if (Mobile.verifyElementExist(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Homepage/popUpKasirTutup'), 3, FailureHandling.OPTIONAL) == true) {
+			Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Homepage/btnOkKasir'), 0)
+			Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Rekap Kas/btnTutupKasir'), 0)
 			CustomKeywords.'pasarind_smallscreen.control.inputPIN'()
 			CustomKeywords.'pasarind_smallscreen.control.inputKasDiterima'()
-			Mobile.waitForElementPresent(findTestObject('Object Repository/Pasarind/Smallscreen/Rekap Kas/btnRiwayatKas'), 0)
+			Mobile.waitForElementPresent(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Rekap Kas/btnRiwayatKas'), 0)
 			Mobile.pressBack()
 		}else {
 		}
 	}
 	@Keyword
 	def inputPIN() {
-		Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Input PIN/angka1'), 0)
-		Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Input PIN/angka3'), 0)
-		Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Input PIN/angka0'), 0)
-		Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Input PIN/angka0'), 0)
-		Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Input PIN/angka2'), 0)
-		Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Input PIN/angka7'), 0)
+		Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Input PIN/angka1'), 0)
+		Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Input PIN/angka3'), 0)
+		Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Input PIN/angka0'), 0)
+		Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Input PIN/angka0'), 0)
+		Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Input PIN/angka2'), 0)
+		Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Input PIN/angka7'), 0)
 	}
 	@Keyword
 	def inputKasDiterima() {
-		Mobile.setText(findTestObject('Object Repository/Pasarind/Smallscreen/Rekap Kas/kolomInputTunaiDiterima'), GlobalVariable.tunaiditerima, 0)
-		Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Rekap Kas/btnSimpan'), 0)
+		Mobile.setText(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Rekap Kas/kolomInputTunaiDiterima'), GlobalVariable.tunaiditerima, 0)
+		Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Rekap Kas/btnSimpan'), 0)
 	}
 
 	@Keyword
 	def closePopUp() {
-		if(Mobile.waitForElementPresent(findTestObject('Object Repository/Pasarind/Smallscreen/Registrasi/btnDone'), 3) == true) {
+		if(Mobile.waitForElementPresent(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Registrasi/btnDone'), 3) == true) {
 			Mobile.delay(2)
-			Mobile.waitForElementPresent(findTestObject('Object Repository/Pasarind/Smallscreen/Registrasi/respondError'), 3)
-			Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Registrasi/btnDone'), 3)
-		}else if (Mobile.waitForElementPresent(findTestObject('Object Repository/Pasarind/Smallscreen/Settings/Tax/btnOK'), 3) == true) {
+			Mobile.waitForElementPresent(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Registrasi/respondError'), 3)
+			Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Registrasi/btnDone'), 3)
+		}else if (Mobile.waitForElementPresent(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Settings/Tax/btnOK'), 3) == true) {
 			Mobile.delay(2)
-			Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Settings/Tax/btnOK'), 3)
-		}else if (Mobile.waitForElementPresent(findTestObject('Object Repository/Pasarind/Smallscreen/Settings/Tax/btnSelesai'), 3) == true) {
+			Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Settings/Tax/btnOK'), 3)
+		}else if (Mobile.waitForElementPresent(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Settings/Tax/btnSelesai'), 3) == true) {
 			Mobile.delay(2)
-			Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Settings/Tax/btnSelesai'), 3)
+			Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Settings/Tax/btnSelesai'), 3)
 		}
 	}
 
 	@Keyword
 	def scrollDownTnC() {
-		while (Mobile.waitForElementPresent(findTestObject('Object Repository/Pasarind/Smallscreen/Registrasi/btnAcceptTnC (1)'), 2) == false) {
+		while (Mobile.waitForElementPresent(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Registrasi/btnAcceptTnC (1)'), 2) == false) {
 			CustomKeywords.'general.control.swipeDown'()
 		}
 	}
 
 	@Keyword
 	def pilihBatalValidasiUpgradeAccount() {
-		if (Mobile.waitForElementPresent(findTestObject('Object Repository/Pasarind/Smallscreen/Validasi Upgrade Account/validasiUpgradeAccount'), 3)  == true) {
-			Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Validasi Upgrade Account/btnBatal'), 0)
+		if (Mobile.waitForElementPresent(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Validasi Upgrade Account/validasiUpgradeAccount'), 3)  == true) {
+			Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Validasi Upgrade Account/btnBatal'), 0)
 		}
 		else {
 		}
@@ -83,8 +83,8 @@ public class control {
 
 	@Keyword
 	def pilihOKValidasiUpgradeAccount() {
-		if (Mobile.waitForElementPresent(findTestObject('Object Repository/Pasarind/Smallscreen/Validasi Upgrade Account/validasiUpgradeAccount'), 3)  == true) {
-			Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Validasi Upgrade Account/btnOK'), 0)
+		if (Mobile.waitForElementPresent(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Validasi Upgrade Account/validasiUpgradeAccount'), 3)  == true) {
+			Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Validasi Upgrade Account/btnOK'), 0)
 		}
 		else {
 		}
@@ -92,22 +92,22 @@ public class control {
 
 	@Keyword
 	def startSelling () {
-		if (Mobile.waitForElementPresent(findTestObject('Object Repository/Pasarind/Smallscreen/Homepage/btnOpenKasir'), 3) == true) {
-			Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Homepage/btnOpenKasir'), 0)
-			Mobile.setText(findTestObject('Object Repository/Pasarind/Smallscreen/Rekap Kas/kolomInputKasAwal'), GlobalVariable.kasawal, 0)
-			Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Rekap Kas/btnSimpan (1)'), 0)
+		if (Mobile.waitForElementPresent(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Homepage/btnOpenKasir'), 3) == true) {
+			Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Homepage/btnOpenKasir'), 0)
+			Mobile.setText(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Rekap Kas/kolomInputKasAwal'), GlobalVariable.kasawal, 0)
+			Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Rekap Kas/btnSimpan (1)'), 0)
 		}else {
-			Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Homepage/btnStartSelling'), 0)
+			Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Homepage/btnStartSelling'), 0)
 		}
 	}
 
 	@Keyword
 	def cekKategoriProduct() {
-		if (Mobile.waitForElementPresent(findTestObject('Object Repository/Pasarind/Smallscreen/Product Management/popUpCategoryKosong'), 3) == true) {
-			Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Product Management/btnOK'), 0)
-			Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Category Management/btnAddCategory'), 0)
-			Mobile.setText(findTestObject('Object Repository/Pasarind/Smallscreen/Category Management/kolomKategori'), GlobalVariable.kategorimakanan, 0)
-			Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Category Management/btnSimpan'), 0)
+		if (Mobile.waitForElementPresent(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Product Management/popUpCategoryKosong'), 3) == true) {
+			Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Product Management/btnOK'), 0)
+			Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Category Management/btnAddCategory'), 0)
+			Mobile.setText(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Category Management/kolomKategori'), GlobalVariable.kategorimakanan, 0)
+			Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Category Management/btnSimpan'), 0)
 			Mobile.pressBack()
 		}else {
 		}
@@ -115,12 +115,12 @@ public class control {
 
 	@Keyword
 	def pilihMeja() {
-		Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/List Merja/' + GlobalVariable.namameja), 0)
+		Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/List Merja/' + GlobalVariable.namameja), 0)
 	}
 	@Keyword
 	def createInvoice() {
-		Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Takeaway/btnBayar'), 0)
-		Mobile.setText(findTestObject('Object Repository/Pasarind/Smallscreen/Takeaway/kolomNamaCustomer'), GlobalVariable.customername, 0)
-		Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Takeaway/btnCreateInvoice') ,0)
+		Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Takeaway/btnBayar'), 0)
+		Mobile.setText(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Takeaway/kolomNamaCustomer'), GlobalVariable.customername, 0)
+		Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Takeaway/btnCreateInvoice') ,0)
 	}
 }

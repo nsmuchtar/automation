@@ -26,7 +26,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'test00270027@gmail.com'</initValue>
+      <initValue>'test140521@gmail.com'</initValue>
       <name>inputemail</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -36,7 +36,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Merchant Dummy'</initValue>
+      <initValue>'Merchant Dummy ke 1'</initValue>
       <name>storename</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

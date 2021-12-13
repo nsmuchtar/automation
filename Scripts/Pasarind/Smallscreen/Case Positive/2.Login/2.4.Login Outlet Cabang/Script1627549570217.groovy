@@ -19,19 +19,10 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('sprintasia.tech.pasarind')
 
-Mobile.setText(findTestObject('Pasarind/Smallscreen/Login Page/kolomUsername'), GlobalVariable.loginemail, 0)
+Mobile.setText(findTestObject('Pasarind Existing/Smallscreen/Login Page/kolomUsername'), GlobalVariable.loginemail, 0)
 
-Mobile.setText(findTestObject('Object Repository/Pasarind/Smallscreen/Login Page/kolomPIN'), GlobalVariable.PINLogin, 0)
+Mobile.setText(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Login Page/kolomPIN'), GlobalVariable.PINLogin, 0)
 
-Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Login Page/btnLogin'), 0)
+Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Login Page/btnLogin'), 0)
 
 CustomKeywords.'pasarind_smallscreen.login.loginOutletCabang'()
-
-CustomKeywords.'pasarind_smallscreen.control.pilihBatalValidasiUpgradeAccount'()
-
-Mobile.waitForElementPresent(findTestObject('Pasarind/Smallscreen/Homepage/logoPasarind'), 0, FailureHandling.OPTIONAL)
-
-CustomKeywords.'general.control.swipeDown'()
-
-CustomKeywords.'pasarind_smallscreen.control.logoutPasarind'()
-
