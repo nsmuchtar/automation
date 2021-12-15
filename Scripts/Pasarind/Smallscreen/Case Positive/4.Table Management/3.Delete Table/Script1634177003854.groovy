@@ -17,11 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startExistingApplication('sprintasia.tech.pasarind', FailureHandling.STOP_ON_FAILURE)
+Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Table Management/btnOption') , 0)
 
-CustomKeywords.'general.control.swipeDown'()
+Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Table Management/btnHapus'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Table Management/btnHapus'), 0)
-
-Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Table Management/kotakDialogYa'), 0)
+Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Table Management/kotakDialogYa'), 0)
 

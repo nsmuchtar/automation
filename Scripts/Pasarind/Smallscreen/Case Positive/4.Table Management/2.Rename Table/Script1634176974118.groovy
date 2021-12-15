@@ -17,10 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startExistingApplication('sprintasia.tech.pasarind')
+long first6 = (long) (Math.random() * 100000);
 
-CustomKeywords.'general.control.swipeDown'()
+String randomNumber = String.valueOf(first6)
 
-Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Table Management/btnRenameMeja'), 0)
-Mobile.setText(findTestObject('Object Repository/Pasarind/Smallscreen/Table Management/kolomInputNamaMeja'), 'Mejaku Ditest', 0)
-Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Table Management/btnSimpan'), 0)
+Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Table Management/btnOption') , 0)
+Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Table Management/btnRenameMeja'), 0)
+Mobile.setText(findTestObject('Pasarind Existing/Smallscreen/Table Management/kolomRenameMeja'), 'Rename Meja' + randomNumber, 0)
+Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Table Management/btnSimpanRenameMeja'), 0)

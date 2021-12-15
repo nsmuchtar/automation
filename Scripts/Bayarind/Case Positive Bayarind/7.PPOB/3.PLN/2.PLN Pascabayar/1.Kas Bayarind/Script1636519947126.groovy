@@ -51,7 +51,7 @@ CustomKeywords.'bayarind.control.inputPINBayarind'()
 
 CustomKeywords.'bayarind.control.doneTransactionPPOB'()
 
-Mobile.delay(2)
+Mobile.delay(4)
 
 String actualKasBayarind = Mobile.getText(findTestObject('Object Repository/Bayarind/Android/Homepage/saldoKasBayarind'), 0).replace('.', '')
 

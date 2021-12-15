@@ -1,55 +1,71 @@
 {
-  "keywordFileContentHash": "A35D23563831814D4C4C2699A4A83012",
+  "keywordFileContentHash": "94317ACFEC27308AFBC8A94B153B4A54",
   "keywordClasses": [
     {
       "name": "pasarind_smallscreen.control",
       "keywordMethods": [
         {
           "name": "logoutPasarind",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "inputPIN",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "inputKasDiterima",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "closePopUp",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "scrollDownTnC",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "pilihBatalValidasiUpgradeAccount",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "pilihOKValidasiUpgradeAccount",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "startSelling",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "cekKategoriProduct",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
-          "name": "pilihMeja",
-          "parameters": []
+          "name": "chooseTakeaway",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "chooseSocialPayment",
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "createInvoice",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         }
       ]
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }

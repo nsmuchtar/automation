@@ -17,13 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startExistingApplication('sprintasia.tech.pasarind', FailureHandling.STOP_ON_FAILURE)
+long first6 = (long) (Math.random() * 100000);
+
+String randomNumber = String.valueOf(first6)
 
 CustomKeywords.'pasarind_smallscreen.menu_pasarind.tableManagement'()
 
-Mobile.tap(findTestObject('Pasarind/Smallscreen/Table Management/btnAddTable'), 0)
+Mobile.tap(findTestObject('Pasarind Existing/Smallscreen/Table Management/btnAddTable'), 0)
 
-Mobile.setText(findTestObject('Pasarind/Smallscreen/Table Management/kolomInputNamaMeja'), GlobalVariable.namatable, 0)
+Mobile.setText(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Table Management/kolomInputNamaMeja'), 'Meja' +randomNumber, 0)
 
-Mobile.tap(findTestObject('Pasarind/Smallscreen/Table Management/btnSimpan'), 0)
+Mobile.tap(findTestObject('Pasarind Existing/Smallscreen/Table Management/btnSimpan'), 0)
 

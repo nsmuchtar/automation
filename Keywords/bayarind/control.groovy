@@ -125,9 +125,10 @@ public class control {
 			if (Mobile.waitForElementPresent(findTestObject('Object Repository/Bayarind/Android/Done Transaction/btnAddFavorite'), 3) == true ) {
 				Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Done Transaction/btnAddFavorite'), 0)
 			}else {
-				Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Done Transaction/btnDoneTransactionPPOB'), 0)
+				
 			}
 		}
+		Mobile.delay(3)
 	}
 
 	@Keyword

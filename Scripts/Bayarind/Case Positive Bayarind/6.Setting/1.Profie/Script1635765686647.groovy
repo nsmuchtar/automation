@@ -17,13 +17,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+long first6 = (long) (Math.random() * 100000);
+
+String randomNumber = String.valueOf(first6)
+
+String email = 'TESTQA' + randomNumber + '@gmail.com'
+
 Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Homepage/btnAccount'), 0)
 
 Mobile.tap(findTestObject('Bayarind/Android/Setting/btnProfile'), 0)
 
 CustomKeywords.'general.control.swipeDown'()
 
-Mobile.setText(findTestObject('Object Repository/Bayarind/Android/Setting/Profile/kolomEmail'), GlobalVariable.bayarinduseremail, 0)
+Mobile.setText(findTestObject('Object Repository/Bayarind/Android/Setting/Profile/kolomEmail'), email, 0)
 
 Mobile.setText(findTestObject('Object Repository/Bayarind/Android/Setting/Profile/kolomAddress'), GlobalVariable.bayarinduseraddress, 0)
 

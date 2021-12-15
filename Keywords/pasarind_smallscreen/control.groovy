@@ -114,8 +114,13 @@ public class control {
 	}
 
 	@Keyword
-	def pilihMeja() {
-		Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/List Merja/' + GlobalVariable.namameja), 0)
+	def chooseTakeaway() {
+		Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/List Meja/takeaway'), 0)
+	}
+	
+	@Keyword
+	def chooseSocialPayment() {
+		Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/List Meja/socialPayment'), 0)
 	}
 	@Keyword
 	def createInvoice() {

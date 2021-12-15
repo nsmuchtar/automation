@@ -23,47 +23,46 @@ import internal.GlobalVariable
 public class menu_pasarind {
 	@Keyword
 	def tableManagement() {
-		Mobile.tap(findTestObject('Pasarind/Smallscreen/Homepage/btnBurger'), 0)
-		Mobile.tap(findTestObject('Pasarind/Smallscreen/Menu Burger/outlet'), 0)
-		Mobile.tap(findTestObject('Pasarind/Smallscreen/Menu Burger/tableManagement'), 0)
+		Mobile.tap(findTestObject('Pasarind Existing/Smallscreen/Homepage/btnBurger'), 0)
+		Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Menu Burger/tableManagement'), 0)
 	}
 
 	@Keyword
 	def outletManagement() {
-		Mobile.tap(findTestObject('Pasarind/Smallscreen/Homepage/btnBurger'), 0)
-		Mobile.tap(findTestObject('Pasarind/Smallscreen/Menu Burger/outlet'), 0)
+		Mobile.tap(findTestObject('Pasarind Existing/Smallscreen/Homepage/btnBurger'), 0)
+		Mobile.tap(findTestObject('Pasarind Existing/Smallscreen/Menu Burger/outlet'), 0)
 	}
 
 	@Keyword
 	def employeeManagement() {
-		Mobile.tap(findTestObject('Pasarind/Smallscreen/Homepage/btnBurger'), 0)
-		Mobile.tap(findTestObject('Pasarind/Smallscreen/Menu Burger/employee'), 0)
+		Mobile.tap(findTestObject('Pasarind Existing/Smallscreen/Homepage/btnBurger'), 0)
+		Mobile.tap(findTestObject('Pasarind Existing/Smallscreen/Menu Burger/employee'), 0)
 	}
 
 	@Keyword
 	def customerManagement() {
-		Mobile.tap(findTestObject('Pasarind/Smallscreen/Homepage/btnBurger'), 0)
-		Mobile.tap(findTestObject('Pasarind/Smallscreen/Menu Burger/employee'), 0)
+		Mobile.tap(findTestObject('Pasarind Existing/Smallscreen/Homepage/btnBurger'), 0)
+		Mobile.tap(findTestObject('Pasarind Existing/Smallscreen/Menu Burger/employee'), 0)
 	}
 
 	@Keyword
 	def productManagement() {
-		Mobile.tap(findTestObject('Pasarind/Smallscreen/Homepage/btnBurger'), 0)
-		Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Menu Burger/product'), 0)
-		Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Menu Burger/productManagement'), 0)
+		Mobile.tap(findTestObject('Pasarind Existing/Smallscreen/Homepage/btnBurger'), 0)
+		Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Menu Burger/product'), 0)
+		Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Menu Burger/productManagement'), 0)
 	}
 
 	@Keyword
 	def Tax() {
-		Mobile.tap(findTestObject('Pasarind/Smallscreen/Homepage/btnBurger'), 0)
-		Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Menu Burger/settings'), 0)
-		Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Settings/' + GlobalVariable.tax), 0)
+		Mobile.tap(findTestObject('Pasarind Existing/Smallscreen/Homepage/btnBurger'), 0)
+		Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Menu Burger/settings'), 0)
+		Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Settings/' + GlobalVariable.tax), 0)
 	}
 
 	@Keyword
 	def storeSchedule() {
-		Mobile.tap(findTestObject('Pasarind/Smallscreen/Homepage/btnBurger'), 0)
-		Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Menu Burger/settings'), 0)
-		Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Settings/storeSchedule'), 0)
+		Mobile.tap(findTestObject('Pasarind Existing/Smallscreen/Homepage/btnBurger'), 0)
+		Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Menu Burger/settings'), 0)
+		Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Settings/storeSchedule'), 0)
 	}
 }

@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('sprintasia.tech.pasarind')
 CustomKeywords.'pasarind_smallscreen.control.startSelling'()
-CustomKeywords.'pasarind_smallscreen.control.pilihMeja'()
+CustomKeywords.'pasarind_smallscreen.control.chooseTakeaway'()
 CustomKeywords.'pasarind_smallscreen.product.productBatagor'()
 CustomKeywords.'pasarind_smallscreen.control.createInvoice'()
 CustomKeywords.'pasarind_smallscreen.promo.promoNoMultiple'()

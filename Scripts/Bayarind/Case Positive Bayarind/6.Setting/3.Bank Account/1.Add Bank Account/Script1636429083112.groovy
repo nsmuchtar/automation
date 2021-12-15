@@ -17,13 +17,21 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+long first6 = (long) (Math.random() * 100000L);
+
+String randomNumber = String.valueOf(first6)
+
+String bankAccount = '6644' + randomNumber
+
 Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Homepage/btnAccount'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Setting/btnBankAccount'), 0)	
 
 Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Setting/Bank Account/btnAddNewCard'), 0)
 
-Mobile.setText(findTestObject('Object Repository/Bayarind/Android/Setting/Bank Account/kolomAccountNumber'), GlobalVariable.bayarindaccountnumber, 0)
+Mobile.delay(1)
+
+Mobile.setText(findTestObject('Object Repository/Bayarind/Android/Setting/Bank Account/kolomAccountNumber'), bankAccount, 0)
 
 Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Setting/Bank Account/btnAddBankAccount') ,0)
 
