@@ -18,5 +18,6 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 Mobile.startApplication('C:/Users/Sprint User/Downloads/pasarind-staging-2.1.1.1 (11).apk', false)
+Mobile.startExistingApplication('sprintasia.tech.pasarind')
 Mobile.delay(5)
 Mobile.closeApplication()
