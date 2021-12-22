@@ -23,6 +23,7 @@ import internal.GlobalVariable
 public class promo {
 	@Keyword
 	def noPromo() {
+		Mobile.scrollToText('Tidak Menggunakan Promo')
 		Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Promo/btnNoPromo') ,0)
 	}
 	@Keyword

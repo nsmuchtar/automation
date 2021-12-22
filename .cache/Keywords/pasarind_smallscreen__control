@@ -1,86 +1,75 @@
 {
-  "keywordFileContentHash": "D828CF9B86F1F3BA8F154ED174A1DE90",
+  "keywordFileContentHash": "49AD700BBBAF748A662CAB09B5412990",
   "keywordClasses": [
     {
       "name": "pasarind_smallscreen.control",
       "keywordMethods": [
         {
           "name": "logoutPasarind",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
+        },
+        {
+          "name": "openKasir",
+          "parameters": []
         },
         {
           "name": "inputPIN",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "inputKasDiterima",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "closePopUp",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "scrollDownTnC",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "pilihBatalValidasiUpgradeAccount",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "pilihOKValidasiUpgradeAccount",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "startSelling",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "cekKategoriProduct",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "chooseTakeaway",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "reorderTakeaway",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "chooseSocialPayment",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "reorderSocialPayment",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "createInvoice",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "saveInvoice",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         }
       ]
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }

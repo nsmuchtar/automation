@@ -35,6 +35,21 @@ public class control {
 		}else {
 		}
 	}
+
+	@Keyword
+	def openKasir() {
+		if(Mobile.waitForElementPresent(findTestObject('Object Repository/Pasarind Existing/Smallscreen/List Meja/btnOpenKasir'), 3) == true) {
+			Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/List Meja/btnOpenKasir'), 0)
+			Mobile.setText(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Rekap Kas/kolomInputKasAwal'), GlobalVariable.kasawal, 0)
+			Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Rekap Kas/btnSimpan'), 0)
+		}else if (Mobile.waitForElementPresent(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Homepage/btnOpenKasir'), 3) == true) {
+			Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Homepage/btnOpenKasir'), 0)
+			Mobile.setText(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Rekap Kas/kolomInputKasAwal'), GlobalVariable.kasawal, 0)
+			Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Rekap Kas/btnSimpan'), 0)
+		}else {
+		}
+	}
+
 	@Keyword
 	def inputPIN() {
 		Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Input PIN/angka1'), 0)
@@ -92,14 +107,18 @@ public class control {
 
 	@Keyword
 	def startSelling () {
-		if (Mobile.waitForElementPresent(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Homepage/btnOpenKasir'), 3) == true) {
-			Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Homepage/btnOpenKasir'), 0)
-			Mobile.setText(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Rekap Kas/kolomInputKasAwal'), GlobalVariable.kasawal, 0)
-			Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Rekap Kas/btnSimpan (1)'), 0)
+		if(Mobile.waitForElementPresent(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Homepage/totalPendapatan'), 3) == true) {
+			CustomKeywords.'pasarind_smallscreen.control.openKasir'()
+			Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Homepage/btnStartSelling') ,0)
+		}else if (Mobile.waitForElementPresent(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Homepage/totalPendapatan'), 3) == true){
+			Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Homepage/btnStartSelling') ,0)
+		}else if (Mobile.waitForElementPresent(findTestObject('Object Repository/Pasarind Existing/Smallscreen/List Meja/dashboardKasirSPV'), 3) == true){
+			CustomKeywords.'pasarind_smallscreen.control.openKasir'()
 		}else {
-			Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Homepage/btnStartSelling'), 0)
+			
 		}
 	}
+
 
 	@Keyword
 	def cekKategoriProduct() {
@@ -119,12 +138,12 @@ public class control {
 		if (Mobile.verifyElementExist(findTestObject('Object Repository/Pasarind Existing/Smallscreen/List Meja/btnNewBill'), 3) == true) {
 			Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/List Meja/btnNewBill') ,0)
 		}else {
-			
 		}
 	}
-	
+
 	@Keyword
 	def reorderTakeaway() {
+		Mobile.pressBack()
 		Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/List Meja/takeaway'), 0)
 		Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/List Meja/newestOrder') ,0)
 	}
@@ -135,12 +154,12 @@ public class control {
 		if (Mobile.verifyElementExist(findTestObject('Object Repository/Pasarind Existing/Smallscreen/List Meja/btnNewBill'), 3) == true) {
 			Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/List Meja/btnNewBill') ,0)
 		}else {
-			
 		}
 	}
-	
+
 	@Keyword
 	def reorderSocialPayment() {
+		Mobile.pressBack()
 		Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/List Meja/socialPayment'), 0)
 		Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/List Meja/newestOrder') ,0)
 	}
@@ -150,9 +169,10 @@ public class control {
 		Mobile.setText(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Takeaway/kolomNamaCustomer'), GlobalVariable.customername, 0)
 		Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Takeaway/btnCreateInvoice') ,0)
 	}
-	
+
 	@Keyword
 	def saveInvoice() {
+		Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Takeaway/btnSimpan'), 0)
 		Mobile.setText(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Takeaway/kolomNamaCustomer'), GlobalVariable.customername, 0)
 		Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Takeaway/btnCreateInvoice') ,0)
 	}

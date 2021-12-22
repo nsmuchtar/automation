@@ -17,7 +17,14 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('C:/Users/Sprint User/Downloads/pasarind-staging-2.1.1.1 (11).apk', false)
 Mobile.startExistingApplication('sprintasia.tech.pasarind')
-Mobile.delay(5)
-Mobile.closeApplication()
+if(Mobile.waitForElementPresent(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Homepage/totalPendapatan'), 3) == true) {
+	CustomKeywords.'pasarind_smallscreen.control.openKasir'()
+	Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Homepage/btnStartSelling') ,0)
+}else if (Mobile.waitForElementPresent(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Homepage/totalPendapatan'), 3) == true){
+	Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Homepage/btnStartSelling') ,0)
+}else if (Mobile.waitForElementAttributeValue(findTestObject('Object Repository/Pasarind Existing/Smallscreen/List Meja/btnOpenKasir'), 'text', 'BUKA KASIR', 3) == true){
+	CustomKeywords.'pasarind_smallscreen.control.openKasir'()
+}else {
+	
+}

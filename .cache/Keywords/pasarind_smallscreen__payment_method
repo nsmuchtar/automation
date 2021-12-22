@@ -1,11 +1,31 @@
 {
-  "keywordFileContentHash": "5CFB821A7DD914C2FAEC43B6416393DF",
+  "keywordFileContentHash": "FE645916809D605DB6DF03C86050893F",
   "keywordClasses": [
     {
       "name": "pasarind_smallscreen.payment_method",
       "keywordMethods": [
         {
           "name": "sendInvoiceBayarind",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "fixedCash",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "changeCash",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "paymentStatic",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "doneTransaction",
           "parameters": [],
           "javadoc": ""
         }
