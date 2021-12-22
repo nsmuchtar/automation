@@ -116,15 +116,43 @@ public class control {
 	@Keyword
 	def chooseTakeaway() {
 		Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/List Meja/takeaway'), 0)
+		if (Mobile.verifyElementExist(findTestObject('Object Repository/Pasarind Existing/Smallscreen/List Meja/btnNewBill'), 3) == true) {
+			Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/List Meja/btnNewBill') ,0)
+		}else {
+			
+		}
 	}
 	
 	@Keyword
+	def reorderTakeaway() {
+		Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/List Meja/takeaway'), 0)
+		Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/List Meja/newestOrder') ,0)
+	}
+
+	@Keyword
 	def chooseSocialPayment() {
 		Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/List Meja/socialPayment'), 0)
+		if (Mobile.verifyElementExist(findTestObject('Object Repository/Pasarind Existing/Smallscreen/List Meja/btnNewBill'), 3) == true) {
+			Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/List Meja/btnNewBill') ,0)
+		}else {
+			
+		}
+	}
+	
+	@Keyword
+	def reorderSocialPayment() {
+		Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/List Meja/socialPayment'), 0)
+		Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/List Meja/newestOrder') ,0)
 	}
 	@Keyword
 	def createInvoice() {
 		Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Takeaway/btnBayar'), 0)
+		Mobile.setText(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Takeaway/kolomNamaCustomer'), GlobalVariable.customername, 0)
+		Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Takeaway/btnCreateInvoice') ,0)
+	}
+	
+	@Keyword
+	def saveInvoice() {
 		Mobile.setText(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Takeaway/kolomNamaCustomer'), GlobalVariable.customername, 0)
 		Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Takeaway/btnCreateInvoice') ,0)
 	}

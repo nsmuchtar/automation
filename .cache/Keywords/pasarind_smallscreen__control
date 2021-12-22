@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "94317ACFEC27308AFBC8A94B153B4A54",
+  "keywordFileContentHash": "D828CF9B86F1F3BA8F154ED174A1DE90",
   "keywordClasses": [
     {
       "name": "pasarind_smallscreen.control",
@@ -55,12 +55,27 @@
           "javadoc": ""
         },
         {
+          "name": "reorderTakeaway",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
           "name": "chooseSocialPayment",
           "parameters": [],
           "javadoc": ""
         },
         {
+          "name": "reorderSocialPayment",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
           "name": "createInvoice",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "saveInvoice",
           "parameters": [],
           "javadoc": ""
         }
