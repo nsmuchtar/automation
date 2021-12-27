@@ -6,70 +6,86 @@
       "keywordMethods": [
         {
           "name": "logoutPasarind",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "openKasir",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "inputPIN",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "inputKasDiterima",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "closePopUp",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "scrollDownTnC",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "pilihBatalValidasiUpgradeAccount",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "pilihOKValidasiUpgradeAccount",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "startSelling",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "cekKategoriProduct",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "chooseTakeaway",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "reorderTakeaway",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "chooseSocialPayment",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "reorderSocialPayment",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "createInvoice",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "saveInvoice",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         }
       ]
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }

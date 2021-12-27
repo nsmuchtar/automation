@@ -17,21 +17,21 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startExistingApplication('sprintasia.tech.pasarind', FailureHandling.STOP_ON_FAILURE)
+Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Employee Management/btnAddEmployee'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Employee Management/btnAddEmployee'), 0)
+Mobile.setText(findTestObject('Pasarind Existing/Smallscreen/Employee Management/kolomNamaEmployee'), GlobalVariable.employeecashier, 0)
 
-Mobile.setText(findTestObject('Pasarind/Smallscreen/Employee Management/inputNamaEmployee'), GlobalVariable.employeecashier, 0)
+Mobile.setText(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Employee Management/kolomEmailHP'), GlobalVariable.akunemployee2, 0)
 
-Mobile.setText(findTestObject('Object Repository/Pasarind/Smallscreen/Employee Management/inputEmailHP'), GlobalVariable.akunemployee2, 0)
+Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Employee Management/pilihPrivilage'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Employee Management/pilihPrivilage'), 0)
+Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Employee Management/privilageCashier'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Employee Management/privilageCashier'), 0)
+Mobile.setText(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Employee Management/kolomPIN'), GlobalVariable.pinemployee, 0)
 
-Mobile.setText(findTestObject('Object Repository/Pasarind/Smallscreen/Employee Management/inputPIN'), GlobalVariable.pinemployee, 0)
-x
-Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Employee Management/btnSimpan'), 0)
+Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Employee Management/btnSimpan'), 0)
 
-CustomKeywords.'pasarind_smallscreen.control.closePopUp'()
+Mobile.waitForElementPresent(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Employee Management/wordingSuksesAdd'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Employee Management/btnOK') ,0)
 

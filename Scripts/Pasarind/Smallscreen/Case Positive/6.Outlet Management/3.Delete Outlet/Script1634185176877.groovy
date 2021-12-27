@@ -17,12 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startExistingApplication('sprintasia.tech.pasarind')
-Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Homepage/btnBurger'), 0)
-Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Menu Burger/outlet'), 0)
-Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Menu Burger/listStore'), 0)
-Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Outlet Management/chooseOutletCabang'), 0)
+Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Outlet Management/outletCabang'), 0)
 Mobile.scrollToText('Hapus Toko Ini')
-Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Outlet Management/btnDeleteOutlet'),0)
-Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Outlet Management/kotakDialogYa'), 0)
+Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Outlet Management/btnDeleteOutlet'),0)
+Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Outlet Management/kotakDialogYa'), 0)
 

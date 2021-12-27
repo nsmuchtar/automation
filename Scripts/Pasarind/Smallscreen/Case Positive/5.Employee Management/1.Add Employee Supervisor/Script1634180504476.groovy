@@ -21,19 +21,21 @@ Mobile.startExistingApplication('sprintasia.tech.pasarind', FailureHandling.STOP
 
 CustomKeywords.'pasarind_smallscreen.menu_pasarind.employeeManagement'()
 
-Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Employee Management/btnAddEmployee'), 0)
+Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Employee Management/btnAddEmployee'), 0)
 
-Mobile.setText(findTestObject('Pasarind/Smallscreen/Employee Management/inputNamaEmployee'), GlobalVariable.employeesupervisor, 0)
+Mobile.setText(findTestObject('Pasarind Existing/Smallscreen/Employee Management/kolomNamaEmployee'), GlobalVariable.employeesupervisor, 0)
 
-Mobile.setText(findTestObject('Object Repository/Pasarind/Smallscreen/Employee Management/inputEmailHP'), GlobalVariable.akunemployee1, 0)
+Mobile.setText(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Employee Management/kolomEmailHP'), GlobalVariable.akunemployee1, 0)
 
-Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Employee Management/pilihPrivilage'), 0)
+Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Employee Management/pilihPrivilage'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Employee Management/privilageSupervisor'), 0)
+Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Employee Management/privilageSupervisor'), 0)
 
-Mobile.setText(findTestObject('Object Repository/Pasarind/Smallscreen/Employee Management/inputPIN'), GlobalVariable.pinemployee, 0)
+Mobile.setText(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Employee Management/kolomPIN'), GlobalVariable.pinemployee, 0)
 
-Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Employee Management/btnSimpan'), 0)
+Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Employee Management/btnSimpan'), 0)
 
-CustomKeywords.'pasarind_smallscreen.control.closePopUp'()
+Mobile.waitForElementPresent(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Employee Management/wordingSuksesAdd'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Employee Management/btnOK') ,0)
 

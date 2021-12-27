@@ -17,10 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startExistingApplication('sprintasia.tech.pasarind', FailureHandling.STOP_ON_FAILURE)
+Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Employee Management/chooseEmployee'), 0)
 
-Mobile.tap(findTestObject('Pasarind/Smallscreen/Employee Management/chooseEmployee'), 0)
+Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Employee Management/btnDeleteEmployee'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Employee Management/btnDeleteEmployee'), 0)
-
-Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Employee Management/kotakDialogYa'), 0)
+Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Employee Management/kotakDialogYa'), 0)
