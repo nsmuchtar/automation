@@ -17,23 +17,25 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Purchase Order/dropDownPO'), 0)
+Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Adjustment/dropDownAdjustment'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Purchase Order/poMaterial') ,0)
+Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Adjustment/adjustmentMaterial') ,0)
 
-Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Purchase Order/dropDownMaterial'), 0)
+Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Adjustment/btnAddMaterial') ,0)
 
-Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Purchase Order/chooseItem'), 0)
+Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Adjustment/item1'), 0)
 
-Mobile.setText(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Purchase Order/quantityPurchase'), '10', 0)
+Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Adjustment/actualStock1'), 0)
 
-Mobile.setText(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Purchase Order/purchasePrice'), '1000', 0)
+Mobile.setText(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Adjustment/kolomActualStock'), '100', 0)
 
-Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Purchase Order/btnSimpan') ,0)
+Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Adjustment/btnSimpanActualStock') ,0)
 
-Mobile.waitForElementPresent(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Purchase Order/wordingSukses'), 0)
+Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Adjustment/btnSimpan') ,0)
 
-Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Purchase Order/btnDone') ,0)
+Mobile.waitForElementPresent(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Adjustment/wordingSuksesAdjustment'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Purchase Order/btnDone'), 0)
 
 Mobile.delay(1)
 

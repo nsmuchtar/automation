@@ -14,31 +14,31 @@
    <testCaseLink>
       <guid>85f1da4b-12d6-4cf6-9c65-8840e346e3cf</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Pasarind/Smallscreen/Case Positive/5.Employee Management/1.Add Employee Supervisor</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>55561f7b-0739-45a8-8d8a-1417fd006411</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Pasarind/Smallscreen/Case Positive/5.Employee Management/2.Add Employee Cashier</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>23946afb-738d-46d6-8828-f23c9a722ad5</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Pasarind/Smallscreen/Case Positive/5.Employee Management/3.Add Employee Kitchen</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>f9efb119-4d9a-445c-8351-1241d9629e7e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Pasarind/Smallscreen/Case Positive/5.Employee Management/4.Edit Employee</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>595e4240-74f5-4803-8397-211cdef7386c</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Pasarind/Smallscreen/Case Positive/5.Employee Management/5.Delete Employee</testCaseId>
    </testCaseLink>
    <testCaseLink>

@@ -115,7 +115,6 @@ public class control {
 		}else if (Mobile.waitForElementPresent(findTestObject('Object Repository/Pasarind Existing/Smallscreen/List Meja/dashboardKasirSPV'), 3) == true){
 			CustomKeywords.'pasarind_smallscreen.control.openKasir'()
 		}else {
-			
 		}
 	}
 
@@ -175,5 +174,14 @@ public class control {
 		Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Takeaway/btnSimpan'), 0)
 		Mobile.setText(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Takeaway/kolomNamaCustomer'), GlobalVariable.customername, 0)
 		Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Takeaway/btnCreateInvoice') ,0)
+	}
+	
+	@Keyword
+	def appPasarind() {
+		Mobile.startExistingApplication('sprintasia.tech.pasarind')
+		while (Mobile.verifyElementExist(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Homepage/logoPasarind'), 3) == false) {
+			Mobile.pressBack()
+			Mobile.delay(0.5)
+		}
 	}
 }

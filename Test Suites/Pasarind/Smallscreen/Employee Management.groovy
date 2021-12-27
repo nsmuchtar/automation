@@ -33,7 +33,7 @@ import com.kms.katalon.core.annotation.TearDownTestCase
  */
 @SetUp(skipped = false) // Please change skipped to be false to activate this method.
 def setUp() {
-	Mobile.startExistingApplication('sprintasia.tech.pasarind')
+	CustomKeywords.'pasarind_smallscreen.control.appPasarind'()
 }
 
 /**

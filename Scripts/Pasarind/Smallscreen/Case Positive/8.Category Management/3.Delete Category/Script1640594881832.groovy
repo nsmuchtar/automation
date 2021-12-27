@@ -22,3 +22,7 @@ Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Categ
 Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Category Management/opsiHapus'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Category Management/kotakDialogYa') ,0)
+
+Mobile.delay(1)
+
+Mobile.pressBack()

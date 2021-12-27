@@ -23,3 +23,7 @@ Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Table
 
 Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Table Management/kotakDialogYa'), 0)
 
+Mobile.delay(1)
+
+Mobile.pressBack()
+

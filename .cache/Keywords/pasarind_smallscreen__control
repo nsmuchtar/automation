@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "49AD700BBBAF748A662CAB09B5412990",
+  "keywordFileContentHash": "9EAD465309F9707EC3AC6598787D3FE3",
   "keywordClasses": [
     {
       "name": "pasarind_smallscreen.control",
@@ -81,6 +81,11 @@
         },
         {
           "name": "saveInvoice",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "appPasarind",
           "parameters": [],
           "javadoc": ""
         }
