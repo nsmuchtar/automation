@@ -17,23 +17,22 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-long first6 = (long) (Math.random() * 100000);
+Mobile.startExistingApplication('sprintasia.tech.pasarind')
 
-String randomNumber = String.valueOf(first6)
-long generate = 182341000000L + first6;
+Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Purchase Order/dropDownPO'), 0)
 
-String nohp = String.valueOf(generate);
+Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Purchase Order/poMaterial') ,0)
 
-Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Homepage/btnBurger'), 0)
+Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Purchase Order/dropDownMaterial'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Menu Burger/customer'), 0)
+Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Purchase Order/chooseItem'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Customer Management/btnAddCustomer'), 0)
+Mobile.setText(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Purchase Order/quantityPurchase'), '10', 0)
 
-Mobile.setText(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Customer Management/kolomNamaCustomer'), GlobalVariable.namacustomer + ' ' + randomNumber, 0)
+Mobile.setText(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Purchase Order/purchasePrice'), '1000', 0)
 
-Mobile.setText(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Customer Management/kolomEmailCustomer'), 'customertest' + randomNumber + '@gmail.com', 0)
+Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Purchase Order/btnSimpan') ,0)
 
-Mobile.setText(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Customer Management/kolomNoHPCustomer'), nohp, 0)
+Mobile.waitForElementPresent(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Purchase Order/wordingSukses'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Customer Management/btnSimpan'), 0)
+Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Purchase Order/btnDone') ,0)

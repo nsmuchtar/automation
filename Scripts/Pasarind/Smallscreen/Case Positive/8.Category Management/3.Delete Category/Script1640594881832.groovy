@@ -17,23 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-long first6 = (long) (Math.random() * 100000);
+Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Category Management/btnOption'), 0)
 
-String randomNumber = String.valueOf(first6)
-long generate = 182341000000L + first6;
+Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Category Management/opsiHapus'), 0)
 
-String nohp = String.valueOf(generate);
-
-Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Homepage/btnBurger'), 0)
-
-Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Menu Burger/customer'), 0)
-
-Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Customer Management/btnAddCustomer'), 0)
-
-Mobile.setText(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Customer Management/kolomNamaCustomer'), GlobalVariable.namacustomer + ' ' + randomNumber, 0)
-
-Mobile.setText(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Customer Management/kolomEmailCustomer'), 'customertest' + randomNumber + '@gmail.com', 0)
-
-Mobile.setText(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Customer Management/kolomNoHPCustomer'), nohp, 0)
-
-Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Customer Management/btnSimpan'), 0)
+Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Category Management/kotakDialogYa') ,0)
