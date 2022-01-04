@@ -44,6 +44,11 @@ public class payment {
 		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Input PIN/pin' + GlobalVariable.pin4), 0)
 		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Input PIN/pin' + GlobalVariable.pin5), 0)
 		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Input PIN/pin' + GlobalVariable.pin6), 0)
-		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Done Transaction PPOB Oneklik/btnOK (1)'), 0)
+		if(Mobile.waitForElementPresent(findTestObject('Object Repository/Bayarind/Android/Done Transaction/wordingSuccessMembershipMercedes'), 3) == true) {
+			Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Done Transaction/btnDoneMercedes') ,0)
+		} else {
+			Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Done Transaction PPOB Oneklik/btnOK (1)'), 0)
+		}
+
 	}
 }

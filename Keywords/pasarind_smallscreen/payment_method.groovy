@@ -29,19 +29,19 @@ public class payment_method {
 		Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Payment Method/btnSendInvoiceBayarind') ,0)
 		Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Payment Method/btnDoneSendInvoice'), 0)
 	}
-	
+
 	@Keyword
 	def fixedCash() {
 		Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Payment Method/fixedCash') ,0)
 		Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Payment Method/btnBayar') ,0)
 	}
-	
+
 	@Keyword
 	def changeCash() {
 		Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Payment Method/changeCash') ,0)
-		Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Payment Method/btnBayar') ,0)	
+		Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Payment Method/btnBayar') ,0)
 	}
-	
+
 	@Keyword
 	def paymentStatic() {
 		Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Payment Method/QRStatic') ,0)
@@ -50,7 +50,7 @@ public class payment_method {
 		Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Payment Static/chooseTRX') ,0)
 		Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Payment Static/btnSimpan'), 0)
 	}
-	
+
 	@Keyword
 	def doneTransaction() {
 		Mobile.waitForElementPresent(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Payment Success/wordingSuksesPayment'), 0)

@@ -20,13 +20,13 @@
    <testCaseLink>
       <guid>fea2ff8e-aff9-492c-b1b1-9b96ee05f5af</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Bayarind/Case Positive Bayarind/8.Transaksi Pasarind/2.Scan QR Table/2.1 Kas Bayarind/2.1.2 Transaksi Promo Diskon No Multiple</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>314c9d77-3e37-4ae1-8f0f-be7069be57d2</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Bayarind/Case Positive Bayarind/8.Transaksi Pasarind/2.Scan QR Table/2.1 Kas Bayarind/2.1.3 Transaksi Promo Diskon Multiple</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -44,13 +44,13 @@
    <testCaseLink>
       <guid>31a9637e-4152-4832-b20e-fd66cf41527e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Bayarind/Case Positive Bayarind/8.Transaksi Pasarind/2.Scan QR Table/2.1 Kas Bayarind/2.1.6 Transaksi Promo Item No Multiple</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>00f849c0-8f8c-453f-b775-d0fa8d70bb78</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Bayarind/Case Positive Bayarind/8.Transaksi Pasarind/2.Scan QR Table/2.1 Kas Bayarind/2.1.7 Transaksi Promo Item Multiple</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

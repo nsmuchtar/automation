@@ -134,7 +134,7 @@ public class control {
 	@Keyword
 	def chooseTakeaway() {
 		Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/List Meja/takeaway'), 0)
-		if (Mobile.verifyElementExist(findTestObject('Object Repository/Pasarind Existing/Smallscreen/List Meja/btnNewBill'), 3) == true) {
+		if (Mobile.waitForElementPresent(findTestObject('Object Repository/Pasarind Existing/Smallscreen/List Meja/btnNewBill'), 3, FailureHandling.CONTINUE_ON_FAILURE) == true) {
 			Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/List Meja/btnNewBill') ,0)
 		}else {
 		}
@@ -175,11 +175,11 @@ public class control {
 		Mobile.setText(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Takeaway/kolomNamaCustomer'), GlobalVariable.customername, 0)
 		Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Takeaway/btnCreateInvoice') ,0)
 	}
-	
+
 	@Keyword
 	def appPasarind() {
 		Mobile.startExistingApplication('sprintasia.tech.pasarind')
-		while (Mobile.verifyElementExist(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Homepage/logoPasarind'), 3) == false) {
+		while (Mobile.waitForElementPresent(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Homepage/logoPasarind'), 3, FailureHandling.CONTINUE_ON_FAILURE) == false) {
 			Mobile.pressBack()
 			Mobile.delay(0.5)
 		}

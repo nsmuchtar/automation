@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>2a6d16e4-cd38-4043-8fc1-0b9c6d49cf07</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Bayarind/Case Positive Bayarind/7.PPOB/1.Pulsa dan Paket Data/1.Pulsa/1.Kas Bayarind</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -68,7 +68,7 @@
    <testCaseLink>
       <guid>b730e56f-b2be-43d9-b0e4-7beca0a553b3</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Bayarind/Case Positive Bayarind/7.PPOB/8.PBB/1.Kas Bayarind</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -80,7 +80,7 @@
    <testCaseLink>
       <guid>29cc4616-b8bc-4661-8a86-e53dfc7dc53f</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Bayarind/Case Positive Bayarind/7.PPOB/12.Mercedes/1.Kas Bayarind</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

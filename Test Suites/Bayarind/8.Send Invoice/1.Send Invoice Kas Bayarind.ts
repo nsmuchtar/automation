@@ -32,7 +32,7 @@
    <testCaseLink>
       <guid>a93e09ef-2960-401c-b394-58574bbd1db6</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Bayarind/Case Positive Bayarind/8.Transaksi Pasarind/4.Send Invoice/5.1.Kas Bayarind/5.1.4 Transaksi Promo Amount No Multiple</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -44,13 +44,13 @@
    <testCaseLink>
       <guid>d803b967-0869-4a51-a0cd-89b5dc13acfb</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Bayarind/Case Positive Bayarind/8.Transaksi Pasarind/4.Send Invoice/5.1.Kas Bayarind/5.1.6 Transaksi Promo Item No Multiple</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>522a4acd-2f4e-4859-a13b-e6e53f1446f4</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Bayarind/Case Positive Bayarind/8.Transaksi Pasarind/4.Send Invoice/5.1.Kas Bayarind/5.1.7 Transaksi Promo Item Multiple</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

@@ -47,9 +47,7 @@ public class menu_pasarind {
 
 	@Keyword
 	def productManagement() {
-		Mobile.tap(findTestObject('Pasarind Existing/Smallscreen/Homepage/btnBurger'), 0)
-		Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Menu Burger/product'), 0)
-		Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Menu Burger/productManagement'), 0)
+		Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Homepage/productManagement'), 0)
 	}
 
 	@Keyword

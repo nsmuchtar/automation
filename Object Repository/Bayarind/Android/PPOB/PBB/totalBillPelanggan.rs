@@ -3,7 +3,7 @@
    <description></description>
    <name>totalBillPelanggan</name>
    <tag></tag>
-   <elementGuidId>00000000-0000-0000-0000-000000000000</elementGuidId>
+   <elementGuidId>f1ec367f-6238-41f8-84ba-ab4bba281dc9</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -25,7 +25,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Rp215.000</value>
+      <value>Rp225.000</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -160,6 +160,6 @@
       <type>Main</type>
       <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.LinearLayout[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[2]/android.widget.TextView[2]</value>
    </webElementProperties>
-   <locator>//*[@class = 'android.widget.TextView' and (@text = 'Rp215.000' or . = 'Rp215.000') and @resource-id = 'net.sprintasia.ewallet:id/vTotalPBB']</locator>
+   <locator>//*[@class = 'android.widget.TextView' and (@text = 'Rp225.000' or . = 'Rp225.000') and @resource-id = 'net.sprintasia.ewallet:id/vTotalPBB']</locator>
    <locatorStrategy>ATTRIBUTES</locatorStrategy>
 </MobileElementEntity>

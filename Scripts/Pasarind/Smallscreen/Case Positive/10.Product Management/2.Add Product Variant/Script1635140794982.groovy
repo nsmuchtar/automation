@@ -17,48 +17,57 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startExistingApplication('sprintasia.tech.pasarind')
+long first14 = (long) (Math.random() * 100000000000000L);
 
-Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Product Management/btnAddProduct'),0)
+long generate1 = 5200000000000000L + first14;
+long generate2 = 3241550000000000L + first14;
+String sku1 = String.valueOf(generate1)
+String sku2 = String.valueOf(generate2)
 
-Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Product Management/category1'), 0)
+Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Product Management/btnAddProduct'),0)
 
-Mobile.setText(findTestObject('Object Repository/Pasarind/Smallscreen/Product Management/kolomProductName'), GlobalVariable.namaproduct2, 0)
+Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Product Management/category1'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Product Management/btnAddVariant') ,0)
+Mobile.setText(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Product Management/kolomProductName'), GlobalVariable.namaproduct2, 0)
 
-Mobile.setText(findTestObject('Object Repository/Pasarind/Smallscreen/Product Management/kolomProductName'), GlobalVariable.variant3, 0)
+Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Product Management/btnAddVariant') ,0)
 
-Mobile.setText(findTestObject('Object Repository/Pasarind/Smallscreen/Product Management/kolomSellingPrice'), GlobalVariable.sellingprice3, 0)
+Mobile.setText(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Product Management/kolomVariantName'), GlobalVariable.variant3, 0)
 
-Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Product Management/switchDeskripsi'), 0)
+Mobile.setText(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Product Management/kolomSellingPrice'), GlobalVariable.sellingprice3, 0)
 
-Mobile.setText(findTestObject('Object Repository/Pasarind/Smallscreen/Product Management/kolomCapitalPrice'), GlobalVariable.baseprice1, 0)
+Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Product Management/switchDeskripsi'), 0)
 
-Mobile.setText(findTestObject('Object Repository/Pasarind/Smallscreen/Product Management/kolomDeskripsi'), GlobalVariable.deskripsi1, 0)
+Mobile.setText(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Product Management/kolomBasePrice'), GlobalVariable.baseprice1, 0)
 
-Mobile.scrollToText('simpan')
+Mobile.setText(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Product Management/kolomSKU'), sku1, 0)
 
-Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Product Management/btnSimpanProduct'), 0 )
+Mobile.setText(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Product Management/kolomDeskripsi'), GlobalVariable.deskripsi1, 0)
 
-Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Product Management/btnAddVariant01') ,0)
+CustomKeywords.'general.control.swipeDown'()
 
-Mobile.setText(findTestObject('Object Repository/Pasarind/Smallscreen/Product Management/kolomProductName'), GlobalVariable.variant4, 0)
+Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Product Management/btnSimpan'), 0 )
 
-Mobile.setText(findTestObject('Object Repository/Pasarind/Smallscreen/Product Management/kolomSellingPrice'), GlobalVariable.sellingprice4, 0)
+Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Product Management/btnAddVariant01') ,0)
 
-Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Product Management/switchDeskripsi'), 0)
+Mobile.setText(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Product Management/kolomVariantName'), GlobalVariable.variant4, 0)
 
-Mobile.setText(findTestObject('Object Repository/Pasarind/Smallscreen/Product Management/kolomCapitalPrice'), GlobalVariable.baseprice2, 0)
+Mobile.setText(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Product Management/kolomSellingPrice'), GlobalVariable.sellingprice4, 0)
 
-Mobile.setText(findTestObject('Object Repository/Pasarind/Smallscreen/Product Management/kolomDeskripsi'), GlobalVariable.deskripsi2, 0)
+Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Product Management/switchDeskripsi'), 0)
 
-Mobile.scrollToText('simpan')
+Mobile.setText(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Product Management/kolomBasePrice'), GlobalVariable.baseprice2, 0)
 
-Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Product Management/btnSimpanProduct'), 0 )
+Mobile.setText(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Product Management/kolomSKU'), sku2, 0)
+
+Mobile.setText(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Product Management/kolomDeskripsi'), GlobalVariable.deskripsi2, 0)
+
+CustomKeywords.'general.control.swipeDown'()
+
+Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Product Management/btnSimpan'), 0 )
 
 Mobile.delay(2)
 
-Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Product Management/btnSimpanProduct'), 0 )
+Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Product Management/btnSimpan'), 0 )
 
-Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Product Management/kotakDialogTidak'),0)
+Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Product Management/kotakDialogTidak'),0)

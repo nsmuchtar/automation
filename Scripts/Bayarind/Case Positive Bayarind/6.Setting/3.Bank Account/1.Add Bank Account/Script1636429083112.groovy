@@ -21,7 +21,7 @@ long first6 = (long) (Math.random() * 100000L);
 
 String randomNumber = String.valueOf(first6)
 
-String bankAccount = '6644' + randomNumber
+String bankAccount = '66424' + randomNumber
 
 Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Homepage/btnAccount'), 0)
 

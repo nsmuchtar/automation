@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Category Management</name>
+   <name>2.Outlet Management</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,23 +10,23 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>a9e64f10-c1c4-4f9c-bb21-af62d0fe51a3</testSuiteGuid>
+   <testSuiteGuid>83fc856a-2b9f-4594-b095-97e16356d39c</testSuiteGuid>
    <testCaseLink>
-      <guid>d3409843-ba3b-41da-aef0-afcc79d27cfe</guid>
+      <guid>62deba39-3149-4888-9730-24a627017fac</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Pasarind/Smallscreen/Case Positive/8.Category Management/1.Add Category</testCaseId>
+      <testCaseId>Test Cases/Pasarind/Smallscreen/Case Positive/6.Outlet Management/1.Add Outlet</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>ebf5c828-c2c0-4b42-b893-18eae252d4d8</guid>
+      <guid>6cca7095-abd6-4750-9d63-fee8f4fd0851</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Pasarind/Smallscreen/Case Positive/8.Category Management/2.Edit Category</testCaseId>
+      <testCaseId>Test Cases/Pasarind/Smallscreen/Case Positive/6.Outlet Management/2.Edit Outlet</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>4f299af7-7741-4d40-87d8-55d20239655c</guid>
+      <guid>228733d8-307d-4886-8dbc-eac86c8f1a81</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Pasarind/Smallscreen/Case Positive/8.Category Management/3.Delete Category</testCaseId>
+      <testCaseId>Test Cases/Pasarind/Smallscreen/Case Positive/6.Outlet Management/3.Delete Outlet</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

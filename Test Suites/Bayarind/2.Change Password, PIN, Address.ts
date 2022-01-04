@@ -14,19 +14,19 @@
    <testCaseLink>
       <guid>77f4a6d1-7bc7-4cdc-ae02-233d9e316bbd</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Bayarind/Case Positive Bayarind/6.Setting/4.Change Password</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>8216b992-2ed9-4f57-9805-c4f551a1343c</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Bayarind/Case Positive Bayarind/6.Setting/5.Change PIN</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>516996bf-a755-4aff-9dda-06c5ea50110f</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Bayarind/Case Positive Bayarind/6.Setting/6.Address/6.1.Add Address</testCaseId>
    </testCaseLink>
    <testCaseLink>
