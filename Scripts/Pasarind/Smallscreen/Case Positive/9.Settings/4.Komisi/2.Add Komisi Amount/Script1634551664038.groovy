@@ -19,21 +19,16 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('sprintasia.tech.pasarind', FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Homepage/btnBurger'), 0)
-
-Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Menu Burger/settings'), 0)
-
-Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Settings/komisi'), 0)
-
-//Mobile.tap(findTestObject(''), 0 )
 Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Settings/Commision/dropDownVariant'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Settings/Commision/variant2'), 0)
+Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Settings/Commision/productGurameBakar'), 0)
 
 CustomKeywords.'pasarind_smallscreen.commision.komisiKasirAmount'()
 CustomKeywords.'pasarind_smallscreen.commision.komisiSPVAmount'()
 CustomKeywords.'pasarind_smallscreen.commision.komisiKitchenAmount'()
 
-Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Settings/Commision/btnSimpanKomisi'), 0)
+Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Settings/Commision/btnSimpan'), 0)
 
-CustomKeywords.'pasarind_smallscreen.control.closePopUp'()
+Mobile.waitForElementPresent(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Settings/Commision/wordingSuksesKomisi'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Settings/Commision/btnDone') ,0)

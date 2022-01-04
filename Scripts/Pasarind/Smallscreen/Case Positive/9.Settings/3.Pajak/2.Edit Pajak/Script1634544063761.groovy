@@ -18,8 +18,8 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('sprintasia.tech.pasarind')
-Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Settings/Tax/chooseTax1'),0)
-Mobile.setText(findTestObject('Object Repository/Pasarind/Smallscreen/Settings/Tax/kolomNamaPajak'), GlobalVariable.edittaxname2, 0)
-Mobile.setText(findTestObject('Object Repository/Pasarind/Smallscreen/Settings/Tax/kolomNilaiPajak'), GlobalVariable.editnilaitax2, 0)
-Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Settings/Tax/btnSimpan'), 0)
-CustomKeywords.'pasarind_smallscreen.control.closePopUp'()
+Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Settings/Tax/chooseTax1'),0)
+Mobile.setText(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Settings/Tax/kolomNamaPajak'), GlobalVariable.edittaxname2, 0)
+Mobile.setText(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Settings/Tax/kolomNilaiPajak'), GlobalVariable.editnilaitax2, 0)
+Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Settings/Tax/btnSimpan'), 0)
+Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Settings/Tax/btnOK'), 0)

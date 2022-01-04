@@ -19,40 +19,38 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('sprintasia.tech.pasarind', FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Homepage/btnBurger'), 0)
+Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Homepage/btnBurger'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Menu Burger/settings'), 0)
+Mobile.scrollToText('Pengaturan')
 
-Mobile.setText(findTestObject('Pasarind/Smallscreen/Settings/defaultStock'), GlobalVariable.defaultstock, 
+Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Menu Burger/settings'), 0)
+
+Mobile.setText(findTestObject('Pasarind Existing/Smallscreen/Settings/defaultStock'), GlobalVariable.defaultstock, 
     0)
 
-String ExpectDefaultStock = Mobile.getText(findTestObject('Pasarind/Smallscreen/Settings/defaultStock'), 0)
+String ExpectDefaultStock = Mobile.getText(findTestObject('Pasarind Existing/Smallscreen/Settings/defaultStock'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Homepage/btnBurger'), 0)
+Mobile.pressBack()
 
-Mobile.tap(findTestObject('Pasarind/Smallscreen/Menu Burger/product'), 0)
+CustomKeywords.'pasarind_smallscreen.menu_pasarind.productManagement'()
 
-Mobile.tap(findTestObject('Pasarind/Smallscreen/Menu Burger/productManagement'), 0)
+Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Product Management/btnAddProduct'), 0)
 
-Mobile.tap(findTestObject('null'), 0)
+Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Product Management/category1'), 0)
 
-CustomKeywords.'pasarind_smallscreen.control.cekKategoriProduct'()
+Mobile.setText(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Product Management/kolomProductName'), 'TEST PRODUCT', 0)
 
-Mobile.tap(findTestObject('null'), 0)
+Mobile.setText(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Product Management/kolomSellingPrice'), '69000', 0)
 
-Mobile.setText(findTestObject('null'), 'TEST PRODUCT', 0)
-
-Mobile.setText(findTestObject('null'), '69000', 0)
-
-Mobile.tap(findTestObject('null'), 0)
+Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Product Management/switchDeskripsi'), 0)
 
 CustomKeywords.'general.control.swipeDown'()
 
-Mobile.tap(findTestObject('null'), 0)
+Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Product Management/switchStock'), 0)
 
-String ActualDefaultStock = Mobile.getText(findTestObject('null'), 0)
+Mobile.pressBack()
 
-Mobile.verifyMatch(ExpectDefaultStock, ActualDefaultStock, false)
+Mobile.delay(1)
 
 Mobile.pressBack()
 

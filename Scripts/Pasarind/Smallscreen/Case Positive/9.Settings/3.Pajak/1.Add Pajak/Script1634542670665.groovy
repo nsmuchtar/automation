@@ -19,26 +19,30 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('sprintasia.tech.pasarind', FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Homepage/btnBurger'), 0)
+Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Homepage/btnBurger'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Menu Burger/settings'), 0)
+Mobile.scrollToText('Pengaturan')
 
-Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Settings/pajak'), 0)
+Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Menu Burger/settings'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Settings/Tax/btnAddTax'), 0)
+Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Settings/pajak'), 0)
 
-Mobile.setText(findTestObject('Object Repository/Pasarind/Smallscreen/Settings/Tax/kolomNamaPajak'), GlobalVariable.taxname1, 0)
+Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Settings/Tax/btnAddTax'), 0)
 
-Mobile.setText(findTestObject('Object Repository/Pasarind/Smallscreen/Settings/Tax/kolomNilaiPajak'), GlobalVariable.nilaitax1, 0)
+Mobile.setText(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Settings/Tax/kolomNamaPajak'), GlobalVariable.taxname1, 0)
 
-Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Settings/Tax/btnSimpan'), 0)
+Mobile.setText(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Settings/Tax/kolomNilaiPajak'), GlobalVariable.nilaitax1, 0)
 
-CustomKeywords.'pasarind_smallscreen.control.closePopUp'()
+Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Settings/Tax/btnSimpan'), 0)
 
-Mobile.setText(findTestObject('Object Repository/Pasarind/Smallscreen/Settings/Tax/kolomNamaPajak'), GlobalVariable.taxname2, 0)
+Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Settings/Tax/btnOK') ,0)
 
-Mobile.setText(findTestObject('Object Repository/Pasarind/Smallscreen/Settings/Tax/kolomNilaiPajak'), GlobalVariable.nilaitax2, 0)
+Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Settings/Tax/btnAddTax'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Settings/Tax/btnSimpan'), 0)
+Mobile.setText(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Settings/Tax/kolomNamaPajak'), GlobalVariable.taxname2, 0)
 
-CustomKeywords.'pasarind_smallscreen.control.closePopUp'()
+Mobile.setText(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Settings/Tax/kolomNilaiPajak'), GlobalVariable.nilaitax2, 0)
+
+Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Settings/Tax/btnSimpan'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Settings/Tax/btnOK') ,0)

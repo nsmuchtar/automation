@@ -19,7 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('sprintasia.tech.pasarind', FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Pasarind/Smallscreen/Settings/Tax/btnDeleteTax'), 0)
-
-Mobile.tap(findTestObject('Pasarind/Smallscreen/Settings/Tax/kotakDialogYa'), 0)
-
+while (Mobile.waitForElementPresent(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Settings/Tax/chooseTax1'), 3) == true) {
+	Mobile.tap(findTestObject('Pasarind Existing/Smallscreen/Settings/Tax/btnDeleteTax'), 0)
+	
+	Mobile.tap(findTestObject('Pasarind Existing/Smallscreen/Settings/Tax/kotakDialogYa'), 0)
+}

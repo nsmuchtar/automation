@@ -19,16 +19,17 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('sprintasia.tech.pasarind', FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Homepage/btnBurger'), 0)
+Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Homepage/btnBurger'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Menu Burger/settings'), 0)
+Mobile.scrollToText('Pengaturan')
 
-Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Settings/komisi'), 0)
+Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Menu Burger/settings'), 0)
 
-//Mobile.tap(findTestObject(''), 0 )
-Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Settings/Commision/dropDownVariant'), 0)
+Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Settings/komisi'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Settings/Commision/variant1'), 0)
+Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Settings/Commision/dropDownVariant'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Settings/Commision/productBatagor'), 0)
 
 CustomKeywords.'pasarind_smallscreen.commision.komisiKasirPersen'()
 
@@ -36,6 +37,8 @@ CustomKeywords.'pasarind_smallscreen.commision.komisiSPVPersen'()
 
 CustomKeywords.'pasarind_smallscreen.commision.komisiKitchenPersen'()
 
-Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Settings/Commision/btnSimpanKomisi'), 0)
+Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Settings/Commision/btnSimpan'), 0)
 
-CustomKeywords.'pasarind_smallscreen.control.closePopUp'()
+Mobile.waitForElementPresent(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Settings/Commision/wordingSuksesKomisi'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Settings/Commision/btnDone'), 0)
