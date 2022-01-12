@@ -68,13 +68,13 @@
    <testCaseLink>
       <guid>b730e56f-b2be-43d9-b0e4-7beca0a553b3</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Bayarind/Case Positive Bayarind/7.PPOB/8.PBB/1.Kas Bayarind</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>05cf1dfa-2a7e-4dfb-901c-a1ce08483ed9</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Bayarind/Case Positive Bayarind/7.PPOB/11.Games/1.Kas Bayarind</testCaseId>
    </testCaseLink>
    <testCaseLink>

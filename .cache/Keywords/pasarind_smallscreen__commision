@@ -6,70 +6,86 @@
       "keywordMethods": [
         {
           "name": "komisiKasirPersen",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "komisiKasirAmount",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "komisiSPVPersen",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "komisiSPVAmount",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "komisiKitchenPersen",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "komisiKitchenAmount",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "komisiKasir0",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "komisiSPV0",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "komisiKitchen0",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "komisiKasir20Persen",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "komisiSPV30Persen",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "komisiKitchen50Persen",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "komisiKasir2000",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "komisiSPV5000",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "komisiKitchen4000",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "KomisiSPV3500",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         }
       ]
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }

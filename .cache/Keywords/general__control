@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "FEF695F9EFBE30959606C71E6B7B3B74",
+  "keywordFileContentHash": "F385262B43672097ED9F26F3A598D5CF",
   "keywordClasses": [
     {
       "name": "general.control",
@@ -21,6 +21,16 @@
         },
         {
           "name": "swipeDownDetail",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "swipeDownTakeaway",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "swipeUpTakeaway",
           "parameters": [],
           "javadoc": ""
         }

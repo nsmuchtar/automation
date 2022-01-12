@@ -17,9 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Homepage/btnAccount'), 0)
-
-Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Setting/btnMyID'), 0)
+CustomKeywords.'bayarind.menu.passStore'()
 
 Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Setting/MyID/btnAddOtherCard') ,0)
 

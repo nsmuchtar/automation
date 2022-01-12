@@ -23,6 +23,8 @@ long generate = 3100000000000000L + first14;
 
 String nosim = String.valueOf(generate)
 
+CustomKeywords.'bayarind.menu.passStore'()
+
 Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Setting/MyID/imageESIM') , 0)
 
 Mobile.hideKeyboard()

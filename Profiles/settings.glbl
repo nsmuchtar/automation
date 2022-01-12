@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>settings</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description>PROFILE</description>
+      <initValue>'PROFILE'</initValue>
+      <name>PROFILE</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'gagalsakti95@gmail.com'</initValue>
+      <name>bayarinduseremail</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Female'</initValue>
+      <name>bayarindgender</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Jalan Trisakti No 7'</initValue>
+      <name>bayarinduseraddress</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'DKI Jakarta'</initValue>
+      <name>bayarinduserprovince</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Jakarta Selatan'</initValue>
+      <name>bayarindusercity</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'25164'</initValue>
+      <name>bayarinduserzipcode</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Indonesia'</initValue>
+      <name>bayarindusercountry</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>PASSWORD</description>
+      <initValue>'PASSWORD'</initValue>
+      <name>PASSWORD</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Rahasia123'</initValue>
+      <name>bayarindpassword</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Rahasia321'</initValue>
+      <name>bayarindnewpassword</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>BANK ACCOUNT</description>
+      <initValue>'BANK ACCOUNT'</initValue>
+      <name>BANK_ACCOUNT</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'7124543196'</initValue>
+      <name>bayarindaccountnumber</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>CHANGE PIN</description>
+      <initValue>'CHANGE PIN'</initValue>
+      <name>CHANGE_PIN</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'321321'</initValue>
+      <name>bayarindnewpin</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>ADDRESS</description>
+      <initValue>'ADDRESS'</initValue>
+      <name>ADDRESS</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Kebagusan City'</initValue>
+      <name>bayarindsearchlocation</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Titip Security, Kamar 21'</initValue>
+      <name>bayarinddetailalamat</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Susanto'</initValue>
+      <name>bayarindnamapenerima</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'25161'</initValue>
+      <name>bayarindkodepos</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Kost'</initValue>
+      <name>bayarindlabelalamat</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>WITHDRAWAL</description>
+      <initValue>'WITHDRAWAL'</initValue>
+      <name>WITHDRAWAL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'150000'</initValue>
+      <name>bayarindamountwithdrawal</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

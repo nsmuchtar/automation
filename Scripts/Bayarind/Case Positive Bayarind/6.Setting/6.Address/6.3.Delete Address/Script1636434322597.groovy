@@ -17,6 +17,10 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+CustomKeywords.'bayarind.menu.menuSetting'()
+
+Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Setting/Setting/btnListAddress'), 0)
+
 if(Mobile.waitForElementPresent(findTestObject('Object Repository/Bayarind/Android/Setting/Setting/Address/btnDeleteAddress'), 3, FailureHandling.CONTINUE_ON_FAILURE) == false) {
 	Mobile.pressBack()
 	Mobile.callTestCase(findTestCase('Test Cases/Bayarind/Case Positive Bayarind/6.Setting/6.Address/6.1.Add Address'), null)
@@ -27,3 +31,7 @@ Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Setting/Setting/Ad
 Mobile.verifyElementExist(findTestObject('Object Repository/Bayarind/Android/Setting/Setting/Address/wordingDeleteAddress'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Setting/Setting/Address/btnYesDeleteAddress') ,0)
+
+Mobile.delay(1)
+
+Mobile.pressBack()

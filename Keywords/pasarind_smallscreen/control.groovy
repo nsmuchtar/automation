@@ -165,8 +165,11 @@ public class control {
 	@Keyword
 	def createInvoice() {
 		Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Takeaway/btnBayar'), 0)
-		Mobile.setText(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Takeaway/kolomNamaCustomer'), GlobalVariable.customername, 0)
-		Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Takeaway/btnCreateInvoice') ,0)
+		if (Mobile.waitForElementPresent(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Takeaway/kolomNamaCustomer'), 3) == true) {
+			Mobile.setText(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Takeaway/kolomNamaCustomer'), GlobalVariable.customername, 0)
+			Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Takeaway/btnCreateInvoice') ,0)
+		}else {
+		}
 	}
 
 	@Keyword
@@ -183,5 +186,13 @@ public class control {
 			Mobile.pressBack()
 			Mobile.delay(0.5)
 		}
+	}
+
+	@Keyword
+	def nextTransaction() {
+		Mobile.waitForElementPresent(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Payment Success/wordingSuksesPayment'), 3)
+		Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Payment Success/btnNewTrx'), 0)
+		Mobile.delay(1)
+		Mobile.pressBack()
 	}
 }

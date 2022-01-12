@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>aaaaa6e2-34b7-4fea-af36-4f07835ab031</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Bayarind/Case Positive Bayarind/8.Transaksi Pasarind/2.Scan QR Table/2.1 Kas Bayarind/2.1.1.Transaksi No Promo</testCaseId>
    </testCaseLink>
    <testCaseLink>

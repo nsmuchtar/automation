@@ -17,6 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+CustomKeywords.'bayarind.menu.passStore'()
+
 Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Setting/MyID/imageEKTP') , 0)
 
 Mobile.hideKeyboard()

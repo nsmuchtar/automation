@@ -23,6 +23,8 @@ long generate = 5200000000000000L + first14;
 
 String noktp = String.valueOf(generate)
 
+CustomKeywords.'bayarind.menu.passStore'()
+
 Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Setting/MyID/imageEKTP') , 0)
 
 Mobile.hideKeyboard()

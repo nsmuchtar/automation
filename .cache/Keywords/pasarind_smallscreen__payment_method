@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "5E33F8EA894FAD11A8791190793BDDAB",
+  "keywordFileContentHash": "453E9AD0970033418AB3D1A64F2174AD",
   "keywordClasses": [
     {
       "name": "pasarind_smallscreen.payment_method",
@@ -25,7 +25,12 @@
           "javadoc": ""
         },
         {
-          "name": "doneTransaction",
+          "name": "creditCard",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "debitCard",
           "parameters": [],
           "javadoc": ""
         }

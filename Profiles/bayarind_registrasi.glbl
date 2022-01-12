@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>bayarind_registrasi</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+<GlobalVariableEntity>
+      <description></description>
+      <initValue>'82388113845'</initValue>
+      <name>bayarindphonenumber</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Test by QA'</initValue>
+      <name>bayarinduserfullname</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Male ato Female</description>
+      <initValue>'Female'</initValue>
+      <name>bayarindgender</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Rahasia123'</initValue>
+      <name>bayarindpassword</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Rahasia123'</initValue>
+      <name>bayarindconfirmpassword</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'082388113845'</initValue>
+      <name>bayarindreferralcode</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>BAYARIND OTP</description>
+      <initValue>'BAYARIND OTP'</initValue>
+      <name>BAYARINDOTP</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'999000'</initValue>
+      <name>bayarindotp</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'989898'</initValue>
+      <name>bayarindotp2</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

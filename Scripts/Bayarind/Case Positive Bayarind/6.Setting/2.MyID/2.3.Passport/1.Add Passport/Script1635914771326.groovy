@@ -25,6 +25,8 @@ long generate2 = 5422135632 + first4;
 String nopassport = String.valueOf(generate1)
 String noreg = String.valueOf(generate2)
 
+CustomKeywords.'bayarind.menu.passStore'()
+
 Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Homepage/btnAccount'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Setting/btnMyID'), 0)

@@ -18,13 +18,14 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('sprintasia.tech.pasarind')
-if(Mobile.waitForElementPresent(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Homepage/totalPendapatan'), 3) == true) {
-	CustomKeywords.'pasarind_smallscreen.control.openKasir'()
-	Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Homepage/btnStartSelling') ,0)
-}else if (Mobile.waitForElementPresent(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Homepage/totalPendapatan'), 3) == true){
-	Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Homepage/btnStartSelling') ,0)
-}else if (Mobile.waitForElementAttributeValue(findTestObject('Object Repository/Pasarind Existing/Smallscreen/List Meja/btnOpenKasir'), 'text', 'BUKA KASIR', 3) == true){
-	CustomKeywords.'pasarind_smallscreen.control.openKasir'()
-}else {
-	
-}
+
+int heightDetail = Mobile.getElementHeight(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Takeaway/bottomSheet'), 1)
+int widthDetail = Mobile.getElementWidth(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Takeaway/bottomSheet'), 1)
+
+int startXverticalDetail = heightDetail / 2
+int endXverticalDetail = startXverticalDetail
+int startYverticalDetail = heightDetail * 0.30
+int endYverticalDetail = heightDetail * 0.70
+
+println(heightDetail)
+println(widthDetail)

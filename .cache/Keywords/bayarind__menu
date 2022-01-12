@@ -1,0 +1,26 @@
+{
+  "keywordFileContentHash": "7FFD262405760F6E08B12CC525A84174",
+  "keywordClasses": [
+    {
+      "name": "bayarind.menu",
+      "keywordMethods": [
+        {
+          "name": "menuSetting",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "menuAccount",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "passStore",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

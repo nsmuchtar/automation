@@ -62,8 +62,9 @@ public class product {
 	def MieAcehGoreng() {
 		Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Takeaway/productMieAceh') ,0)
 		for(int i=1; i <= GlobalVariable.quantityitem1; i++){
-			Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Takeaway/btnAddVariant1') ,0)
+			Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Takeaway/btnAddVariant1') ,0)
 		}
+		Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Takeaway/btnSimpanQuantityVariant'), 0)
 	}
 
 	@Keyword
@@ -80,5 +81,26 @@ public class product {
 		for(int i=1; i <= GlobalVariable.quantityitem1; i++){
 			Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Takeaway/btnAddVariant3/') ,0)
 		}
+	}
+
+	@Keyword
+	def additionalItem() {
+		Mobile.waitForElementPresent(findTestObject('Pasarind Existing/Smallscreen Exisiting/Takeaway/btnAdditionalItem'), 0)
+		Mobile.tap(findTestObject('Pasarind Existing/Smallscreen Exisiting/Takeaway/btnAdditionalItem'), 0)
+		Mobile.setText(findTestObject('Pasarind Existing/Smallscreen Exisiting/Takeaway/kolomProductName'), 'Rokok Sebungkus', 0)
+		Mobile.setText(findTestObject('Pasarind Existing/Smallscreen Exisiting/Takeaway/kolomSellingPrice'), '10000', 0)
+		Mobile.tap(findTestObject('Pasarind Existing/Smallscreen Exisiting/Takeaway/btnAdd') ,0)
+	}
+	
+	@Keyword
+	def hargaNego() {
+		Mobile.waitForElementPresent(findTestObject('Pasarind Existing/Smallscreen/Takeaway/btnAdditionalItem'), 0)
+		Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Takeaway/chooseProductNego1'), 0)
+		String hargasatuan = Mobile.getText(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Takeaway/hargaSatuan'), 0).replace('@Rp ', '').replace('.', '')
+		int intHargaSatuan = Integer.parseInt(hargasatuan)
+		String hargaNego = intHargaSatuan - 500
+		Mobile.setText(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Takeaway/kolomHargaNego'), hargaNego, 0)
+		Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Takeaway/btnSimpan (1)'), 0)
+		CustomKeywords.'pasarind_smallscreen.control.inputPIN'()
 	}
 }

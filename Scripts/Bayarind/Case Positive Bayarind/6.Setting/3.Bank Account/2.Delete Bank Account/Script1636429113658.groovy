@@ -17,6 +17,10 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+CustomKeywords.'bayarind.menu.menuAccount'()
+
+Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Setting/btnBankAccount'), 0)
+
 Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Setting/Bank Account/btnDeleteCard') ,0)
 
 Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Setting/Bank Account/kotakDialogYes') ,0)

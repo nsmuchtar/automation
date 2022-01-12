@@ -23,17 +23,32 @@ import internal.GlobalVariable
 public class promo {
 	@Keyword
 	def noPromo() {
-		Mobile.scrollToText('Tidak Menggunakan Promo')
-		Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Promo/btnNoPromo') ,0)
+		if (Mobile.waitForElementPresent(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Social Payment/bannerPromo'), 3) == true) {
+		}else {
+			Mobile.scrollToText('Tidak Menggunakan Promo')
+			Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Promo/btnNoPromo') ,0)
+		}
 	}
 	@Keyword
 	def promoNoMultiple() {
-		Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Promo/promoNoMultiple') ,0)
-		Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Promo/btnApplyPromo'), 0)
+		if (Mobile.waitForElementPresent(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Social Payment/bannerPromo'), 3) == true) {
+			Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Social Payment/btnChoosePromo'), 0)
+			Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Promo/promoNoMultiple') ,0)
+			Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Promo/btnApplyPromo'), 0)
+		}else {
+			Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Promo/promoNoMultiple') ,0)
+			Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Promo/btnApplyPromo'), 0)
+		}
 	}
 	@Keyword
 	def promoMultiple() {
-		Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Promo/promoMultiple') ,0)
-		Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Promo/btnApplyPromo'), 0)
+		if (Mobile.waitForElementPresent(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Social Payment/bannerPromo'), 3) == true) {
+			Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Social Payment/btnChoosePromo'), 0)
+			Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Promo/promoMultiple') ,0)
+			Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Promo/btnApplyPromo'), 0)
+		}else {
+			Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Promo/promoMultiple') ,0)
+			Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Promo/btnApplyPromo'), 0)
+		}
 	}
 }

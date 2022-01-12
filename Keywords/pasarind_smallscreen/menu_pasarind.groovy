@@ -60,6 +60,7 @@ public class menu_pasarind {
 	@Keyword
 	def storeSchedule() {
 		Mobile.tap(findTestObject('Pasarind Existing/Smallscreen/Homepage/btnBurger'), 0)
+		Mobile.scrollToText('Pengaturan')
 		Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Menu Burger/settings'), 0)
 		Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Settings/storeSchedule'), 0)
 	}

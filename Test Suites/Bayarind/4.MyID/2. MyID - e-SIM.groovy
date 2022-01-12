@@ -47,9 +47,12 @@ def tearDown() {
 /**
  * Run before each test case starts.
  */
-@SetupTestCase(skipped = true) // Please change skipped to be false to activate this method.
+@SetupTestCase(skipped = false) // Please change skipped to be false to activate this method.
 def setupTestCase() {
-	// Put your code here.
+			while (Mobile.waitForElementPresent(findTestObject('Object Repository/Bayarind/Android/Homepage/logoBayarind'), 3) == false) {
+		Mobile.pressBack()
+		Mobile.delay(1)
+	}
 }
 
 /**

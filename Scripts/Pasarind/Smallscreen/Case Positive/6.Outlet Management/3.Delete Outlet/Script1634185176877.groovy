@@ -17,8 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Outlet Management/outletCabang'), 0)
+Mobile.tap(findTestObject('Pasarind Existing/Smallscreen/Menu Burger/Outlet Management/outletCabang'), 0)
 Mobile.scrollToText('Hapus Toko Ini')
-Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Outlet Management/btnDeleteOutlet'),0)
-Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Outlet Management/kotakDialogYa'), 0)
+Mobile.tap(findTestObject('Pasarind Existing/Smallscreen/Menu Burger/Outlet Management/btnDeleteOutlet'),0)
+Mobile.tap(findTestObject('Pasarind Existing/Smallscreen/Menu Burger/Outlet Management/kotakDialogYa'), 0)
 

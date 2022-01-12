@@ -26,6 +26,8 @@ long generate2 = 5200000000000000L + first14;
 String nokartu = String.valueOf(generate1)
 String nik = String.valueOf(generate2)
 
+CustomKeywords.'bayarind.menu.passStore'()
+
 Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Setting/MyID/imageBPJSKetenagakerjaan') , 0)
 
 Mobile.hideKeyboard()

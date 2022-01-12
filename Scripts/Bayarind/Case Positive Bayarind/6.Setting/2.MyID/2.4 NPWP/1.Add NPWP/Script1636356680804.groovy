@@ -23,9 +23,7 @@ long generate = 500000000000000L + first14;
 
 String nokartu = String.valueOf(generate)
 
-Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Homepage/btnAccount'), 0)
-
-Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Setting/btnMyID'), 0)
+CustomKeywords.'bayarind.menu.passStore'()
 
 Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Setting/MyID/btnAddNPWP') ,0)
 

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>bayarind_shop</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description>SUMMARY ORDER</description>
+      <initValue>'SUMMARY ORDER'</initValue>
+      <name>SUMMARY_ORDER</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'2'</initValue>
+      <name>bayarindquantityitem1</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'1'</initValue>
+      <name>bayarindquantityitem2</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'3'</initValue>
+      <name>bayarindquantityitem3</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'1'</initValue>
+      <name>bayarindquantityitem4</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'1'</initValue>
+      <name>bayarindquantityitem5</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'ini note untuk item 1'</initValue>
+      <name>bayarindnoteitem1</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'ini note untuk item 2'</initValue>
+      <name>bayarindnoteitem2</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'ini note untuk item 3'</initValue>
+      <name>bayarindnoteitem3</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'ini note untuk item 4'</initValue>
+      <name>bayarindnoteitem4</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'ini note untuk item 5'</initValue>
+      <name>bayarindnoteitem5</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>BAYARIND SHOP</description>
+      <initValue>'BAYARIND SHOP'</initValue>
+      <name>BAYARIND_SHOP</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Warungnya si QA'</initValue>
+      <name>bayarindnamamerchant</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'GoSend Instant Delivery'</initValue>
+      <name>bayarindjenisdelivery</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'TEST BY QA'</initValue>
+      <name>customername</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'085264919770'</initValue>
+      <name>nohpcustomerbayarind</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'10000'</initValue>
+      <name>bayarindamountpayment</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

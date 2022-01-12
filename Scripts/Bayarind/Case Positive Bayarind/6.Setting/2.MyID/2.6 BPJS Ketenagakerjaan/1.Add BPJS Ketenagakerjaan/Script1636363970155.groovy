@@ -26,9 +26,7 @@ long generate2 = 5200000000000000L + first14;
 String nokartu = String.valueOf(generate1)
 String nik = String.valueOf(generate2)
 
-Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Homepage/btnAccount'), 0)
-
-Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Setting/btnMyID'), 0)
+CustomKeywords.'bayarind.menu.passStore'()
 
 Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Setting/MyID/btnAddKetenagakerjaan') ,0)
 

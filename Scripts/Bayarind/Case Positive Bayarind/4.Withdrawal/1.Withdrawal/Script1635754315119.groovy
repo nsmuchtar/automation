@@ -21,6 +21,8 @@ String saldoBayarind = Mobile.getText(findTestObject('Object Repository/Bayarind
 
 int beforeSaldoBayarind = Integer.parseInt(saldoBayarind)
 
+CustomKeywords.'bayarind.menu.menuAccount'()
+
 Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Homepage/btnWithdrawal') ,0)
 
 String saldoBayarindWithdrawal = Mobile.getText(findTestObject('Object Repository/Bayarind/Android/Withdrawal/saldoBayarind'), 0).replace('Rp', '').replace('.', '')

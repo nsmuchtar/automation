@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>pass_store</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description>MY ID</description>
+      <initValue>'MY ID'</initValue>
+      <name>MYID</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>E-KTP</description>
+      <initValue>'E-KTP'</initValue>
+      <name>KTP</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'1371020340215021'</initValue>
+      <name>bayarindnik</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Jakarta'</initValue>
+      <name>bayarindtempatlahirKTP</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Wiro Sableng'</initValue>
+      <name>bayarindnamalengkapKTP</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'O'</initValue>
+      <name>bayarindgolongandarahKTP</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Komplek Mahayana Nomor 17'</initValue>
+      <name>bayarindalamatKTP</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'02/03'</initValue>
+      <name>bayarindrtrwKTP</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Jatiasri'</initValue>
+      <name>bayarindkeldesaKTP</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Pauh'</initValue>
+      <name>bayarindkecamatanKTP</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Atheist'</initValue>
+      <name>bayarindAgamaKTP</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Menikah'</initValue>
+      <name>statusperkawinanKTP</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Mahasiswi'</initValue>
+      <name>bayarindpekerjaanKTP</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Rusia'</initValue>
+      <name>bayarindkewarganegaraanKTP</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Seumur Hidup'</initValue>
+      <name>bayarindberlakuKTP</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>E-SIM</description>
+      <initValue>'E-SIM'</initValue>
+      <name>SIM</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Amrullah'</initValue>
+      <name>bayarindnamalengkapSIM</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Komplek Darisana No 9'</initValue>
+      <name>bayarindalamatSIM</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Bandung'</initValue>
+      <name>bayarindTempatLahirSIM</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'176'</initValue>
+      <name>bayarindTinggiBadanSIM</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Mahasiswa'</initValue>
+      <name>bayarindPekerjaanSIM</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'09-11-1995'</initValue>
+      <name>bayarindBerlakuSIM</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>PASSPORT</description>
+      <initValue>'PASSPORT'</initValue>
+      <name>PASSPORT</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Indonesia'</initValue>
+      <name>bayarindnamanegarapassport</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Passport'</initValue>
+      <name>bayarindjenispassport</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Wiro Sableng'</initValue>
+      <name>bayarindnamalengkappassport</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Jakarta'</initValue>
+      <name>bayarindtempatlahirpassport</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Gramedia'</initValue>
+      <name>bayarindkantorpenerbitpassport</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>NPWP</description>
+      <initValue>'NPWP'</initValue>
+      <name>NPWP</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Karto Soewito'</initValue>
+      <name>bayarindnamalengkapNPWP</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Jalan Karto Suwito Nomor 21'</initValue>
+      <name>bayarindalamatNPWP</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>BPJS KESEHATAN</description>
+      <initValue>'BPJS KESEHATAN'</initValue>
+      <name>BPJS_KESEHATAN</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Rahman'</initValue>
+      <name>bayarindnamalengkapBPJSKesehatan</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Gak Tau'</initValue>
+      <name>bayarindfaskestingkat1BPJSKesehatan</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Tingkat 2'</initValue>
+      <name>bayarindkelasrawatBPJSKesehatan</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>BPJS KETENAGAKERJAAN</description>
+      <initValue>'BPJS KETENAGAKERJAAN'</initValue>
+      <name>BPJS_KETENAGAKERJAAN</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Gerard Way'</initValue>
+      <name>bayarindnamalengkapBPJSKetenagakerjaan</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>OTHER CARD</description>
+      <initValue>'OTHER CARD'</initValue>
+      <name>OTHER_CARD</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Gift Card'</initValue>
+      <name>bayarindnamakartuOTHER</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'130027'</initValue>
+      <name>bayarindnomorkartuOTHER</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'NSMuchtar'</initValue>
+      <name>bayarindnamalengkapOTHER</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

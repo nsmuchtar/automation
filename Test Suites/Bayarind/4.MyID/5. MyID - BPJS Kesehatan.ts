@@ -26,7 +26,7 @@
    <testCaseLink>
       <guid>de880884-79c2-4440-8493-ddd52aaac489</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Bayarind/Case Positive Bayarind/6.Setting/2.MyID/2.5 BPJS Kesehatan/3.Share Card</testCaseId>
    </testCaseLink>
    <testCaseLink>

@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "3F185D08496B03D634B506312BD1138C",
+  "keywordFileContentHash": "B5D82A4C525AAD232E94ABD4ACE79068",
   "keywordClasses": [
     {
       "name": "pasarind_smallscreen.product",
@@ -41,6 +41,16 @@
         },
         {
           "name": "MieAcehRebus",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "additionalItem",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "hargaNego",
           "parameters": [],
           "javadoc": ""
         }

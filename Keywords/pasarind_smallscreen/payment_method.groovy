@@ -52,8 +52,24 @@ public class payment_method {
 	}
 
 	@Keyword
-	def doneTransaction() {
-		Mobile.waitForElementPresent(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Payment Success/wordingSuksesPayment'), 0)
-		Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Payment Success/btnNewTrx') ,0)
+	def creditCard() {
+		Mobile.delay(1)
+		CustomKeywords.'general.control.swipeDown'()
+		Mobile.delay(1)
+		CustomKeywords.'general.control.swipeDown'()
+		Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Payment Method/creditCardBCA (1)'), 0)
+		Mobile.setText(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Payment Method/kolomReffNumber'), '0027302100419812', 0)
+		Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Payment Method/btnSimpan'), 0)
+	}
+
+	@Keyword
+	def debitCard() {
+		Mobile.delay(1)
+		CustomKeywords.'general.control.swipeDown'()
+		Mobile.delay(1)
+		CustomKeywords.'general.control.swipeDown'()
+		Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Payment Method/debitCardBCA (1)'), 0)
+		Mobile.setText(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Payment Method/kolomReffNumber'), '0027302100419812', 0)
+		Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Payment Method/btnSimpan'), 0)
 	}
 }

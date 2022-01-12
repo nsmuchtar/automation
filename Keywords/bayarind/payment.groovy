@@ -49,6 +49,11 @@ public class payment {
 		} else {
 			Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Done Transaction PPOB Oneklik/btnOK (1)'), 0)
 		}
+	}
 
+	@Keyword
+	def paymentStatic() {
+		Mobile.setText(findTestObject('Object Repository/Bayarind/Android/Payment/kolomPaymentAmount1'), GlobalVariable.bayarindamountpayment, 0)
+		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Payment/btnNext'), 0)
 	}
 }

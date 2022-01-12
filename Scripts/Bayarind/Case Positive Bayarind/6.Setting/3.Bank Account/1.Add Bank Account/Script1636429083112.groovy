@@ -23,7 +23,7 @@ String randomNumber = String.valueOf(first6)
 
 String bankAccount = '66424' + randomNumber
 
-Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Homepage/btnAccount'), 0)
+CustomKeywords.'bayarind.menu.menuAccount'()
 
 Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Setting/btnBankAccount'), 0)	
 

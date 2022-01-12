@@ -23,9 +23,11 @@ String randomNumber = String.valueOf(first6)
 
 String email = 'TESTQA' + randomNumber + '@gmail.com'
 
-Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Homepage/btnAccount'), 0)
+CustomKeywords.'bayarind.menu.menuAccount'()
 
 Mobile.tap(findTestObject('Bayarind/Android/Setting/btnProfile'), 0)
+
+Mobile.delay(3)
 
 CustomKeywords.'general.control.swipeDown'()
 

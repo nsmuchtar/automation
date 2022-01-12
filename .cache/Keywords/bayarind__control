@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "1BA385F545C3A134A51DB361139B9FFA",
+  "keywordFileContentHash": "B63448FF91ABC17FFDE498CD09761F9D",
   "keywordClasses": [
     {
       "name": "bayarind.control",
@@ -11,6 +11,11 @@
         },
         {
           "name": "scanQRTable",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "scanBarcodeStatic",
           "parameters": [],
           "javadoc": ""
         },

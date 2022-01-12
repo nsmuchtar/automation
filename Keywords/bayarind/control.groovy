@@ -41,11 +41,21 @@ public class control {
 		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/File Manager/btnBurgerFileManager'), 0)
 		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/File Manager/btnImages'), 0)
 		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/File Manager/menuDownload'), 0)
-		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/File Manager/QRMeja'), 0)
+		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/File Manager/qrMejaTester'), 0)
 		Mobile.delay(3)
 		Mobile.waitForElementPresent(findTestObject('Object Repository/Bayarind/Android/Katalog/merchantName'), 0)
 	}
 	
+	@Keyword
+	def scanBarcodeStatic() {
+		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Homepage/btnScanQR'), 0)
+		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Scan QR/btnChooseImage'),0)
+		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/File Manager/btnBurgerFileManager'), 0)
+		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/File Manager/btnImages'), 0)
+		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/File Manager/menuDownload'), 0)
+		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/File Manager/barcodeStaticTester'), 0)
+	}
+
 	@Keyword
 	def bayarindShop() {
 		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Homepage/btnShopNow') ,0)
@@ -55,7 +65,7 @@ public class control {
 		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Bayarind Shop/chooseMerchant'), 0)
 		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Bayarind Shop/btnQuickOrder') ,0)
 	}
-	
+
 	@Keyword
 	def outletPusat() {
 		if (Mobile.waitForElementPresent(findTestObject('Object Repository/Bayarind/Android/Bayarind Shop/imageOutlet'), 3) == true ) {
@@ -65,7 +75,7 @@ public class control {
 			Mobile.waitForElementPresent(findTestObject('Object Repository/Bayarind/Android/Katalog/merchantName'), 0)
 		}
 	}
-	
+
 	@Keyword
 	def outletCabang() {
 		if (Mobile.waitForElementPresent(findTestObject('Object Repository/Bayarind/Android/Bayarind Shop/imageOutlet'), 3) == true ) {
@@ -85,7 +95,7 @@ public class control {
 			Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Delivery/' + GlobalVariable.bayarindjenisdelivery), 0)
 		}
 	}
-	
+
 	@Keyword
 	def inputOTP() {
 		Mobile.waitForElementPresent(findTestObject('Object Repository/Bayarind/Android/OTP/halamanOTP'), 0)
@@ -125,7 +135,6 @@ public class control {
 			if (Mobile.waitForElementPresent(findTestObject('Object Repository/Bayarind/Android/Done Transaction/btnAddFavorite'), 3) == true ) {
 				Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Done Transaction/btnAddFavorite'), 0)
 			}else {
-				
 			}
 		}
 		Mobile.delay(3)

@@ -19,24 +19,24 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('sprintasia.tech.pasarind', FailureHandling.STOP_ON_FAILURE)
 
-CustomKeywords.'pasarind_smallscreen.menu_pasarind.StoreSchedule'()
+CustomKeywords.'pasarind_smallscreen.menu_pasarind.storeSchedule'()
 
-Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Settings/Store Schedule/Halaman Store Schedule/' + GlobalVariable.inputHari1 + 'Open'), 0)
+Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Settings/Store Schedule/Halaman Store Schedule/' + GlobalVariable.inputHari1 + 'OpenSchedule'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Settings/Store Schedule/Jam/Analog/Jam/' + GlobalVariable.pilihJamBukaAnalog1) ,0)
+Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Settings/Store Schedule/Jam//Jam/' + GlobalVariable.pilihJamBukaAnalog1) ,0)
 
-Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Settings/Store Schedule/Jam/Analog/Menit/' + GlobalVariable.pilihMenitBukaAnalog1) ,0)
+Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Settings/Store Schedule/Jam//Menit/' + GlobalVariable.pilihMenitBukaAnalog1) ,0)
 
-Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Settings/Store Schedule/Jam/Analog/btnOke') ,0)
+Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Settings/Store Schedule/Jam/btnOK') ,0)
 
-Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Settings/Store Schedule/Halaman Store Schedule/' + GlobalVariable.inputHari1 + 'Close'), 0)
+Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Settings/Store Schedule/Halaman Store Schedule/' + GlobalVariable.inputHari1 + 'CloseSchedule'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Settings/Store Schedule/Jam/Analog/Jam/' + GlobalVariable.pilihJamTutupAnalog1) ,0)
+Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Settings/Store Schedule/Jam//Jam/' + GlobalVariable.pilihJamTutupAnalog1) ,0)
 
-Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Settings/Store Schedule/Jam/Analog/Menit/' + GlobalVariable.pilihMenitTutupAnalog1) ,0)
+Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Settings/Store Schedule/Jam//Menit/' + GlobalVariable.pilihMenitTutupAnalog1) ,0)
 
-Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Settings/Store Schedule/Jam/Analog/btnOke') ,0)
+Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Settings/Store Schedule/Jam/btnOK') ,0)
 
-Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Settings/Store Schedule/Halaman Store Schedule/btnSimpanSchedule') ,0)
+Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Settings/Store Schedule/Halaman Store Schedule/btnSimpan') ,0)
 
-CustomKeywords.'pasarind_smallscreen.control.closePopUp'()
+Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Settings/Store Schedule/Halaman Store Schedule/btnDone') ,0)

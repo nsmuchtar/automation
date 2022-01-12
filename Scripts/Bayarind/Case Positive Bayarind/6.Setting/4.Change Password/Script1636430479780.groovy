@@ -17,13 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Homepage/btnAccount'), 0)
+CustomKeywords.'bayarind.menu.menuSetting'()
 
-CustomKeywords.'general.control.swipeDown'()
-
-Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Setting/btnSetting') ,0)
-
-Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Setting/Setting/btnChangePassword') ,0)
+Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Setting/Setting/btnChangePassword'), 0)
 
 Mobile.setText(findTestObject('Object Repository/Bayarind/Android/Setting/Setting/Change Password/kolomOldPassword'), GlobalVariable.bayarindpassword, 0)
 

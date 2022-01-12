@@ -70,4 +70,31 @@ public class control {
 		Mobile.swipe(startXverticalDetail, endYverticalDetail, endXverticalDetail, startYverticalDetail)
 	}
 	/*swipe detail*/
+
+	@Keyword
+	def swipeDownTakeaway() {
+		int heightTakeaway = Mobile.getElementHeight(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Takeaway/rincianPesanan'), 1)
+		int widthTakeaway = Mobile.getElementWidth(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Takeaway/rincianPesanan'), 1)
+
+		int startXverticalTakeaway = heightTakeaway / 2
+		int endXverticalTakeaway = startXverticalTakeaway
+		int startYverticalTakeaway = heightTakeaway * 0.30
+		int endYverticalTakeaway = heightTakeaway * 0.70
+
+		Mobile.swipe(startXverticalTakeaway, endYverticalTakeaway, endXverticalTakeaway, startYverticalTakeaway)
+	}
+
+	@Keyword
+	def swipeUpTakeaway() {
+		int device_Height = Mobile.getElementHeight(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Takeaway/rincianPesanan'), 1)
+		int device_Width = Mobile.getElementWidth(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Takeaway/rincianPesanan'), 1)
+
+		//vertical
+		int startXvertical1 = device_Width / 2
+		int endXvertical1 = startXvertical1
+		int startYvertical1 = device_Height * 0.30
+		int endYvertical1 = device_Height * 0.70
+
+		Mobile.swipe(startXvertical1, startYvertical1, endXvertical1, endYvertical1)
+	}
 }

@@ -23,9 +23,7 @@ long generate = 52000000000000L + first12;
 
 String nosim = String.valueOf(generate)
 
-Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Homepage/btnAccount'), 0)
-
-Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Setting/btnMyID'), 0)
+CustomKeywords.'bayarind.menu.passStore'()
 
 Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Setting/MyID/btnAddESIM') ,0)
 
