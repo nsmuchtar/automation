@@ -45,7 +45,7 @@ public class control {
 		Mobile.delay(3)
 		Mobile.waitForElementPresent(findTestObject('Object Repository/Bayarind/Android/Katalog/merchantName'), 0)
 	}
-	
+
 	@Keyword
 	def scanBarcodeStatic() {
 		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Homepage/btnScanQR'), 0)

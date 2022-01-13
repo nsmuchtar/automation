@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "453E9AD0970033418AB3D1A64F2174AD",
+  "keywordFileContentHash": "7847B4DA6A565001389DF44FF7E70245",
   "keywordClasses": [
     {
       "name": "pasarind_smallscreen.payment_method",
@@ -31,6 +31,21 @@
         },
         {
           "name": "debitCard",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "EasyInvoice",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "googleMailEasyInvoice",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "choosePaymentEasyInvoice",
           "parameters": [],
           "javadoc": ""
         }

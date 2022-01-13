@@ -72,4 +72,47 @@ public class payment_method {
 		Mobile.setText(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Payment Method/kolomReffNumber'), '0027302100419812', 0)
 		Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Payment Method/btnSimpan'), 0)
 	}
+
+	@Keyword
+	def EasyInvoice() {
+		CustomKeywords.'general.control.swipeDown'()
+		Mobile.delay(0.5)
+		CustomKeywords.'general.control.swipeDown'()
+		Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Payment Method/easyInvoice (1)'), 0)
+		Mobile.setText(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Payment Method/kolomEmailHPEasyInvoice'), 'pmqa.ecm@gmail.com' , 0)
+		Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Payment Method/btnSendEasyInvoice'), 0)
+		Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Payment Method/btnDoneSendInvoice') , 0)
+		while (Mobile.waitForElementPresent(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Homepage/logoPasarind'), 3) == true) {
+			Mobile.delay(0.5)
+			Mobile.pressBack()
+		}
+	}
+
+	@Keyword
+	def googleMailEasyInvoice() {
+		Mobile.delay(7)
+		Mobile.startExistingApplication('com.google.android.gm')
+		while (Mobile.waitForElementPresent(findTestObject('Object Repository/Pasarind Existing/Smallscreen/EasyInvoice/homepageGmail'), 3) == false) {
+			Mobile.pressBack()
+		}
+		Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/EasyInvoice/newestMail'), 0)
+		Mobile.delay(2)
+		CustomKeywords.'general.control.swipeDown'()
+		Mobile.delay(0.5)
+		CustomKeywords.'general.control.swipeDown'()
+		Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/EasyInvoice/linkInvoice'), 0)
+	}
+	
+	@Keyword
+	def choosePaymentEasyInvoice() {
+		Mobile.delay(2)
+		CustomKeywords.'general.control.swipeDown'()
+		Mobile.delay(0.3)
+		CustomKeywords.'general.control.swipeDown'()
+		Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Payment Easy Invoice/virtualAccount'), 0)
+		Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Payment Easy Invoice/vaPermata'), 0)
+		CustomKeywords.'general.control.swipeDown'()
+		Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Payment Easy Invoice/checkBoxTnC'), 0)
+		Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Payment Easy Invoice/btnPayNow'), 0)
+	}
 }

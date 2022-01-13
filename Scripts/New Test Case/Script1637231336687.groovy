@@ -17,15 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startExistingApplication('sprintasia.tech.pasarind')
+Mobile.startExistingApplication('net.sprintasia.ewallet')
 
-int heightDetail = Mobile.getElementHeight(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Takeaway/bottomSheet'), 1)
-int widthDetail = Mobile.getElementWidth(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Takeaway/bottomSheet'), 1)
-
-int startXverticalDetail = heightDetail / 2
-int endXverticalDetail = startXverticalDetail
-int startYverticalDetail = heightDetail * 0.30
-int endYverticalDetail = heightDetail * 0.70
-
-println(heightDetail)
-println(widthDetail)
+Mobile.waitForElementPresent(findTestObject('Object Repository/Bayarind/Android/Bayarind Shop/btnQuickOrder'), 0)
+Mobile.pressHome()
