@@ -169,4 +169,26 @@ public class control {
 		Mobile.checkElement(findTestObject('Object Repository/Bayarind/Android/Promo/promoMultiple'), 0)
 		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Promo/btnSavePromo'), 0)
 	}
+
+	@Keyword
+	def splashScreen() {
+		if (Mobile.waitForElementPresent(findTestObject('Object Repository/Bayarind/Android/Splashscreen/accessLocation'), 3) == true) {
+			Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Splashscreen/btnAllow'), 0)
+		} else {
+		}
+
+		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Splashscreen/btnNextSplashscreen') ,0)
+		Mobile.delay(1.5)
+		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Splashscreen/btnNextSplashscreen') ,0)
+		Mobile.delay(1.5)
+		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Splashscreen/btnNextSplashscreen') ,0)
+		Mobile.delay(1.5)
+
+		if (Mobile.waitForElementPresent(findTestObject('Object Repository/Bayarind/Android/Splashscreen/accessPhoneCalls'), 3) == true) {
+			Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Splashscreen/btnAllow'), 0)
+		} else {
+		}
+
+		Mobile.waitForElementPresent(findTestObject('Object Repository/Bayarind/Android/Login Page/kolomPhoneNumber'), 0)
+	}
 }

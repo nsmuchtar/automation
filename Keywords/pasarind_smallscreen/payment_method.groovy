@@ -20,6 +20,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 
 import internal.GlobalVariable
 
+import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
 public class payment_method {
 	@Keyword
 	def sendInvoiceBayarind() {
@@ -101,6 +106,18 @@ public class payment_method {
 		Mobile.delay(0.5)
 		CustomKeywords.'general.control.swipeDown'()
 		Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/EasyInvoice/linkInvoice'), 0)
+		String link = Mobile.getText(findTestObject('Object Repository/Pasarind Existing/Smallscreen/EasyInvoice/linkInvoice'), 0)
+		
+		FileInputStream fis = new FileInputStream("D:\\data testing\\easyinvoice\\1.Transaksi No Promo.xlsx");
+		XSSFWorkbook workbook = new XSSFWorkbook(fis);
+		 
+		XSSFSheet sheet = workbook.getSheetAt(0);
+		Row row = sheet.createRow(0);
+		Cell cell = row.createCell(0);
+		cell.setCellValue(link);
+		FileOutputStream fos = new FileOutputStream("D:\\data testing\\easyinvoice\\1.Transaksi No Promo.xlsx");
+		workbook.write(fos);
+		fos.close();
 	}
 	
 	@Keyword
@@ -109,10 +126,12 @@ public class payment_method {
 		CustomKeywords.'general.control.swipeDown'()
 		Mobile.delay(0.3)
 		CustomKeywords.'general.control.swipeDown'()
-		Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Payment Easy Invoice/virtualAccount'), 0)
+		Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Payment Easy Invoice/virtualAccount (2)'), 0)
 		Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Payment Easy Invoice/vaPermata'), 0)
 		CustomKeywords.'general.control.swipeDown'()
 		Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Payment Easy Invoice/checkBoxTnC'), 0)
 		Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Payment Easy Invoice/btnPayNow'), 0)
+		Mobile.scrollToText('Virtual Account Number')
+		String VA = Mobile.getText(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Payment Easy Invoice/VANumber'), 0)
 	}
 }

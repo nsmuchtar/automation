@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "9BEE769396AE203460C987266631C8CC",
+  "keywordFileContentHash": "074B04AEAB26217E29D533470E0AF886",
   "keywordClasses": [
     {
       "name": "bayarind.control",
@@ -66,6 +66,11 @@
         },
         {
           "name": "promoMultiple",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "splashScreen",
           "parameters": [],
           "javadoc": ""
         }

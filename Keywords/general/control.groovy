@@ -97,4 +97,16 @@ public class control {
 
 		Mobile.swipe(startXvertical1, startYvertical1, endXvertical1, endYvertical1)
 	}
+
+	@Keyword
+	def clearCache() {
+		Mobile.startExistingApplication('com.android.settings')
+		Mobile.scrollToText('Apps')
+		Mobile.tap(findTestObject('Object Repository/Settings Android/Apps'), 0)
+		Mobile.tap(findTestObject('Object Repository/Settings Android/appBayarind'), 0)
+		Mobile.tap(findTestObject('Object Repository/Settings Android/storage'), 0)
+		Mobile.tap(findTestObject('Object Repository/Settings Android/clearData'), 0)
+		Mobile.tap(findTestObject('Object Repository/Settings Android/btnOKClearData'), 0)
+
+	}
 }

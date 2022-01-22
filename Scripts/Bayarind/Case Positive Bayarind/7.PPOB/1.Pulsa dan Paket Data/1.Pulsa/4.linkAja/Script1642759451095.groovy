@@ -17,7 +17,10 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startExistingApplication('net.sprintasia.ewallet')
+CustomKeywords.'bayarind.ppob.ppobPulsa'()
 
-Mobile.waitForElementPresent(findTestObject('Object Repository/Bayarind/Android/Bayarind Shop/btnQuickOrder'), 0)
-Mobile.pressHome()
+CustomKeywords.'bayarind.ppob.transaksiPulsa'()
+
+CustomKeywords.'bayarind.payment.linkAja'()
+
+CustomKeywords.'bayarind.control.doneTransactionPPOB'()

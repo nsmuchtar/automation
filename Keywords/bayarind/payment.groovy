@@ -53,7 +53,27 @@ public class payment {
 
 	@Keyword
 	def paymentStatic() {
+
 		Mobile.setText(findTestObject('Object Repository/Bayarind/Android/Payment/kolomPaymentAmount1'), GlobalVariable.bayarindamountpayment, 0)
 		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Payment/btnNext'), 0)
+	}
+
+	@Keyword
+	def linkAja() {
+		Mobile.delay(0.5)
+		CustomKeywords.'general.control.swipeDown'()
+		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Payment Method/linkAja') ,0)
+		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Payment Method/btnPay') ,0)
+		Mobile.delay(2)
+		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Input PIN/pin' + GlobalVariable.pin1), 0)
+		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Input PIN/pin' + GlobalVariable.pin2), 0)
+		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Input PIN/pin' + GlobalVariable.pin3), 0)
+		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Input PIN/pin' + GlobalVariable.pin4), 0)
+		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Input PIN/pin' + GlobalVariable.pin5), 0)
+		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Input PIN/pin' + GlobalVariable.pin6), 0)
+		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/linkAja/btnSubmit (1)') ,0)
+		Mobile.delay(1)
+		CustomKeywords.'general.control.swipeDown'()
+		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/linkAja/btnProses (1)'), 0)
 	}
 }

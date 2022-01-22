@@ -4,7 +4,7 @@
    <name>bayarind_registrasi</name>
    <tag></tag>
    <defaultProfile>false</defaultProfile>
-<GlobalVariableEntity>
+   <GlobalVariableEntity>
       <description></description>
       <initValue>'82388113845'</initValue>
       <name>bayarindphonenumber</name>
@@ -18,6 +18,11 @@
       <description>Male ato Female</description>
       <initValue>'Female'</initValue>
       <name>bayarindgender</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'989898'</initValue>
+      <name>bayarindotp2</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
@@ -46,7 +51,17 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'989898'</initValue>
-      <name>bayarindotp2</name>
+      <initValue>'naruto1230027@gmail.com'</initValue>
+      <name>bayarindemail</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'082388110000'</initValue>
+      <name>bayarindunverifiedaccount</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Darkcaster1995'</initValue>
+      <name>bayarindunverifiedpassword</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

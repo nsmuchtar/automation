@@ -41,6 +41,8 @@ Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Registrasi/dropDow
 
 Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Registrasi/gender' + GlobalVariable.bayarindgender), 0)
 
+Mobile.setText(findTestObject('Object Repository/Bayarind/Android/Registrasi/kolomEmail'), GlobalVariable.bayarindemail, 0)
+
 Mobile.setText(findTestObject('Object Repository/Bayarind/Android/Registrasi/kolomPassword'), GlobalVariable.bayarindpassword, 
     0)
 

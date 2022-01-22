@@ -21,7 +21,7 @@ CustomKeywords.'bayarind.ppob.ppobPulsaPascaBayar'()
 
 CustomKeywords.'bayarind.ppob.transaksiPulsaPascaBayar'()
 
-
+Mobile.tap(findTestObject('Object Repository/Bayarind/Android/PPOB/Pulsa Pascabayar/btnNext'), 0)
 
 CustomKeywords.'bayarind.payment.oneKlik'()
 

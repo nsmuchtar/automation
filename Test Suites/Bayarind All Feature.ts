@@ -130,6 +130,15 @@
             <profileName>PPOB</profileName>
             <runConfigurationId>Android</runConfigurationId>
          </configuration>
+         <runEnabled>true</runEnabled>
+         <testSuiteEntity>Test Suites/Bayarind/5.PPOB/5.1.Per Payment Method/PPOB Payment linkAja</testSuiteEntity>
+      </TestSuiteRunConfiguration>
+      <TestSuiteRunConfiguration>
+         <configuration>
+            <groupName>Mobile</groupName>
+            <profileName>PPOB</profileName>
+            <runConfigurationId>Android</runConfigurationId>
+         </configuration>
          <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/Bayarind/5.PPOB/5.2.Per PPOB/Membership Mercedes</testSuiteEntity>
       </TestSuiteRunConfiguration>
@@ -238,7 +247,7 @@
             <profileName>bayarind_shop</profileName>
             <runConfigurationId>Android</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
+         <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/Bayarind/6.Scan QR/1.Scan QR - Kas Bayarind</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
@@ -319,7 +328,7 @@
             <profileName>bayarind_shop</profileName>
             <runConfigurationId>Android</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
+         <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/Bayarind/9.Payment Static</testSuiteEntity>
       </TestSuiteRunConfiguration>
    </testSuiteRunConfigurations>
