@@ -11,6 +11,16 @@
          <configuration>
             <groupName>Mobile</groupName>
             <profileName>bayarind_registrasi</profileName>
+            <runConfigurationData>
+               <entry>
+                  <key>deviceName</key>
+                  <value>emulator-5556 (sdk_gphone_x86_arm - Android 11)</value>
+               </entry>
+               <entry>
+                  <key>deviceId</key>
+                  <value>emulator-5556</value>
+               </entry>
+            </runConfigurationData>
             <runConfigurationId>Android</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>

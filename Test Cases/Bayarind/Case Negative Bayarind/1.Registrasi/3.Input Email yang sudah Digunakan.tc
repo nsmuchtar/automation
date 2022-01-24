@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>2.Registrasi Bayarind dan Validasi Email</name>
+   <name>3.Input Email yang sudah Digunakan</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>8c082bfa-a70d-44a7-ae5a-018b4bf6e852</testCaseGuid>
+   <testCaseGuid>edba3204-e5dd-440e-81c3-4408251809ea</testCaseGuid>
 </TestCaseEntity>

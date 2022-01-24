@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>3.Registrasi Bayarind dan Validasi Email via Device Lain</name>
+   <name>2.Registrasi Bayarind dan Validasi Email via Device Lain</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>b6e9fd07-3ec4-4381-af24-290373d4f308</testCaseGuid>

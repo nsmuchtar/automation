@@ -111,7 +111,6 @@ public class control {
 		if (Mobile.waitForElementPresent(findTestObject('Object Repository/Bayarind/Android/Validasi Email/kolomInputEmail'), 3) == true) {
 			Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Validasi Email/btnSkip') ,0)
 		}else {
-			
 		}
 	}
 

@@ -18,27 +18,27 @@
       <testCaseId>Test Cases/Bayarind/Case Positive Bayarind/1.Registrasi/1.Registrasi Bayarind</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>d1eb8b08-e94f-4ffc-9f7f-d74ce307ce28</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Bayarind/Case Positive Bayarind/1.Registrasi/1.Registrasi Bayarind dan Validasi Email</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f38046aa-eb54-42b1-a505-f02da4b399eb</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Bayarind/Case Positive Bayarind/1.Registrasi/2.Registrasi Bayarind dan Validasi Email via Device Lain</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>f6147b32-1fee-402e-9dc2-e50bacdb4f4b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Bayarind/Case Positive Bayarind/2.Forgot PIN/1.Forgot PIN</testCaseId>
+      <testCaseId>Test Cases/Bayarind/Case Positive Bayarind/1.Registrasi/1.Registrasi Bayarind dan Validasi Email</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>888de913-707f-416f-9d6f-469febf6490a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
       <testCaseId>Test Cases/Bayarind/Case Positive Bayarind/3.Login/1.Login</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>c0f70f6b-69d2-4e0d-8880-57b3fb2321df</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Bayarind/Case Positive Bayarind/Validasi Emaill/1.Registrasi with Email</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>4eafd5cc-3909-4d53-97e6-7fe42089a056</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Bayarind/Case Positive Bayarind/Validasi Emaill/2.Validasi Email Existing Account</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

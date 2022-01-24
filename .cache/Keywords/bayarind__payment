@@ -6,26 +6,31 @@
       "keywordMethods": [
         {
           "name": "kasBayarind",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "creditCard",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "oneKlik",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "paymentStatic",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "linkAja",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         }
       ]
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }

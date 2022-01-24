@@ -107,6 +107,19 @@ public class control {
 		Mobile.tap(findTestObject('Object Repository/Settings Android/storage'), 0)
 		Mobile.tap(findTestObject('Object Repository/Settings Android/clearData'), 0)
 		Mobile.tap(findTestObject('Object Repository/Settings Android/btnOKClearData'), 0)
+	}
 
+	@Keyword
+	def validasiEmailBayarind() {
+		Mobile.startExistingApplication('com.google.android.gm')
+		while (Mobile.waitForElementPresent(findTestObject('Object Repository/Google Mail/emailValidasi'), 3) == false ) {
+			Mobile.tap(findTestObject('Object Repository/Google Mail/btnBurgerMail') ,0)
+			Mobile.tap(findTestObject('Object Repository/Google Mail/allInboxes') ,0)
+			Mobile.tap(findTestObject('Object Repository/Google Mail/btnBurgerMail') ,0)
+			Mobile.tap(findTestObject('Object Repository/Google Mail/primary') ,0)
+		}
+		Mobile.tap(findTestObject('Object Repository/Google Mail/emailValidasi') ,0)
+		Mobile.tap(findTestObject('Object Repository/Google Mail/btnVerify (1)') ,0)
+		Mobile.tap(findTestObject('Object Repository/Google Mail/btnHomepage'), 0)
 	}
 }
