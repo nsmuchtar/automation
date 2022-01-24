@@ -50,3 +50,5 @@ import org.openqa.selenium.Keys as Keys
 Mobile.startExistingApplication('net.sprintasia.ewallet')
 driver = MobileDriverFactory.getDriver()
 driver.resetApp()
+
+Mobile.

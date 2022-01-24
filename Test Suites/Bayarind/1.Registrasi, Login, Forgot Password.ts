@@ -38,7 +38,7 @@
    <testCaseLink>
       <guid>4eafd5cc-3909-4d53-97e6-7fe42089a056</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Bayarind/Case Positive Bayarind/Validasi Emaill/2.Validasi Email Existing Account</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

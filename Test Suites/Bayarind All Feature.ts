@@ -13,7 +13,7 @@
             <profileName>bayarind_registrasi</profileName>
             <runConfigurationId>Android</runConfigurationId>
          </configuration>
-         <runEnabled>false</runEnabled>
+         <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Bayarind/1.Registrasi, Login, Forgot Password</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
@@ -130,7 +130,7 @@
             <profileName>PPOB</profileName>
             <runConfigurationId>Android</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
+         <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/Bayarind/5.PPOB/5.1.Per Payment Method/PPOB Payment linkAja</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>

@@ -35,9 +35,9 @@ Mobile.setText(findTestObject('Object Repository/Bayarind/Android/Registrasi/kol
 Mobile.setText(findTestObject('Object Repository/Bayarind/Android/Registrasi/kolomFullName'), GlobalVariable.bayarinduserfullname,
 	0)
 
-Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Registrasi/dropDownGender'), 0)
+//Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Registrasi/dropDownGender'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Registrasi/gender' + GlobalVariable.bayarindgender), 0)
+//Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Registrasi/gender' + GlobalVariable.bayarindgender), 0)
 
 Mobile.setText(findTestObject('Object Repository/Bayarind/Android/Registrasi/kolomEmail'), GlobalVariable.bayarindemail, 0)
 
@@ -66,14 +66,6 @@ Mobile.setText(findTestObject('Object Repository/Bayarind/Android/Registrasi/kol
 
 Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Registrasi/btnCreatePIN'), 0)
 
-CustomKeywords.'bayarind.control.closeBanner'()
+Mobile.waitForElementPresent(findTestObject('Bayarind/Android/PIN/halamanSuccessRegistrasi'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Homepage/btnAccount'), 0)
-
-Mobile.scrollToText('Logout')
-
-Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Setting/btnLogout'), 0)
-
-Mobile.tap(findTestObject('Bayarind/Android/Setting/btnConfirmLogout'), 0)
-
-Mobile.waitForElementPresent(findTestObject('Bayarind/Android/Login Page/btnRegister'), 0)
+Mobile.tap(findTestObject('Object Repository/Bayarind/Android/PIN/btnStartApplicaton'), 0)

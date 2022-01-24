@@ -1,81 +1,67 @@
 {
-  "keywordFileContentHash": "074B04AEAB26217E29D533470E0AF886",
+  "keywordFileContentHash": "56ECDF41BB71E6D4514141F79D2E6B87",
   "keywordClasses": [
     {
       "name": "bayarind.control",
       "keywordMethods": [
         {
           "name": "inputPINBayarind",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "scanQRTable",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "scanBarcodeStatic",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "bayarindShop",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "outletPusat",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "outletCabang",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "pilihDelivery",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "inputOTP",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "closeBanner",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "doneTransactionPPOB",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "doneTransactionPasarind",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "promoNoMultiple",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "promoMultiple",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "splashScreen",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         }
       ]
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }
