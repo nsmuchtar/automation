@@ -23,6 +23,8 @@ long generate = 00000000 + first8;
 
 String nohp = String.valueOf(generate)
 
+Mobile.startExistingApplication('net.sprintasia.ewallet')
+
 Mobile.hideKeyboard()
 
 Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Login Page/btnRegister'), 0)
@@ -41,7 +43,7 @@ Mobile.setText(findTestObject('Object Repository/Bayarind/Android/Registrasi/kol
 
 //Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Registrasi/gender' + GlobalVariable.bayarindgender), 0)
 
-Mobile.setText(findTestObject('Object Repository/Bayarind/Android/Registrasi/kolomEmail'), GlobalVariable.bayarindemail, 0)
+Mobile.setText(findTestObject('Object Repository/Bayarind/Android/Registrasi/kolomEmail'), nohp + '@gmail.com', 0)
 
 Mobile.setText(findTestObject('Object Repository/Bayarind/Android/Registrasi/kolomPassword'), GlobalVariable.bayarindpassword,
 	0)
@@ -74,10 +76,26 @@ Mobile.tap(findTestObject('Object Repository/Bayarind/Android/PIN/btnStartApplic
 
 Mobile.waitForElementPresent(findTestObject('Object Repository/Bayarind/Android/Validasi Email/halamanValidasiEmail'), 0)
 
-Mobile.setText(findTestObject('Object Repository/Bayarind/Android/Validasi Email/kolomInputEmail'), GlobalVariable.bayarindemail, 0)
+Mobile.setText(findTestObject('Object Repository/Bayarind/Android/Validasi Email/kolomInputEmail'), 'novermensm05@gmail.com', 0)
 
 Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Validasi Email/btnConfirm') ,0)
 
 Mobile.waitForElementPresent(findTestObject('Object Repository/Bayarind/Android/Validasi Email/halamanVerify'), 0)
 
 CustomKeywords.'general.control.validasiEmailBayarind'()
+
+Mobile.startExistingApplication('net.sprintasia.ewallet')
+
+CustomKeywords.'bayarind.menu.menuAccount'()
+
+Mobile.tap(findTestObject('Bayarind/Android/Setting/btnProfile'), 0)
+
+	Mobile.delay(3)
+
+Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Profile Revamp/kolomEmail'), 0)
+
+Mobile.setText(findTestObject('Object Repository/Bayarind/Android/Validasi Email/kolomInputEmail'), nohp + '@gmail.com', 0)
+
+Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Validasi Email/btnConfirm'), 0)
+
+Mobile.startExistingApplication('com.google.android.gm')

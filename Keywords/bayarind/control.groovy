@@ -195,4 +195,17 @@ public class control {
 
 		Mobile.waitForElementPresent(findTestObject('Object Repository/Bayarind/Android/Login Page/kolomPhoneNumber'), 0)
 	}
+	
+	@Keyword
+	def logoutBayarind() {
+		while(Mobile.waitForElementPresent(findTestObject('Object Repository/Bayarind/Android/Homepage/btnAccount'), 3) == false ) {
+			Mobile.delay(0.5)
+			Mobile.pressBack()
+		}
+		CustomKeywords.'bayarind.menu.menuAccount'()
+		Mobile.scrollToText('Logout')
+		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Setting/btnLogout'), 0)
+		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Setting/btnConfirmLogout'), 0)
+	}
+	
 }

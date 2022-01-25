@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>5.Registrasi, Input Email, lalu klik confirm</name>
+   <name>5.Registrasi, Input Email, lalu klik confirm tanpa verify</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>9f4acee7-21fd-4450-9855-00b832f9820f</testCaseGuid>

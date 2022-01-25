@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "E215C8033BFEEEC1DD8E52A8185DAAB1",
+  "keywordFileContentHash": "FB298769F9BFF1D8D5C6837344EF17A0",
   "keywordClasses": [
     {
       "name": "bayarind.control",
@@ -71,6 +71,11 @@
         },
         {
           "name": "splashScreen",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "logoutBayarind",
           "parameters": [],
           "javadoc": ""
         }

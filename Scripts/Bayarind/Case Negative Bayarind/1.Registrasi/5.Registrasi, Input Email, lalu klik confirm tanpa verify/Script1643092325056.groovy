@@ -55,6 +55,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+Mobile.startExistingApplication('net.sprintasia.ewallet')
+
 long first8 = (long) (Math.random() * 10000000);
 
 long generate = 00000000 + first8;
@@ -115,8 +117,6 @@ Mobile.waitForElementPresent(findTestObject('Object Repository/Bayarind/Android/
 Mobile.setText(findTestObject('Object Repository/Bayarind/Android/Validasi Email/kolomInputEmail'), nohp + '@gmail.com', 0)
 
 Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Validasi Email/btnConfirm') ,0)
-
-Mobile.waitForElementPresent(findTestObject('Object Repository/Bayarind/Android/Validasi Email/validasiUsedEmail'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Validasi Email/wordingConfirmEmail') ,0)
 

@@ -98,3 +98,7 @@ Mobile.setText(findTestObject('Object Repository/Bayarind/Android/Validasi Email
 Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Validasi Email/btnConfirm') ,0)
 
 Mobile.waitForElementPresent(findTestObject('Object Repository/Bayarind/Android/Validasi Email/validasiUsedEmail'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Validasi Email/btnSkip'), 0)
+
+CustomKeywords.'bayarind.control.logoutBayarind'()
