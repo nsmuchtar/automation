@@ -115,6 +115,32 @@ public class control {
 	}
 
 	@Keyword
+	def favoriteDetailTransaction() {
+		if (Mobile.waitForElementPresent(findTestObject('Object Repository/Bayarind/Android/Done Transaction/btnHowToRedeem'), 3) == true) {
+			Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Done Transaction/btnHowToRedeem'), 0)
+			Mobile.delay(3)
+			Mobile.pressBack()
+		}else {
+			
+		}
+		if (Mobile.waitForElementPresent(findTestObject('Object Repository/Bayarind/Android/Done Transaction/btnSeeDetailTransaction'), 3) == true) {
+			Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Done Transaction/btnSeeDetailTransaction') ,0)
+			Mobile.delay(3)
+			if (Mobile.waitForElementPresent(findTestObject('Object Repository/Bayarind/Android/Detail Transaction/btnHowToRedeem'), 3) == true) {
+			Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Done Transaction/btnHowToRedeem'), 0)
+			Mobile.delay(3)
+			Mobile.pressBack()
+			}else {
+			
+			}
+		}
+		if (Mobile.waitForElementPresent(findTestObject('Object Repository/Bayarind/Android/Done Transaction/btnAddFavorite'), 3) == true) {
+			Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Done Transaction/btnAddFavorite'), 0)
+		}else {
+		}
+	}
+
+	@Keyword
 	def doneTransactionPPOB() {
 		if (Mobile.waitForElementPresent(findTestObject('Object Repository/Bayarind/Android/PPOB/PBB/Payment Status/wordingWaitOperator'), 3) == true) {
 			Mobile.waitForElementPresent(findTestObject('Object Repository/Bayarind/Android/PPOB/PBB/Payment Status/timerPBB'), 0)
@@ -195,7 +221,7 @@ public class control {
 
 		Mobile.waitForElementPresent(findTestObject('Object Repository/Bayarind/Android/Login Page/kolomPhoneNumber'), 0)
 	}
-	
+
 	@Keyword
 	def logoutBayarind() {
 		while(Mobile.waitForElementPresent(findTestObject('Object Repository/Bayarind/Android/Homepage/btnAccount'), 3) == false ) {
@@ -207,5 +233,4 @@ public class control {
 		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Setting/btnLogout'), 0)
 		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Setting/btnConfirmLogout'), 0)
 	}
-	
 }

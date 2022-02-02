@@ -11,19 +11,9 @@
          <configuration>
             <groupName>Mobile</groupName>
             <profileName>bayarind_registrasi</profileName>
-            <runConfigurationData>
-               <entry>
-                  <key>deviceName</key>
-                  <value>emulator-5556 (sdk_gphone_x86_arm - Android 11)</value>
-               </entry>
-               <entry>
-                  <key>deviceId</key>
-                  <value>emulator-5556</value>
-               </entry>
-            </runConfigurationData>
             <runConfigurationId>Android</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
+         <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/Bayarind/1.Registrasi, Login, Forgot Password</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
@@ -114,7 +104,7 @@
             <runConfigurationId>Android</runConfigurationId>
          </configuration>
          <runEnabled>false</runEnabled>
-         <testSuiteEntity>Test Suites/Bayarind/5.PPOB/5.1.Per Payment Method/PPOB Payment Credit Card</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Bayarind/5.PPOB/5.1.Per Payment Method/PPOB Payment Kas Bayarind</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -123,7 +113,7 @@
             <runConfigurationId>Android</runConfigurationId>
          </configuration>
          <runEnabled>false</runEnabled>
-         <testSuiteEntity>Test Suites/Bayarind/5.PPOB/5.1.Per Payment Method/PPOB Payment Kas Bayarind</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Bayarind/5.PPOB/5.1.Per Payment Method/PPOB Payment Credit Card</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -312,6 +302,15 @@
             <runConfigurationId>Android</runConfigurationId>
          </configuration>
          <runEnabled>false</runEnabled>
+         <testSuiteEntity>Test Suites/Bayarind/7.Bayarind Shop/4. Bayarind Shop - LinkAja</testSuiteEntity>
+      </TestSuiteRunConfiguration>
+      <TestSuiteRunConfiguration>
+         <configuration>
+            <groupName>Mobile</groupName>
+            <profileName>bayarind_shop</profileName>
+            <runConfigurationId>Android</runConfigurationId>
+         </configuration>
+         <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Bayarind/8.Send Invoice/1.Send Invoice Kas Bayarind</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>

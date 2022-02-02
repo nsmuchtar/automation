@@ -74,6 +74,9 @@ public class payment {
 		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/linkAja/btnSubmit (1)') ,0)
 		Mobile.delay(1)
 		CustomKeywords.'general.control.swipeDown'()
+		Mobile.delay(1)
+		CustomKeywords.'general.control.swipeDown'()
+
 		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/linkAja/btnProses (1)'), 0)
 	}
 }

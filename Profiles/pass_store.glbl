@@ -26,7 +26,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Wiro Sableng'</initValue>
+      <initValue>'John Doe'</initValue>
       <name>bayarindnamalengkapKTP</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -56,7 +56,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Atheist'</initValue>
+      <initValue>'Islam'</initValue>
       <name>bayarindAgamaKTP</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -71,7 +71,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Rusia'</initValue>
+      <initValue>'Indonesia'</initValue>
       <name>bayarindkewarganegaraanKTP</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -131,7 +131,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Wiro Sableng'</initValue>
+      <initValue>'Johnny Doe'</initValue>
       <name>bayarindnamalengkappassport</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

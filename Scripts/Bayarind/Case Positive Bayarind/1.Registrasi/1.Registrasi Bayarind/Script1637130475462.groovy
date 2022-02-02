@@ -25,31 +25,37 @@ long generate = 00000000 + first8;
 
 String nohp = String.valueOf(generate)
 
+Mobile.waitForElementPresent(findTestObject('Object Repository/Bayarind/Android/Login Page/kolomPhoneNumber'), 0)
+
 Mobile.hideKeyboard()
 
 Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Login Page/btnRegister'), 0)
 
+Mobile.waitForElementPresent(findTestObject('Object Repository/Bayarind/Android/Registrasi/kolomPhoneNumber'), 0)
+
 Mobile.hideKeyboard()
 
-Mobile.setText(findTestObject('Object Repository/Bayarind/Android/Registrasi/kolomPhoneNumber'), '823' + nohp, 
-    0)
+Mobile.setText(findTestObject('Object Repository/Bayarind/Android/Registrasi/kolomPhoneNumber'), '823' + nohp,
+	0)
 
-Mobile.setText(findTestObject('Object Repository/Bayarind/Android/Registrasi/kolomFullName'), GlobalVariable.bayarinduserfullname, 
-    0)
+Mobile.setText(findTestObject('Object Repository/Bayarind/Android/Registrasi/kolomFullName'), GlobalVariable.bayarinduserfullname,
+	0)
 
-Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Registrasi/dropDownGender'), 0)
+//Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Registrasi/dropDownGender'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Registrasi/gender' + GlobalVariable.bayarindgender), 0)
+//Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Registrasi/gender' + GlobalVariable.bayarindgender), 0)
 
-Mobile.setText(findTestObject('Object Repository/Bayarind/Android/Registrasi/kolomEmail'), GlobalVariable.bayarindemail, 0)
+Mobile.setText(findTestObject('Object Repository/Bayarind/Android/Registrasi/kolomEmail'), nohp + '@gmail.com', 0)
 
-Mobile.setText(findTestObject('Object Repository/Bayarind/Android/Registrasi/kolomPassword'), GlobalVariable.bayarindpassword, 
-    0)
+Mobile.setText(findTestObject('Object Repository/Bayarind/Android/Registrasi/kolomPassword'), GlobalVariable.bayarindpassword,
+	0)
 
-Mobile.setText(findTestObject('Object Repository/Bayarind/Android/Registrasi/kolomConfirmPassword'), GlobalVariable.bayarindconfirmpassword, 
-    0)
+Mobile.setText(findTestObject('Object Repository/Bayarind/Android/Registrasi/kolomConfirmPassword'), GlobalVariable.bayarindconfirmpassword,
+	0)
 
 Mobile.checkElement(findTestObject('Object Repository/Bayarind/Android/Registrasi/checkBoxTnC'), 0)
+
+CustomKeywords.'general.control.swipeDown'()
 
 Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Registrasi/btnNext'), 0)
 
@@ -57,28 +63,24 @@ Mobile.waitForElementPresent(findTestObject('Object Repository/Bayarind/Android/
 
 CustomKeywords.'bayarind.control.inputOTP'()
 
-Mobile.waitForElementPresent(findTestObject('Object Repository/Bayarind/Android/PIN/halamanPIN'), 0)
+Mobile.waitForElementPresent(findTestObject('Object Repository/Bayarind/Android/Registrasi/halamanCreatePIN'), 360)
 
-Mobile.setText(findTestObject('Object Repository/Bayarind/Android/PIN/kolomInputPIN'), GlobalVariable.bayarindpin, 0)
+Mobile.setText(findTestObject('Object Repository/Bayarind/Android/Registrasi/kolomInputPIN'), GlobalVariable.bayarindpin, 0)
 
-Mobile.setText(findTestObject('Object Repository/Bayarind/Android/PIN/kolomConfirmPIN'), GlobalVariable.bayarindconfirmpin, 
-    0)
+Mobile.setText(findTestObject('Object Repository/Bayarind/Android/Registrasi/kolomInputConfirmPIN'), GlobalVariable.bayarindconfirmpin,
+	0)
 
-Mobile.tap(findTestObject('Object Repository/Bayarind/Android/PIN/btnNext'), 0)
+Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Registrasi/btnCreatePIN'), 0)
 
 Mobile.waitForElementPresent(findTestObject('Bayarind/Android/PIN/halamanSuccessRegistrasi'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Bayarind/Android/PIN/btnStartApplicaton'), 0)
+Mobile.tap(findTestObject('Object Repository/Bayarind/Android/PIN/btnStartApplicaton'), 0)	
 
-CustomKeywords.'bayarind.control.closeBanner'()
+Mobile.waitForElementPresent(findTestObject('Object Repository/Bayarind/Android/Validasi Email/halamanValidasiEmail'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Homepage/btnAccount'), 0)
+Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Validasi Email/btnSkip'), 0)
 
-Mobile.scrollToText('Logout')
-
-Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Setting/btnLogout'), 0)
-
-Mobile.tap(findTestObject('Bayarind/Android/Setting/btnConfirmLogout'), 0)
+CustomKeywords.'bayarind.control.logoutBayarind'()
 
 Mobile.waitForElementPresent(findTestObject('Bayarind/Android/Login Page/btnRegister'), 0)
 

@@ -12,10 +12,10 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>41c24147-6cea-4806-9c5a-653c354dab40</testSuiteGuid>
    <testCaseLink>
-      <guid>7af901ff-2517-4449-b403-33620e1ffd41</guid>
+      <guid>792e6aed-56d6-46f2-9fac-f5c4090fe8a3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Bayarind/Case Positive Bayarind/6.Setting/1.Profie</testCaseId>
+      <testCaseId>Test Cases/Bayarind/Case Positive Bayarind/6.Setting/Profile/1.Edit Address Profile</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>00df0cc1-0bac-46e3-b170-8be76e65025b</guid>

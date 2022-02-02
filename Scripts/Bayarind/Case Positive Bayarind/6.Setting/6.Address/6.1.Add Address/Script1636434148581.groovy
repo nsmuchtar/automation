@@ -29,6 +29,8 @@ Mobile.hideKeyboard()
 
 Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Setting/Setting/Address/tapSearchBarLocation') ,0)
 
+Mobile.waitForElementPresent(findTestObject('Object Repository/Bayarind/Android/Setting/Setting/Address/kolomSearchLocation'), 0)
+
 Mobile.setText(findTestObject('Object Repository/Bayarind/Android/Setting/Setting/Address/kolomSearchLocation'), GlobalVariable.bayarindsearchlocation, 0)
 
 Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Setting/Setting/Address/chooseLocation1') ,0)

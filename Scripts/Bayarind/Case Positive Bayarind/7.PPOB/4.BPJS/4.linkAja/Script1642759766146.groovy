@@ -23,6 +23,6 @@ CustomKeywords.'bayarind.ppob.transaksiBPJS'()
 
 Mobile.tap(findTestObject('Object Repository/Bayarind/Android/PPOB/BPJS/btnNext'), 0)
 
-CustomKeywords.'bayarind.payment.oneKlik'()
+CustomKeywords.'bayarind.payment.linkAja'()
 
 CustomKeywords.'bayarind.control.doneTransactionPPOB'()

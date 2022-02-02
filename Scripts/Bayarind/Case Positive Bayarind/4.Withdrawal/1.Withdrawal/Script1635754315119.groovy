@@ -57,6 +57,8 @@ Mobile.verifyMatch(expectSaldoBayarind, actualSaldoBayarind, false)
 
 Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Homepage/btnWithdrawal'), 0)
 
+Mobile.delay(3)
+
 String actualSaldoBayarindWithdrawal = Mobile.getText(findTestObject('Object Repository/Bayarind/Android/Withdrawal/saldoBayarind'), 0).replace('Rp', '').replace('.', '')
 
 Mobile.verifyMatch(actualSaldoBayarind, actualSaldoBayarindWithdrawal, false)

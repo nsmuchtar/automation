@@ -20,25 +20,25 @@
    <testCaseLink>
       <guid>03b824b4-dfa8-4172-be92-13a501fc4d5d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Bayarind/Case Positive Bayarind/7.PPOB/2.Pulsa Pascabayar/4.linkAja</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>cd878f9f-e4f1-4b7a-b776-d86e91c6b0dc</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Bayarind/Case Positive Bayarind/7.PPOB/3.PLN/1.PLN Prabayar/4.linkAja</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>e483cc3d-8d6c-4fa1-862c-61fb707c4796</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Bayarind/Case Positive Bayarind/7.PPOB/3.PLN/2.PLN Pascabayar/4.linkAja</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>dd975ae8-0375-4ba1-b16b-83b3a0a7abeb</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Bayarind/Case Positive Bayarind/7.PPOB/4.BPJS/4.linkAja</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -62,7 +62,19 @@
    <testCaseLink>
       <guid>b992302f-1ef6-43c4-8b2a-55dc18493b2f</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Bayarind/Case Positive Bayarind/7.PPOB/8.PBB/4.linkAja</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c1ce3ccb-af11-44af-b2e0-e2b7881616bc</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Bayarind/Case Positive Bayarind/7.PPOB/11.Games/4.linkAja</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ffb9115f-7170-41ad-8442-6dea1ec2f095</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Bayarind/Case Positive Bayarind/7.PPOB/12.Mercedes/4.linkAja</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

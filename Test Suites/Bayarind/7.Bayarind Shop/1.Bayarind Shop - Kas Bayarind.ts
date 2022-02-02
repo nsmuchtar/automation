@@ -26,31 +26,31 @@
    <testCaseLink>
       <guid>addf0497-be8c-443a-9400-5858544b6abe</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Bayarind/Case Positive Bayarind/8.Transaksi Pasarind/1.Bayarind Shop/1.1.Kas Bayarind/1.1.3 Transaksi Promo Diskon Multiple</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>16570824-c7e2-4e19-b5cc-01a7b4ef9aff</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Bayarind/Case Positive Bayarind/8.Transaksi Pasarind/1.Bayarind Shop/1.1.Kas Bayarind/1.1.4 Transaksi Promo Amount No Multiple</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>6a4c8161-02ba-4b4f-96a6-a0f2b03820cd</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Bayarind/Case Positive Bayarind/8.Transaksi Pasarind/1.Bayarind Shop/1.1.Kas Bayarind/1.1.5 Transaksi Promo Amount Multiple</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>f4bc431a-6e05-4e0a-b3ee-4d126478c3c8</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Bayarind/Case Positive Bayarind/8.Transaksi Pasarind/1.Bayarind Shop/1.1.Kas Bayarind/1.1.6 Transaksi Promo Item No Multiple</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>cdf479bb-2523-4b2f-b662-93896eded669</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Bayarind/Case Positive Bayarind/8.Transaksi Pasarind/1.Bayarind Shop/1.1.Kas Bayarind/1.1.7 Transaksi Promo Item Multiple</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

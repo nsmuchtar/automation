@@ -20,13 +20,13 @@
    <testCaseLink>
       <guid>e615d8ee-8b9c-4248-8801-074bffc04e83</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Bayarind/Case Positive Bayarind/10.Barcode Static/2.Credit Card</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>e5d63599-48fa-49ac-9a07-88207b74673c</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Bayarind/Case Positive Bayarind/10.Barcode Static/3.OneKlik</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

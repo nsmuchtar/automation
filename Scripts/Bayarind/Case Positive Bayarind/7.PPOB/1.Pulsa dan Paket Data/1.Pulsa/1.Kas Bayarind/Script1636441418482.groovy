@@ -17,6 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+Mobile.startExistingApplication('net.sprintasia.ewallet')
+
 String kasAwalBayarind = Mobile.getText(findTestObject('Object Repository/Bayarind/Android/Homepage/saldoKasBayarind'), 0).replace('.', '')
 
 int intKasAwalBayarind = Integer.parseInt(kasAwalBayarind)
@@ -34,6 +36,8 @@ String expectKasBayarind = (intKasAwalBayarind - intTotalPayment)
 CustomKeywords.'bayarind.payment.kasBayarind'()
 
 CustomKeywords.'bayarind.control.inputPINBayarind'()
+
+CustomKeywords.'bayarind.control.favoriteDetailTransaction'()
 
 CustomKeywords.'bayarind.control.doneTransactionPPOB'()
 

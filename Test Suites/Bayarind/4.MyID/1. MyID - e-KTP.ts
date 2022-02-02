@@ -26,7 +26,7 @@
    <testCaseLink>
       <guid>c99ffc0b-0537-4db1-b219-8d019d2ff783</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Bayarind/Case Positive Bayarind/6.Setting/2.MyID/2.1.e-KTP/3.Share Card</testCaseId>
    </testCaseLink>
    <testCaseLink>

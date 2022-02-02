@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "CA56D4883DEEFE97C04AE6821AB87634",
+  "keywordFileContentHash": "7E5FF16DEFBB22603E5685F491B6C839",
   "keywordClasses": [
     {
       "name": "bayarind.ppob",
@@ -116,6 +116,16 @@
         },
         {
           "name": "transaksiMercedes",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "ppobProperty",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "transaksiProperty",
           "parameters": [],
           "javadoc": ""
         }

@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "FB298769F9BFF1D8D5C6837344EF17A0",
+  "keywordFileContentHash": "5DCE92EBCCC2C36C9402887FCC4EF14B",
   "keywordClasses": [
     {
       "name": "bayarind.control",
@@ -46,6 +46,11 @@
         },
         {
           "name": "closeBanner",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "favoriteDetailTransaction",
           "parameters": [],
           "javadoc": ""
         },
