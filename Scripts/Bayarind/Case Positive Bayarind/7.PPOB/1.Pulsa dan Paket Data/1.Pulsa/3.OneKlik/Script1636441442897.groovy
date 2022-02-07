@@ -23,4 +23,6 @@ CustomKeywords.'bayarind.ppob.transaksiPulsa'()
 
 CustomKeywords.'bayarind.payment.oneKlik'()
 
+CustomKeywords.'bayarind.control.favoriteDetailTransaction'()
+
 CustomKeywords.'bayarind.control.doneTransactionPPOB'()

@@ -74,7 +74,7 @@
    <testCaseLink>
       <guid>8425c04e-5b4f-490a-944c-11265cf6362c</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Bayarind/Case Positive Bayarind/7.PPOB/9.Property/1.Kas Bayarind</testCaseId>
    </testCaseLink>
    <testCaseLink>

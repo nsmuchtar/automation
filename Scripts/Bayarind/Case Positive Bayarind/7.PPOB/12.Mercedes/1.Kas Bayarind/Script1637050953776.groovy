@@ -44,6 +44,8 @@ CustomKeywords.'bayarind.payment.kasBayarind'()
 
 CustomKeywords.'bayarind.control.inputPINBayarind'()
 
+CustomKeywords.'bayarind.control.favoriteDetailTransaction'()
+
 CustomKeywords.'bayarind.control.doneTransactionPPOB'()
 
 Mobile.delay(2)

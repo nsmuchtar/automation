@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>d667b655-2b14-4d1a-887b-05c06ec7de41</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Bayarind/Case Positive Bayarind/7.PPOB/2.Pulsa Pascabayar/1.Kas Bayarind</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -26,7 +26,7 @@
    <testCaseLink>
       <guid>1ed070c7-e00f-4f6c-bd76-cf002f4c2f8e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Bayarind/Case Positive Bayarind/7.PPOB/2.Pulsa Pascabayar/3.OneKlik</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

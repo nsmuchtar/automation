@@ -27,4 +27,6 @@ CustomKeywords.'bayarind.payment.creditCard'()
 
 CustomKeywords.'bayarind.control.inputPINBayarind'()
 
+CustomKeywords.'bayarind.control.favoriteDetailTransaction'()
+
 CustomKeywords.'bayarind.control.doneTransactionPPOB'()

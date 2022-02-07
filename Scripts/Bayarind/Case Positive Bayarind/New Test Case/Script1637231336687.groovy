@@ -47,11 +47,12 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startExistingApplication('net.sprintasia.ewallet')	
-	if (Mobile.waitForElementPresent(findTestObject('Object Repository/Bayarind/Android/Done Transaction/btnHowToRedeem'), 3) == true) {
-		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Done Transaction/btnHowToRedeem'), 0)
-		Mobile.delay(3)
-		Mobile.pressBack()
-	}else {
-		Mobile.pressBack()
-	}
+if (Mobile.waitForElementPresent(findTestObject('Object Repository/Bayarind/Android/Done Transaction/btnDoneMercedes'), 3) == true) {
+	Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Done Transaction/btnDoneMercedes') ,0)	
+} else if(Mobile.waitForElementPresent('Object Repository/Bayarind/Android/Done Transaction/btnDoneTransactionPPOB', 3) == true) {
+	Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Done Transaction/btnDoneTransactionPPOB') ,0)
+} else if (Mobile.waitForElementPresent(findTestObject('Object Repository/Bayarind/Android/Done Transaction/btnDoneTopUp'), 3) == true) {
+	Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Done Transaction/btnDoneTopUp') ,0)
+} else {
+	
+}

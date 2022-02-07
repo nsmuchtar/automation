@@ -99,6 +99,11 @@ public class control {
 	@Keyword
 	def inputOTP() {
 		Mobile.waitForElementPresent(findTestObject('Object Repository/Bayarind/Android/OTP/halamanOTP'), 0)
+		if (Mobile.waitForElementPresent(findTestObject('Object Repository/Bayarind/Android/OTP/btnResendRegister'), 60) == true) {
+			Mobile.tap(findTestObject('Object Repository/Bayarind/Android/OTP/btnResendRegister'), 0)
+		} else {
+			Mobile.tap(findTestObject('Object Repository/Bayarind/Android/OTP/btnResendOTPForgotPassword'), 0)
+		}
 		Mobile.setText(findTestObject('Object Repository/Bayarind/Android/OTP/kolomOTP'), GlobalVariable.bayarindotp2, 0)
 	}
 
@@ -121,19 +126,20 @@ public class control {
 			Mobile.delay(3)
 			Mobile.pressBack()
 		}else {
-			
 		}
+		
 		if (Mobile.waitForElementPresent(findTestObject('Object Repository/Bayarind/Android/Done Transaction/btnSeeDetailTransaction'), 3) == true) {
 			Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Done Transaction/btnSeeDetailTransaction') ,0)
 			Mobile.delay(3)
 			if (Mobile.waitForElementPresent(findTestObject('Object Repository/Bayarind/Android/Detail Transaction/btnHowToRedeem'), 3) == true) {
-			Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Done Transaction/btnHowToRedeem'), 0)
-			Mobile.delay(3)
-			Mobile.pressBack()
+				Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Done Transaction/btnHowToRedeem'), 0)
+				Mobile.delay(3)
+				Mobile.pressBack()
 			}else {
-			
 			}
+			Mobile.pressBack()
 		}
+		
 		if (Mobile.waitForElementPresent(findTestObject('Object Repository/Bayarind/Android/Done Transaction/btnAddFavorite'), 3) == true) {
 			Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Done Transaction/btnAddFavorite'), 0)
 		}else {
@@ -142,32 +148,14 @@ public class control {
 
 	@Keyword
 	def doneTransactionPPOB() {
-		if (Mobile.waitForElementPresent(findTestObject('Object Repository/Bayarind/Android/PPOB/PBB/Payment Status/wordingWaitOperator'), 3) == true) {
-			Mobile.waitForElementPresent(findTestObject('Object Repository/Bayarind/Android/PPOB/PBB/Payment Status/timerPBB'), 0)
-			Mobile.tap(findTestObject('Object Repository/Bayarind/Android/PPOB/PBB/Payment Status/btnRefreshStatus') ,0)
-			if (Mobile.waitForElementPresent(findTestObject('Bayarind/Android/PPOB/PBB/Payment Status/btnFavoritePBB'), 3) == true) {
-				Mobile.tap(findTestObject('Object Repository/Bayarind/Android/PPOB/PBB/Payment Status/btnFavoritePBB'), 0)
-			}else {
-				Mobile.tap(findTestObject('Object Repository/Bayarind/Android/PPOB/PBB/Payment Status/btnClose'), 0)
-			}
-		} else if (Mobile.waitForElementPresent(findTestObject('Object Repository/Bayarind/Android/Done Transaction/wordingTransactionSuccessMembership'), 0) == true ) {
-			Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Done Transaction/btnDoneEducation'), 0)
+		if (Mobile.waitForElementPresent(findTestObject('Object Repository/Bayarind/Android/Done Transaction/btnDoneMercedes'), 3) == true) {
+			Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Done Transaction/btnDoneMercedes') ,0)
+		} else if(Mobile.waitForElementPresent('Object Repository/Bayarind/Android/Done Transaction/btnDoneTransactionPPOB', 3) == true) {
+			Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Done Transaction/btnDoneTransactionPPOB') ,0)
+		} else if (Mobile.waitForElementPresent(findTestObject('Object Repository/Bayarind/Android/Done Transaction/btnDoneTopUp'), 3) == true) {
+			Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Done Transaction/btnDoneTopUp') ,0)
 		} else {
-			Mobile.verifyElementExist(findTestObject('Object Repository/Bayarind/Android/Done Transaction/wordingStatusTransactionPPOB'), 0)
-			if(Mobile.waitForElementPresent(findTestObject('Object Repository/Bayarind/Android/Done Transaction/btnHowToRedeem'), 3) == true) {
-				Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Done Transaction/btnHowToRedeem'), 0)
-				Mobile.delay(3)
-				Mobile.pressBack()
-			}
-			Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Done Transaction/btnSeeDetailTransaction') ,0)
-			Mobile.delay(3)
-			Mobile.pressBack()
-			if (Mobile.waitForElementPresent(findTestObject('Object Repository/Bayarind/Android/Done Transaction/btnAddFavorite'), 3) == true ) {
-				Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Done Transaction/btnAddFavorite'), 0)
-			}else {
-			}
 		}
-		Mobile.delay(3)
 	}
 
 	@Keyword

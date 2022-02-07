@@ -25,4 +25,6 @@ Mobile.tap(findTestObject('Object Repository/Bayarind/Android/PPOB/Games/btnConf
 
 CustomKeywords.'bayarind.payment.linkAja'()
 
+CustomKeywords.'bayarind.control.favoriteDetailTransaction'()
+
 CustomKeywords.'bayarind.control.doneTransactionPPOB'()
