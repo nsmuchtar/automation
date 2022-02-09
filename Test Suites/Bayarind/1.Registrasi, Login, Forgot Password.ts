@@ -20,13 +20,13 @@
    <testCaseLink>
       <guid>79bce6c4-3a1e-4105-b99f-d6736fac3dbb</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Bayarind/Case Positive Bayarind/2.Forgot PIN/1.Forgot PIN</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>888de913-707f-416f-9d6f-469febf6490a</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Bayarind/Case Positive Bayarind/3.Login/1.Login</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

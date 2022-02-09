@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "6E0627DBAE21BC1EC4DA60F2DC09B853",
+  "keywordFileContentHash": "E3F7DFED0F3ED68F2202D79E845ADDD8",
   "keywordClasses": [
     {
       "name": "bayarind.payment",
@@ -26,6 +26,11 @@
         },
         {
           "name": "linkAja",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "paprika",
           "parameters": [],
           "javadoc": ""
         }

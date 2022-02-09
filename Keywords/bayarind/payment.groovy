@@ -79,4 +79,15 @@ public class payment {
 
 		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/linkAja/btnProses (1)'), 0)
 	}
+	
+	@Keyword
+	def paprika() {
+		Mobile.tap(findTestObject('Bayarind/Android/Payment Method/Paprika/paprika'), 0)
+		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Payment Method/btnPay') ,0)	
+		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Payment Method/Paprika/btnBayar01') ,0 )
+		Mobile.setText(findTestObject('Object Repository/Bayarind/Android/Payment Method/Paprika/kolomPIN01'), '130027', 0)
+		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Payment Method/Paprika/btnNext'), 0)
+		Mobile.waitForElementPresent(findTestObject('Object Repository/Bayarind/Android/Payment Method/Paprika/wordingPembayaranBerhasil'), 0)
+		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Payment Method/Paprika/btnBackToBayarind'), 0)
+	}
 }

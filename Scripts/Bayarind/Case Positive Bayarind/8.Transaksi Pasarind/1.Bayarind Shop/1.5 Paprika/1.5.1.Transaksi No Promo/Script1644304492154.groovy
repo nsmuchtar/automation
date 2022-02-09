@@ -15,7 +15,7 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import internal.GlobalVariable as GlobalVariable
 
-//Mobile.startExistingApplication('net.sprintasia.ewallet')
+Mobile.startExistingApplication('net.sprintasia.ewallet')
 
 CustomKeywords.'bayarind.control.bayarindShop'()
 CustomKeywords.'bayarind.control.outletPusat'()
@@ -26,6 +26,5 @@ CustomKeywords.'bayarind.katalog.submitOrder'()
 CustomKeywords.'bayarind.control.pilihDelivery'()
 CustomKeywords.'general.control.swipeDown'()
 Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Transaction Detail/btnNext') ,0)
-CustomKeywords.'bayarind.payment.kasBayarind'()
-CustomKeywords.'bayarind.control.inputPINBayarind'()
+CustomKeywords.'bayarind.payment.paprika'()
 CustomKeywords.'bayarind.control.doneTransactionPasarind'()
