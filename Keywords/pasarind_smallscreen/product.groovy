@@ -91,7 +91,7 @@ public class product {
 		Mobile.setText(findTestObject('Pasarind Existing/Smallscreen Exisiting/Takeaway/kolomSellingPrice'), '10000', 0)
 		Mobile.tap(findTestObject('Pasarind Existing/Smallscreen Exisiting/Takeaway/btnAdd') ,0)
 	}
-	
+
 	@Keyword
 	def hargaNego() {
 		Mobile.waitForElementPresent(findTestObject('Pasarind Existing/Smallscreen/Takeaway/btnAdditionalItem'), 0)
@@ -102,5 +102,29 @@ public class product {
 		Mobile.setText(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Takeaway/kolomHargaNego'), hargaNego, 0)
 		Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Takeaway/btnSimpan (1)'), 0)
 		CustomKeywords.'pasarind_smallscreen.control.inputPIN'()
+	}
+	
+	@Keyword
+	def multipleDiscount () {
+		Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Takeaway/tabUAT') ,0)
+		for(int i=1; i <= GlobalVariable.quantityitem2; i++){
+			Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Takeaway/productMultipleDiscount') ,0)
+		}
+	}
+	
+	@Keyword
+	def multipleDiscountMaxAmount() {
+		Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Takeaway/tabUAT') ,0)
+		for(int i=1; i <= GlobalVariable.quantityitem3; i++){
+			Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Takeaway/productMultipleDiscountMaxAmount') ,0)
+		}
+	}
+	
+	@Keyword
+	def singleDiscountMaxAmount() {
+		Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Takeaway/productSingleDiscountMaxAmount') ,0)
+		for(int i=1; i <= GlobalVariable.quantityitem1; i++){
+			Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Takeaway/productMultipleDiscountMaxAmount') ,0)
+		}
 	}
 }

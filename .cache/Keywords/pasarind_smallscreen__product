@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "B5D82A4C525AAD232E94ABD4ACE79068",
+  "keywordFileContentHash": "4AA90D0D78EA1F5DD512FCC65F7D4787",
   "keywordClasses": [
     {
       "name": "pasarind_smallscreen.product",
@@ -51,6 +51,21 @@
         },
         {
           "name": "hargaNego",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "multipleDiscount",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "multipleDiscountMaxAmount",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "singleDiscountMaxAmount",
           "parameters": [],
           "javadoc": ""
         }

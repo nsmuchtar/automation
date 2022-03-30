@@ -1,14 +1,14 @@
 [35m[Appium][39m Welcome to Appium v1.17.1
 [35m[Appium][39m Non-default server args:
-[35m[Appium][39m   port: 58345
+[35m[Appium][39m   port: 55694
 [35m[Appium][39m   loglevel: info
-[35m[Appium][39m   tmpDir: C:\Users\SPRINT~1\AppData\Local\Temp\\Katalon\Appium\Temp1644302952554
-[35m[Appium][39m   chromedriverPort: 58346
+[35m[Appium][39m   tmpDir: C:\Users\SPRINT~1\AppData\Local\Temp\\Katalon\Appium\Temp1648615832613
+[35m[Appium][39m   chromedriverPort: 55695
 [35m[Appium][39m Deprecated server args:
-[35m[Appium][39m   [31m--chromedriver-port[39m => --default-capabilities '{"chromedriverPort":58346}'
+[35m[Appium][39m   [31m--chromedriver-port[39m => --default-capabilities '{"chromedriverPort":55695}'
 [35m[Appium][39m Default capabilities, which will be added to each request unless overridden by desired capabilities:
-[35m[Appium][39m   chromedriverPort: 58346
-[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:58345
+[35m[Appium][39m   chromedriverPort: 55695
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:55694
 [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
 [35m[HTTP][39m [90m{}[39m
 [35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m4 ms - 68[39m
@@ -18,7 +18,7 @@
 [35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 68[39m
 [35m[HTTP][39m [90m[39m
 [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
-[35m[HTTP][39m [90m{"desiredCapabilities":{"appPackage":"com.android.settings","deviceId":"emulator-5554","deviceName":"emulator-5554 (Android SDK built for x86 - Android 7.1.1)","platform":"ANDROID","appActivity":".Settings","newCommandTimeout":1800,"platformVersion":"7.1.1","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"emulator-5554","systemPort":8266},"capabilities":{"firstMatch":[{"appium:appActivity":".Settings","appium:appPackage":"com.android.settings","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","deviceId":"emulator-5554","appium:deviceName":"emulator-5554 (Android SDK built for x86 - Android 7.1.1)","appium:newCommandTimeout":1800,"platform":"ANDROID","platformName":"android","appium:platformVersion":"7.1.1","appium:systemPort":8266,"appium:udid":"emulator-5554"}]}}[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"appPackage":"com.android.settings","deviceId":"emulator-5554","deviceName":"Xiaomi M2102J20SG (Android 11)","platform":"ANDROID","appActivity":".Settings","newCommandTimeout":1800,"platformVersion":"11","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"3ec547cd","systemPort":8233},"capabilities":{"firstMatch":[{"appium:appActivity":".Settings","appium:appPackage":"com.android.settings","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","deviceId":"emulator-5554","appium:deviceName":"Xiaomi M2102J20SG (Android 11)","appium:newCommandTimeout":1800,"platform":"ANDROID","platformName":"android","appium:platformVersion":"11","appium:systemPort":8233,"appium:udid":"3ec547cd"}]}}[39m
 [35m[BaseDriver][39m The following capabilities are not standard capabilities and should have an extension prefix:
 [35m[BaseDriver][39m   deviceId
 [35m[BaseDriver][39m   platform
@@ -27,14 +27,16 @@
 [35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
 [35m[BaseDriver][39m   deviceId
 [35m[BaseDriver][39m   platform
-[35m[BaseDriver][39m Session created with session id: 5cbbb502-bdfd-4de8-b53a-a23885cf707c
+[35m[BaseDriver][39m Session created with session id: ac1a7b73-43a2-4868-a181-e264179f9b2c
 [35m[UiAutomator2][39m Starting 'com.android.settings' directly on the device
 [35m[ADB][39m Found 1 'build-tools' folders under 'C:\Users\Sprint User\.katalon\tools\android_sdk' (newest first):
 [35m[ADB][39m     C:/Users/Sprint User/.katalon/tools/android_sdk/build-tools/29.0.3
 [35m[ADB][39m Using 'adb.exe' from 'C:\Users\Sprint User\.katalon\tools\android_sdk\platform-tools\adb.exe'
 [35m[AndroidDriver][39m Retrieving device list
-[35m[AndroidDriver][39m Using device: emulator-5554
+[35m[AndroidDriver][39m Using device: 3ec547cd
 [35m[ADB][39m Using 'adb.exe' from 'C:\Users\Sprint User\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[35m[ADB][39m Getting device platform version
+[35m[UiAutomator2][39m Relaxing hidden api policy
 [35m[AndroidDriver][39m No app sent in, not parsing package/activity
 [35m[ADB][39m Using 'apksigner.jar' from 'C:\Users\Sprint User\.katalon\tools\android_sdk\build-tools\29.0.3\lib\apksigner.jar'
 [35m[UiAutomator2][39m Server packages are not going to be (re)installed
@@ -43,91 +45,121 @@
 [35m[UiAutomator2][39m Using UIAutomator2 server from 'C:\Users\Sprint User\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.5.5.apk' and test from 'C:\Users\Sprint User\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
 [35m[UiAutomator2][39m Waiting up to 30000ms for UiAutomator2 to be online...
 [35m[WD Proxy][39m Got response with unknown status: {"code":"ECONNRESET"}
+[35m[WD Proxy][39m Got response with unknown status: {"code":"ECONNRESET"}
 [35m[WD Proxy][39m Determined the downstream protocol as 'W3C'
 [35m[AndroidDriver][39m Screen already unlocked, doing nothing
 [35m[UiAutomator2][39m Starting 'com.android.settings/.Settings and waiting for 'com.android.settings/.Settings'
-[35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session 5cbbb502-bdfd-4de8-b53a-a23885cf707c added to master session list
-[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m6862 ms - 1264[39m
+[35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session ac1a7b73-43a2-4868-a181-e264179f9b2c added to master session list
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m7974 ms - 1201[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5cbbb502-bdfd-4de8-b53a-a23885cf707c[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/ac1a7b73-43a2-4868-a181-e264179f9b2c[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/5cbbb502-bdfd-4de8-b53a-a23885cf707c [39m[32m200[39m [90m12 ms - 1196[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/ac1a7b73-43a2-4868-a181-e264179f9b2c [39m[32m200[39m [90m7 ms - 1133[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5cbbb502-bdfd-4de8-b53a-a23885cf707c[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/ac1a7b73-43a2-4868-a181-e264179f9b2c[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/5cbbb502-bdfd-4de8-b53a-a23885cf707c [39m[32m200[39m [90m8 ms - 1196[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/ac1a7b73-43a2-4868-a181-e264179f9b2c [39m[32m200[39m [90m5 ms - 1133[39m
 [35m[HTTP][39m [90m[39m
 [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
 [35m[HTTP][39m [90m{}[39m
 [35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 68[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5cbbb502-bdfd-4de8-b53a-a23885cf707c/timeouts[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/ac1a7b73-43a2-4868-a181-e264179f9b2c/timeouts[39m
 [35m[HTTP][39m [90m{"implicit":60000}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/5cbbb502-bdfd-4de8-b53a-a23885cf707c/timeouts [39m[32m200[39m [90m4 ms - 14[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/ac1a7b73-43a2-4868-a181-e264179f9b2c/timeouts [39m[32m200[39m [90m3 ms - 14[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5cbbb502-bdfd-4de8-b53a-a23885cf707c/screenshot[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/ac1a7b73-43a2-4868-a181-e264179f9b2c/screenshot[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/5cbbb502-bdfd-4de8-b53a-a23885cf707c/screenshot [39m[32m200[39m [90m213 ms - 119504[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/ac1a7b73-43a2-4868-a181-e264179f9b2c/screenshot [39m[32m200[39m [90m317 ms - 245114[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5cbbb502-bdfd-4de8-b53a-a23885cf707c/window/rect[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/ac1a7b73-43a2-4868-a181-e264179f9b2c/window/rect[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/5cbbb502-bdfd-4de8-b53a-a23885cf707c/window/rect [39m[32m200[39m [90m16 ms - 49[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/ac1a7b73-43a2-4868-a181-e264179f9b2c/window/rect [39m[32m200[39m [90m13 ms - 50[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5cbbb502-bdfd-4de8-b53a-a23885cf707c/appium/device/system_bars[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/ac1a7b73-43a2-4868-a181-e264179f9b2c/appium/device/system_bars[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/5cbbb502-bdfd-4de8-b53a-a23885cf707c/appium/device/system_bars [39m[31m500[39m [90m137 ms - 659[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/ac1a7b73-43a2-4868-a181-e264179f9b2c/appium/device/system_bars [39m[32m200[39m [90m61 ms - 148[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5cbbb502-bdfd-4de8-b53a-a23885cf707c/execute/sync[39m
-[35m[HTTP][39m [90m{"script":"mobile:viewportRect","args":[]}[39m
-[35m[AndroidDriver][39m Executing native command 'mobile:viewportRect'
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/5cbbb502-bdfd-4de8-b53a-a23885cf707c/execute/sync [39m[33m404[39m [90m17 ms - 2370[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/ac1a7b73-43a2-4868-a181-e264179f9b2c/appium/device/activate_app[39m
+[35m[HTTP][39m [90m{"bundleId":"sprintasia.tech.pasarind"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/ac1a7b73-43a2-4868-a181-e264179f9b2c/appium/device/activate_app [39m[32m200[39m [90m312 ms - 14[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5cbbb502-bdfd-4de8-b53a-a23885cf707c/appium/device/activate_app[39m
-[35m[HTTP][39m [90m{"bundleId":"net.sprintasia.ewallet"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/5cbbb502-bdfd-4de8-b53a-a23885cf707c/appium/device/activate_app [39m[32m200[39m [90m358 ms - 14[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5cbbb502-bdfd-4de8-b53a-a23885cf707c/source[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/ac1a7b73-43a2-4868-a181-e264179f9b2c/source[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[W3C (5cbbb502)][39m Driver proxy active, passing request on via HTTP proxy
-[35m[WD Proxy][39m Replacing sessionId 3220f685-7dcc-4275-a70a-7e1250fc2bd5 with 5cbbb502-bdfd-4de8-b53a-a23885cf707c
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/5cbbb502-bdfd-4de8-b53a-a23885cf707c/source [39m[32m200[39m [90m1225 ms - 10720[39m
+[35m[W3C (ac1a7b73)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 533c3494-7169-4a46-9d5e-a0423ddb804c with ac1a7b73-43a2-4868-a181-e264179f9b2c
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/ac1a7b73-43a2-4868-a181-e264179f9b2c/source [39m[32m200[39m [90m711 ms - 39184[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5cbbb502-bdfd-4de8-b53a-a23885cf707c/screenshot[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/ac1a7b73-43a2-4868-a181-e264179f9b2c/screenshot[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/5cbbb502-bdfd-4de8-b53a-a23885cf707c/screenshot [39m[32m200[39m [90m186 ms - 77808[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/ac1a7b73-43a2-4868-a181-e264179f9b2c/screenshot [39m[32m200[39m [90m276 ms - 134484[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5cbbb502-bdfd-4de8-b53a-a23885cf707c/source[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/ac1a7b73-43a2-4868-a181-e264179f9b2c/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'UAT' or . = 'UAT') and @resource-id = 'sprintasia.tech.pasarind:id/tabTitleTxt']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/ac1a7b73-43a2-4868-a181-e264179f9b2c/elements [39m[32m200[39m [90m194 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/ac1a7b73-43a2-4868-a181-e264179f9b2c/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.LinearLayout' and @resource-id = 'sprintasia.tech.pasarind:id/parentTabLyt' and (@text = '' or . = '')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/ac1a7b73-43a2-4868-a181-e264179f9b2c/elements [39m[32m200[39m [90m104 ms - 267[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/ac1a7b73-43a2-4868-a181-e264179f9b2c/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"sprintasia.tech.pasarind:id/parentTabLyt"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/ac1a7b73-43a2-4868-a181-e264179f9b2c/elements [39m[32m200[39m [90m44 ms - 267[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/ac1a7b73-43a2-4868-a181-e264179f9b2c/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.LinearLayout\").resourceId(\"sprintasia.tech.pasarind:id/parentTabLyt\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/ac1a7b73-43a2-4868-a181-e264179f9b2c/elements [39m[32m200[39m [90m110 ms - 267[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/ac1a7b73-43a2-4868-a181-e264179f9b2c/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.LinearLayout' and (@text = '' or . = '')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/ac1a7b73-43a2-4868-a181-e264179f9b2c/elements [39m[32m200[39m [90m135 ms - 4363[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/ac1a7b73-43a2-4868-a181-e264179f9b2c/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"UAT"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/ac1a7b73-43a2-4868-a181-e264179f9b2c/elements [39m[32m200[39m [90m52 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/ac1a7b73-43a2-4868-a181-e264179f9b2c/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'UAT' or . = 'UAT') and @resource-id = 'sprintasia.tech.pasarind:id/tabTitleTxt']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/ac1a7b73-43a2-4868-a181-e264179f9b2c/elements [39m[32m200[39m [90m201 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/ac1a7b73-43a2-4868-a181-e264179f9b2c/source[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[W3C (5cbbb502)][39m Driver proxy active, passing request on via HTTP proxy
-[35m[WD Proxy][39m Replacing sessionId 3220f685-7dcc-4275-a70a-7e1250fc2bd5 with 5cbbb502-bdfd-4de8-b53a-a23885cf707c
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/5cbbb502-bdfd-4de8-b53a-a23885cf707c/source [39m[32m200[39m [90m40 ms - 10720[39m
+[35m[W3C (ac1a7b73)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 533c3494-7169-4a46-9d5e-a0423ddb804c with ac1a7b73-43a2-4868-a181-e264179f9b2c
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/ac1a7b73-43a2-4868-a181-e264179f9b2c/source [39m[32m200[39m [90m112 ms - 31522[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5cbbb502-bdfd-4de8-b53a-a23885cf707c/screenshot[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/ac1a7b73-43a2-4868-a181-e264179f9b2c/screenshot[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/5cbbb502-bdfd-4de8-b53a-a23885cf707c/screenshot [39m[32m200[39m [90m209 ms - 77146[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/ac1a7b73-43a2-4868-a181-e264179f9b2c/screenshot [39m[32m200[39m [90m369 ms - 124978[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5cbbb502-bdfd-4de8-b53a-a23885cf707c/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Bayar Rp. 24,800' or . = 'Bayar Rp. 24,800')]"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/5cbbb502-bdfd-4de8-b53a-a23885cf707c/elements [39m[32m200[39m [90m97 ms - 139[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/ac1a7b73-43a2-4868-a181-e264179f9b2c/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.LinearLayout' and (@text = '' or . = '')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/ac1a7b73-43a2-4868-a181-e264179f9b2c/elements [39m[32m200[39m [90m113 ms - 3595[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5cbbb502-bdfd-4de8-b53a-a23885cf707c/source[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[W3C (5cbbb502)][39m Driver proxy active, passing request on via HTTP proxy
-[35m[WD Proxy][39m Replacing sessionId 3220f685-7dcc-4275-a70a-7e1250fc2bd5 with 5cbbb502-bdfd-4de8-b53a-a23885cf707c
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/5cbbb502-bdfd-4de8-b53a-a23885cf707c/source [39m[35m[BaseDriver][39m Shutting down because we waited 1800 seconds for a command
-[35m[Appium][39m Closing session, cause was 'New Command Timeout of 1800 seconds expired. Try customizing the timeout using the 'newCommandTimeout' desired capability'
-[35m[Appium][39m Removing session '31f15a97-c10b-44d9-b6a2-631728b84ced' from our master session list
-5m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5cbbb502-bdfd-4de8-b53a-a23885cf707c/elements[39m
-[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and @resource-id = 'pin' and (@text = '' or . = '')]"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/5cbbb502-bdfd-4de8-b53a-a23885cf707c/elements [39m[32m200[39m [90m27 ms - 139[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/ac1a7b73-43a2-4868-a181-e264179f9b2c/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.LinearLayout\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/ac1a7b73-43a2-4868-a181-e264179f9b2c/elements [39m[32m200[39m [90m416 ms - 3595[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/ac1a7b73-43a2-4868-a181-e264179f9b2c/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Multiple Discount' or . = 'Multiple Discount') and @resource-id = 'sprintasia.tech.pasarind:id/productNameTxt']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/ac1a7b73-43a2-4868-a181-e264179f9b2c/elements [39m[32m200[39m [90m103 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/ac1a7b73-43a2-4868-a181-e264179f9b2c/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Multiple Discount - Max Amount' or . = 'Multiple Discount - Max Amount') and @resource-id = 'sprintasia.tech.pasarind:id/productNameTxt']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/ac1a7b73-43a2-4868-a181-e264179f9b2c/elements [39m[32m200[39m [90m605 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/ac1a7b73-43a2-4868-a181-e264179f9b2c/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Single Discount - Max Amount' or . = 'Single Discount - Max Amount') and @resource-id = 'sprintasia.tech.pasarind:id/productNameTxt']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/ac1a7b73-43a2-4868-a181-e264179f9b2c/elements [39m[32m200[39m [90m93 ms - 139[39m
 [35m[HTTP][39m [90m[39m
 [35m[BaseDriver][39m Shutting down because we waited 1800 seconds for a command
 [35m[Appium][39m Closing session, cause was 'New Command Timeout of 1800 seconds expired. Try customizing the timeout using the 'newCommandTimeout' desired capability'
-[35m[Appium][39m Removing session '5cbbb502-bdfd-4de8-b53a-a23885cf707c' from our master session list
-[35m[WD Proxy][39m Got response with unknown status: {"code":"ECONNRESET"}
-[35m[UiAutomator2][39m Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up
-[35m[HTTP][39m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/5cbbb502-bdfd-4de8-b53a-a23885cf707c[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- DELETE /wd/hub/session/5cbbb502-bdfd-4de8-b53a-a23885cf707c [39m[33m404[39m [90m41 ms - 3196[39m
-[35m[HTTP][39m [90m[39m
+[35m[Appium][39m Removing session 'ac1a7b73-43a2-4868-a181-e264179f9b2c' from our master session list
+[35m[WD Proxy][39m Got response with unknown status: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":8233}
+[35m[UiAutomator2][39m Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: connect ECONNREFUSED 127.0.0.1:8233
+[35m[ADB][39m Error sending command, reconnecting device and retrying: shell,am,force-stop,com.android.settings
+[35m[UiAutomator2][39m Unable to force stop app: Error executing adbExec. Original error: 'Command ''C:\\Users\\Sprint User\\.katalon\\tools\\android_sdk\\platform-tools\\adb.exe' -P 5037 -s 3ec547cd shell am force-stop com.android.settings' exited with code 1'; Stderr: 'error: device '3ec547cd' not found'; Code: '1'
+[35m[ADB][39m Error sending command, reconnecting device and retrying: forward,--remove,tcp:8233
+[35m[UiAutomator2][39m Unable to remove port forward: Error executing adbExec. Original error: 'Command ''C:\\Users\\Sprint User\\.katalon\\tools\\android_sdk\\platform-tools\\adb.exe' -P 5037 -s 3ec547cd forward --remove tcp\:8233' exited with code 1'; Stderr: 'adb.exe: error: device '3ec547cd' not found'; Code: '1'
+[35m[UiAutomator2][39m Restoring hidden api policy to the device default configuration
+[35m[ADB][39m Error sending command, reconnecting device and retrying: shell,settings,delete,global,hidden_api_policy_pre_p_apps
