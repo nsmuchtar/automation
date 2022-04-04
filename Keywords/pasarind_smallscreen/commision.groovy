@@ -27,7 +27,6 @@ public class commision {
 		if (Mobile.waitForElementPresent(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Settings/Commision/persenCashier'), 3) == false) {
 			Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Settings/Commision/amountCashier'), 0)
 		}else {
-			
 		}
 		Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Settings/Commision/komisiCashier'), 0)
 		Mobile.setText(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Settings/Commision/kolomInputKomisi'), GlobalVariable.persenkasir, 0)
@@ -39,7 +38,6 @@ public class commision {
 		if (Mobile.waitForElementPresent(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Settings/Commision/amountCashier'), 3) == false) {
 			Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Settings/Commision/persenCashier'), 0)
 		}else {
-			
 		}
 		Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Settings/Commision/komisiCashier'), )
 		Mobile.setText(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Settings/Commision/kolomInputKomisi'), GlobalVariable.amountkasir, 0)
@@ -51,7 +49,6 @@ public class commision {
 		if (Mobile.waitForElementPresent(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Settings/Commision/persenSupervisor'), 3) == false) {
 			Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Settings/Commision/amountSupervisor'), 0)
 		}else {
-			
 		}
 		Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Settings/Commision/komisiSupervisor'), 0)
 		Mobile.setText(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Settings/Commision/kolomInputKomisi'), GlobalVariable.persenspv, 0)
@@ -63,7 +60,6 @@ public class commision {
 		if (Mobile.waitForElementPresent(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Settings/Commision/amountSupervisor'), 3) == false) {
 			Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Settings/Commision/persenSupervisor'), 0)
 		}else {
-			
 		}
 		Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Settings/Commision/komisiCashier'), 0)
 		Mobile.setText(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Settings/Commision/kolomInputKomisi'), GlobalVariable.amountspv, 0)
@@ -75,7 +71,6 @@ public class commision {
 		if (Mobile.waitForElementPresent(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Settings/Commision/persenKitchen'), 3) == false) {
 			Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Settings/Commision/amountKitchen'), 0)
 		}else {
-			
 		}
 		Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Settings/Commision/komisiKitchen'), 0)
 		Mobile.setText(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Settings/Commision/kolomInputKomisi'), GlobalVariable.persenkitchen, 0)
@@ -87,7 +82,6 @@ public class commision {
 		if (Mobile.waitForElementPresent(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Settings/Commision/amountKitchen'), 3) == false) {
 			Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Settings/Commision/persenKitchen'), 0)
 		}else {
-			
 		}
 		Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Settings/Commision/komisiKitchen'), 0)
 		Mobile.setText(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Settings/Commision/kolomInputKomisi'), GlobalVariable.amountkitchen, 0)

@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "F71BAE09B652B29A3288FC014725ECC4",
+  "keywordFileContentHash": "762DC9C2945B52A2D5D126F4059B3780",
   "keywordClasses": [
     {
       "name": "bayarind.control",
@@ -81,6 +81,16 @@
         },
         {
           "name": "logoutBayarind",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "skipPopUp",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "inputAmountPaymentStatic",
           "parameters": [],
           "javadoc": ""
         }

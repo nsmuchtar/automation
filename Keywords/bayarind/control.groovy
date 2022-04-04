@@ -49,11 +49,19 @@ public class control {
 	@Keyword
 	def scanBarcodeStatic() {
 		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Homepage/btnScanQR'), 0)
-		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Scan QR/btnChooseImage'),0)
-		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/File Manager/btnBurgerFileManager'), 0)
-		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/File Manager/btnImages'), 0)
-		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/File Manager/menuDownload'), 0)
-		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/File Manager/barcodeStaticTester'), 0)
+		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Scan QR/btnChooseImage'), 0)
+		//		if (Mobile.waitForElementPresent(findTestObject('Object Repository/Bayarind/Android/Scan QR/btnChooseImage'), 3) == true ) {
+		//			Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Scan QR/btnChooseImage'),0)
+		//			Mobile.tap(findTestObject('Object Repository/Bayarind/Android/File Manager/btnBurgerFileManager'), 0)
+		//			Mobile.tap(findTestObject('Object Repository/Bayarind/Android/File Manager/btnImages'), 0)
+		//			Mobile.tap(findTestObject('Object Repository/Bayarind/Android/File Manager/menuDownload'), 0)
+		//			Mobile.tap(findTestObject('Object Repository/Bayarind/Android/File Manager/barcodeStaticTester'), 0)
+		//		}else {
+		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/File Manager POCO/btnBurger01'), 0)
+		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/File Manager POCO/images'), 0)
+		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/File Manager POCO/folderQRBarcode'), 0)
+		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/File Manager POCO/barcodeStatic (1)'), 0)
+		//		}
 	}
 
 	@Keyword
@@ -127,7 +135,7 @@ public class control {
 			Mobile.pressBack()
 		}else {
 		}
-		
+
 		if (Mobile.waitForElementPresent(findTestObject('Object Repository/Bayarind/Android/Done Transaction/btnSeeDetailTransaction'), 3) == true) {
 			Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Done Transaction/btnSeeDetailTransaction') ,0)
 			Mobile.delay(3)
@@ -139,7 +147,7 @@ public class control {
 			}
 			Mobile.pressBack()
 		}
-		
+
 		if (Mobile.waitForElementPresent(findTestObject('Object Repository/Bayarind/Android/Done Transaction/btnAddFavorite'), 3) == true) {
 			Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Done Transaction/btnAddFavorite'), 0)
 		}else {
@@ -220,5 +228,24 @@ public class control {
 		Mobile.scrollToText('Logout')
 		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Setting/btnLogout'), 0)
 		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Setting/btnConfirmLogout'), 0)
+	}
+
+	@Keyword
+	def skipPopUp() {
+		if (Mobile.waitForElementPresent(findTestObject('Object Repository/Bayarind/Android/Paprika/btnClose'), 3 ) == true) {
+			Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Paprika/btnClose'), 0)
+		} else {
+		}
+
+		if (Mobile.waitForElementPresent(findTestObject('Object Repository/Bayarind/Android/Validasi Email/btnSkip'), 3) == true) {
+			Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Validasi Email/btnSkip') ,0)
+		} else {
+		}
+	}
+
+	@Keyword
+	def inputAmountPaymentStatic() {
+		Mobile.setText(findTestObject('Object Repository/Bayarind/Android/Payment/kolomPaymentAmount1'), '100000', 0)
+		Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Payment/btnNext'), 0)
 	}
 }

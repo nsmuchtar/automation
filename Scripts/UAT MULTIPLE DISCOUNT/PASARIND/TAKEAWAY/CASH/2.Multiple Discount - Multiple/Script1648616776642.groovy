@@ -17,3 +17,12 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+Mobile.startExistingApplication('sprintasia.tech.pasarind')
+CustomKeywords.'pasarind_smallscreen.control.startSelling'()
+CustomKeywords.'pasarind_smallscreen.control.chooseTakeaway'()
+CustomKeywords.'pasarind_smallscreen.product.multipleDiscount'()
+CustomKeywords.'pasarind_smallscreen.control.createInvoice'()
+CustomKeywords.'pasarind_smallscreen.promo.promoMultiple'()
+Mobile.tap(findTestObject('Object Repository/Pasarind/Smallscreen/Confirm Order/btnBayar') ,0)
+CustomKeywords.'pasarind_smallscreen.payment_method.fixedCash'()
+CustomKeywords.'pasarind_smallscreen.control.nextTransaction'()

@@ -17,58 +17,10 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://devstag.bayarind.id:2002/login?redirect=%2Fbayarind%2Ftop-up%2Freconciliation%2Freport')
-
-WebUI.setText(findTestObject('null'), 
-    'wijiadrian+AM@gmail.com')
-
-WebUI.setEncryptedText(findTestObject('null'), 
-    '3Z9vEXbPUsCXoVJvFuFLvQ==')
-
-WebUI.delay(5)
-
-WebUI.click(findTestObject('null'))
-
-WebUI.click(findTestObject('null'))
-
-WebUI.click(findTestObject('null'))
-
-WebUI.click(findTestObject('null'))
-
-WebUI.click(findTestObject('null'))
-
-WebUI.click(findTestObject('null'))
-
-WebUI.click(findTestObject('null'))
-
-WebUI.setText(findTestObject('null'), 
-    'test katalon nsm')
-
-WebUI.setText(findTestObject('null'), 
-    '12000')
-
-//WebUI.setText(findTestObject('null'), 
-//    '1 day')
-//
-//WebUI.click(findTestObject('null'))
-
-WebUI.click(findTestObject('null'))
-
-WebUI.setText(findTestObject('null'), 
-    '8 hours')
-
-WebUI.click(findTestObject('null'))
-
-WebUI.setText(findTestObject('null'), 
-    '8 hours')
-
-WebUI.setText(findTestObject('null'), 
-    '30 minutes')
-
-WebUI.click(findTestObject('null'))
-
-WebUI.setText(findTestObject('null'), 
-    '30 minutes')
-
+Mobile.startExistingApplication('net.sprintasia.ewallet')
+Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Payment Method/kasBayarind'), 0)
+if (Mobile.tap(findTestObject('Object Repository/Bayarind/Android/Payment Method/kasBayarind'), 3) == true) {
+	println('trueeeee')
+} else {
+	println('salaaaaaaaaaaah')
+}

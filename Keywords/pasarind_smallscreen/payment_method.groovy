@@ -49,10 +49,12 @@ public class payment_method {
 
 	@Keyword
 	def paymentStatic() {
-		Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Payment Method/QRStatic') ,0)
-		Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Payment Method/btnBayar') ,0)
+		Mobile.delay(1)
+		Mobile.scrollToText('QR Static')
+		Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Payment Method/QRStatic'), 0)
+		Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Payment Method/btnBayar'), 0)
 		Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Payment Method/btnOKStatic'), 0)
-		Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Payment Static/chooseTRX') ,0)
+		Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Payment Static/newestPayment'), 0)
 		Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/Payment Static/btnSimpan'), 0)
 	}
 
@@ -107,10 +109,10 @@ public class payment_method {
 		CustomKeywords.'general.control.swipeDown'()
 		Mobile.tap(findTestObject('Object Repository/Pasarind Existing/Smallscreen/EasyInvoice/linkInvoice'), 0)
 		String link = Mobile.getText(findTestObject('Object Repository/Pasarind Existing/Smallscreen/EasyInvoice/linkInvoice'), 0)
-		
+
 		FileInputStream fis = new FileInputStream("D:\\data testing\\easyinvoice\\1.Transaksi No Promo.xlsx");
 		XSSFWorkbook workbook = new XSSFWorkbook(fis);
-		 
+
 		XSSFSheet sheet = workbook.getSheetAt(0);
 		Row row = sheet.createRow(0);
 		Cell cell = row.createCell(0);
@@ -119,7 +121,7 @@ public class payment_method {
 		workbook.write(fos);
 		fos.close();
 	}
-	
+
 	@Keyword
 	def choosePaymentEasyInvoice() {
 		Mobile.delay(2)
